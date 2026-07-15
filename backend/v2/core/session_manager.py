@@ -121,7 +121,7 @@ class SessionManager:
         return session
 
     def list_sessions(self, student_id: str = "anonymous") -> list[dict]:
-        """List all sessions for a student, excluding empty ones."""
+        """List all sessions with at least 1 turn, matching v1 behavior."""
         sessions = []
         with sqlite3.connect(self._db_path) as conn:
             cursor = conn.execute(
@@ -129,8 +129,7 @@ class SessionManager:
             )
             for row in cursor.fetchall():
                 session = Session.model_validate_json(row[1])
-                # Only include sessions with at least 1 turn
-                if session.student_id == student_id and len(session.turns) > 0:
+                if len(session.turns) > 0:
                     title = session.turns[0].query[:50] if session.turns else "New Session"
                     sessions.append({
                         "session_id": session.session_id,

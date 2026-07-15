@@ -194,7 +194,13 @@ PORT=3000 npm run dev
 # Download NCERT zips (place in data/ directory)
 # Then:
 PYTHONPATH=. python scripts/build_raw_pdfs.py
-PYTHONPATH=. python -m backend.compiler.pipeline
+# Compile each book PDF (repeat for each file in data/raw/):
+PYTHONPATH=. python -m backend.compiler.pipeline data/raw/mathematics_part_1.pdf
+PYTHONPATH=. python -m backend.compiler.pipeline data/raw/mathematics_part_2.pdf
+PYTHONPATH=. python -m backend.compiler.pipeline data/raw/physics_part_1.pdf
+PYTHONPATH=. python -m backend.compiler.pipeline data/raw/physics_part_2.pdf
+PYTHONPATH=. python -m backend.compiler.pipeline data/raw/chemistry_part_1.pdf
+PYTHONPATH=. python -m backend.compiler.pipeline data/raw/chemistry_part_2.pdf
 pip install -r backend/requirements-embeddings.txt
 PYTHONPATH=. python scripts/build_bge_embeddings.py
 ```
@@ -216,16 +222,56 @@ PYTHONPATH=. python scripts/build_bge_embeddings.py
 
 ## API Endpoints
 
+### Auth
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | POST | `/api/v2/auth/register` | Register new user |
 | POST | `/api/v2/auth/login` | Login |
-| GET | `/api/v1/health` | Health check |
+| POST | `/api/v2/auth/logout` | Logout |
+| GET | `/api/v2/auth/me` | Get current user |
+
+### V1 Engine
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/v1/session/start` | Create v1 session |
+| POST | `/api/v1/session/{id}/ask` | Ask v1 engine |
+| POST | `/api/v1/session/{id}/ask/stream` | Ask v1 engine (streaming SSE) |
+| GET | `/api/v1/session/{id}` | Get v1 session |
+| GET | `/api/v1/session` | List v1 sessions |
+| DELETE | `/api/v1/session/{id}` | Delete v1 session |
+
+### V2 Engine
+| Method | Endpoint | Description |
+|--------|----------|-------------|
 | POST | `/api/v1/version/session/start` | Create v2 session |
 | POST | `/api/v1/version/query` | Query v2 engine |
-| POST | `/api/v1/session/start` | Create v1 session |
-| POST | `/api/v1/session/{id}/ask` | Query v1 engine |
-| GET | `/api/v1/config` | View engine configuration |
+| POST | `/api/v1/version/query/stream` | Query v2 engine (streaming SSE) |
+| GET | `/api/v1/version/session/{id}` | Get v2 session |
+| GET | `/api/v1/version/sessions` | List v2 sessions |
+| DELETE | `/api/v1/version/session/{id}` | Delete v2 session |
+| POST | `/api/v1/version` | Switch engine version (v1/v2) |
+| GET | `/api/v1/version` | Get current engine version |
+
+### Chat Sessions (v2 storage)
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/v2/sessions` | Create chat session |
+| GET | `/api/v2/sessions` | List chat sessions |
+| GET | `/api/v2/sessions/{id}` | Get chat session |
+| DELETE | `/api/v2/sessions/{id}` | Delete chat session |
+| POST | `/api/v2/sessions/{id}/messages` | Add message to session |
+
+### Content
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/v1/health` | Health check |
+| GET | `/api/v1/ready` | Readiness probe |
+| GET | `/api/v1/version` | API version info |
+| GET | `/api/v1/config` | Engine configuration |
+| GET | `/api/v1/chapters` | List all chapters |
+| GET | `/api/v1/chapters/{subject}` | Chapters by subject |
+| GET | `/api/v1/figures` | List all figures |
+| GET | `/api/v1/concept-names` | Concept ID → name mapping |
 | GET | `/docs` | Swagger UI (auto-generated) |
 
 ---
@@ -286,8 +332,8 @@ PYTHONPATH=. python scripts/build_bge_embeddings.py
 | `CEREBRAS_BASE_URL` | No | API base URL (default: `https://api.cerebras.ai/v1`) |
 | `MODEL_ID` | No | Model to use (default: `gpt-oss-120b`) |
 | `COMPILED_DIR` | No | Path to compiled data (default: `data/compiled`) |
-| `MIN_GROUNDING_COVERAGE` | No | Verification threshold (default: `0.3`) |
-| `MIN_COMPLETENESS` | No | Verification threshold (default: `0.3`) |
+| `MIN_GROUNDING_COVERAGE` | No | Verification threshold (default: `0.6`) |
+| `MIN_COMPLETENESS` | No | Verification threshold (default: `0.6`) |
 
 ---
 

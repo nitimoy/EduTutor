@@ -468,7 +468,7 @@ class RAGEngine:
 
         # Step 2: Retrieve relevant content using the resolved query
         results = self._hybrid_retriever.search(
-            resolved_query, top_k=5, subject_filter=subject_filter
+            resolved_query, top_k=10, subject_filter=subject_filter
         )
 
         # Step 3: Build context from retrieved results
@@ -772,7 +772,7 @@ Student question: {question}"""
         resolved_query = self._intent_resolver.resolve(question, session, self._intent_cache)
 
         # Retrieve
-        results = self._hybrid_retriever.search(resolved_query, top_k=5, subject_filter=subject_filter)
+        results = self._hybrid_retriever.search(resolved_query, top_k=10, subject_filter=subject_filter)
 
         # Build context
         context_parts = []

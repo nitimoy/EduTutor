@@ -144,7 +144,7 @@ function RecentSessionsList({ currentSessionId, engineVersion, historyLength, st
             if (mounted) setLoading(false);
         });
         return () => { mounted = false; };
-    }, [currentSessionId, engineVersion, historyLength]);
+    }, [currentSessionId, engineVersion, historyLength, studentId]);
 
     const handleDelete = async (e: React.MouseEvent, sessionId: string) => {
         e.preventDefault();

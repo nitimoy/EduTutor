@@ -272,16 +272,16 @@ class HybridRetriever:
 
             # Use real definitions if available, otherwise use examples
             if real_definitions:
-                # Take definitions until we have enough content (at least 300 chars)
-                # or hit max count. This ensures we capture complete statements.
+                # Take definitions until we have enough content (at least 2000 chars)
+                # or hit max count. This ensures we capture comprehensive content.
                 selected = []
                 total_len = 0
                 for rd in real_definitions:
                     selected.append(rd)
                     total_len += len(rd)
-                    if len(selected) >= 8:  # Max 8 definitions
+                    if len(selected) >= 20:  # Max 20 definitions
                         break
-                    if total_len >= 300:  # Enough content
+                    if total_len >= 2000:  # Enough content for comprehensive answer
                         break
                 text = " ".join(selected)
             elif r.document.definition_texts:
@@ -314,11 +314,11 @@ class HybridRetriever:
                 scored_examples.sort(key=lambda x: -x[0])
 
                 if scored_examples:
-                    # Return the best matching examples (up to 3)
-                    example_text = " ".join(ex for _, ex in scored_examples[:3])
+                    # Return the best matching examples (up to 8)
+                    example_text = " ".join(ex for _, ex in scored_examples[:8])
                 else:
                     # Fallback to first few examples
-                    example_text = " ".join(r.document.example_texts[:3])
+                    example_text = " ".join(r.document.example_texts[:8])
 
             # Look up page number from document map
             doc_meta = self._documents.get(r.document.concept_id, {})

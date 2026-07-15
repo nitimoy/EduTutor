@@ -159,13 +159,26 @@ def build_data():
         return False
     log(result.stdout, "green")
 
-    # Step 3: Compile PDFs into concept graphs
+    # Step 3: Compile each raw PDF into concept graphs
     log("[3/4] Compiling PDFs into concept graphs...", "yellow")
-    result = run([python, "-m", "backend.compiler.pipeline"], cwd=str(ROOT), env=env, capture=True)
-    if result.returncode != 0:
-        log(f"Compiler failed: {result.stderr}", "red")
+    raw_dir = DATA_DIR / "raw"
+    if not raw_dir.exists():
+        log("No raw PDFs found. Run build_raw_pdfs.py first.", "red")
         return False
-    log(result.stdout, "green")
+    pdf_files = sorted(raw_dir.glob("*.pdf"))
+    if not pdf_files:
+        log("No PDF files in data/raw/.", "red")
+        return False
+    for pdf_path in pdf_files:
+        log(f"  Compiling {pdf_path.name}...", "cyan")
+        result = run(
+            [python, "-m", "backend.compiler.pipeline", str(pdf_path)],
+            cwd=str(ROOT), env=env, capture=True,
+        )
+        if result.returncode != 0:
+            log(f"Compiler failed for {pdf_path.name}: {result.stderr}", "red")
+            return False
+        log(result.stdout, "green")
 
     # Step 4: Build embeddings
     log("[4/4] Building embeddings...", "yellow")
