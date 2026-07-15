@@ -1,0 +1,2 @@
+"""Educational Knowledge Compiler."""
+

@@ -1,0 +1,1469 @@
+{
+  "query": "Explain Rate of Change of Quantities",
+  "intent": "explanation",
+  "strategy": "worked_example_walkthrough",
+  "primary_concept_id": "concept.872cbd522bc5",
+  "primary_concept_name": "Rate of Change of Quantities",
+  "prerequisites": {
+    "kind": "prerequisites",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "main_explanation": {
+    "kind": "main_explanation",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "formula": {
+    "kind": "formula",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "worked_example": {
+    "kind": "worked_example",
+    "status": "present",
+    "items": [
+      "Example 1",
+      "Find the rate of change of the area of a circle per second with respect to its radius r when r = 5 cm.",
+      "Solution The area A of a circle with radius r is given by A = \u03c0 r 2 . Therefore, the rate",
+      "of change of the area A with respect to its radius r is given by",
+      "When r = 5 cm, A 10 d",
+      "dr = \u03c0 . Thus, the area of the circle is changing at the rate of",
+      "10 \u03c0 cm 2 /s.",
+      "Example 2 The volume of a cube is increasing at a rate of 9 cubic centimetres per second. How fast is the surface area increasing when the length of an edge is 10 centimetres ?",
+      "Solution Let x be the length of a side, V be the volume and S be the surface area of the cube. Then, V = x 3 and S = 6 x 2 , where x is a function of time t .",
+      "Now V d",
+      "dt = 9cm 3 /s (Given)",
+      "Therefore 9 = 3 V ( ) d dx x dt dx dt = \u22c5 (By Chain Rule)",
+      "2 3 dx x dt \u22c5",
+      "dt = 2 3 x ... (1)",
+      "or dx",
+      "Now dS",
+      "2 (6 ) d dx x dt dx dt = \u22c5 (By Chain Rule)",
+      "dt =",
+      "= 2 3 36 12 x \uf8eb \uf8f6 \u22c5 = \uf8ec \uf8f7 \uf8ed \uf8f8 (Using (1))",
+      "2 3.6 cm /s dS",
+      "dt =",
+      "Hence, when x = 10 cm,",
+      "Reprint 2026-27",
+      "APPLICATION OF DERIVATIVES 149",
+      "Example 3 A stone is dropped into a quiet lake and waves move in circles at a speed of 4cm per second. At the instant, when the radius of the circular wave is 10 cm, how fast is the enclosed area increasing?",
+      "Solution The area A of a circle with radius r is given by A = \u03c0 r 2 . Therefore, the rate of change of area A with respect to time t is",
+      "A d",
+      "2 ( ) d dr r dt dr dt \u03c0 = \u03c0 \u22c5 = 2 \u03c0 r dr",
+      "dt =",
+      "dt (By Chain Rule)",
+      "It is given that dr",
+      "dt = 4cm/s",
+      "Therefore, when r = 10 cm, A d",
+      "dt = 2 \u03c0 (10) (4) = 80 \u03c0",
+      "Thus, the enclosed area is increasing at the rate of 80 \u03c0 cm 2 /s, when r = 10 cm.",
+      "A Note dy",
+      "dx is positive if y increases as x increases and is negative if y decreases",
+      "as x increases.",
+      "Example 4 The length x of a rectangle is decreasing at the rate of 3 cm/minute and the width y is increasing at the rate of 2cm/minute. When x =10cm and y = 6cm, find the rates of change of (a) the perimeter and (b) the area of the rectangle.",
+      "Solution Since the length x is decreasing and the width y is increasing with respect to time, we have",
+      "3 cm/min dx",
+      "dt = \u2212 and 2 cm/min dy",
+      "dt =",
+      "(a) The perimeter P of a rectangle is given by",
+      "P = 2 ( x + y )",
+      "dt + \uf8eb \uf8ed \uf8ec",
+      "\uf8f6 \uf8f8 \uf8f7= \u2212+ = \u2212 ( ) cm/min",
+      "Therefore P d",
+      "dt = 2 3 2 dx",
+      "dy",
+      "dt",
+      "(b) The area A of the rectangle is given by",
+      "A = x . y",
+      "Therefore A d",
+      "dt = dx dy y x dt \u22c5 + \u22c5",
+      "= \u2013 3(6) + 10(2) (as x = 10 cm and y = 6 cm) = 2 cm 2 /min",
+      "Reprint 2026-27",
+      "MATHEMATICS 150",
+      "Example 5",
+      "The total cost C( x ) in Rupees, associated with the production of x units of an item is given by",
+      "C( x ) = 0.005 x 3 \u2013 0.02 x 2 + 30 x + 5000 Find the marginal cost when 3 units are produced, where by marginal cost we mean the instantaneous rate of change of total cost at any level of output.",
+      "Solution Since marginal cost is the rate of change of total cost with respect to the output, we have",
+      "2 0.005(3 ) 0.02(2 ) 30 dC x dx = \u2212 +",
+      "Marginal cost (MC) =",
+      "2 0.015(3 ) 0.04(3) 30 \u2212 +",
+      "When x = 3, MC =",
+      "= 0.135 \u2013 0.12 + 30 = 30.015 Hence, the required marginal cost is ` 30.02 (nearly).",
+      "Example 6 The total revenue in Rupees received from the sale of x units of a product is given by R( x ) = 3 x 2 + 36 x + 5. Find the marginal revenue, when x = 5, where by marginal revenue we mean the rate of change of total revenue with respect to the number of items sold at an instant.",
+      "Solution Since marginal revenue is the rate of change of total revenue with respect to the number of units sold, we have",
+      "Marginal Revenue (MR) = R 6 36 d x dx = +",
+      "When x = 5, MR = 6(5) + 36 = 66 Hence, the required marginal revenue is ` 66."
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "0",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "1",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "2",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "3",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "4",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "5",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "6",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "7",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "8",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "9",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "10",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "11",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "12",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "13",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "14",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "15",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "16",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "17",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "18",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "19",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "20",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "21",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "22",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "23",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "24",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "25",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "26",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "27",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "28",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "29",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "30",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "31",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "32",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "33",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "34",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "35",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "36",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "37",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "38",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "39",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "40",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "41",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "42",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "43",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "44",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "45",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "46",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "47",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "48",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "49",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "50",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "51",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "52",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "53",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "54",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "55",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "56",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "57",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "58",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "59",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "60",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "61",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "62",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "63",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "64",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "65",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "66",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "67",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "68",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "69",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "example_texts",
+        "locator": "70",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "proof": {
+    "kind": "proof",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "exercise": {
+    "kind": "exercise",
+    "status": "present",
+    "items": [
+      "EXERCISE 6.1",
+      "1. Find the rate of change of the area of a circle with respect to its radius r when (a) r = 3 cm (b) r = 4 cm 2. The volume of a cube is increasing at the rate of 8 cm 3 /s. How fast is the surface area increasing when the length of an edge is 12 cm? 3. The radius of a circle is increasing uniformly at the rate of 3 cm/s. Find the rate at which the area of the circle is increasing when the radius is 10 cm. 4. An edge of a variable cube is increasing at the rate of 3 cm/s. How fast is the volume of the cube increasing when the edge is 10 cm long? 5. A stone is dropped into a quiet lake and waves move in circles at the speed of 5 cm/s. At the instant when the radius of the circular wave is 8 cm, how fast is the enclosed area increasing?",
+      "Reprint 2026-27",
+      "APPLICATION OF DERIVATIVES 151",
+      "6. The radius of a circle is increasing at the rate of 0.7 cm/s. What is the rate of increase of its circumference? 7. The length x of a rectangle is decreasing at the rate of 5 cm/minute and the width y is increasing at the rate of 4 cm/minute. When x = 8cm and y = 6cm, find the rates of change of (a) the perimeter, and (b) the area of the rectangle. 8. A balloon, which always remains spherical on inflation, is being inflated by pumping in 900 cubic centimetres of gas per second. Find the rate at which the radius of the balloon increases when the radius is 15 cm. 9. A balloon, which always remains spherical has a variable radius. Find the rate at which its volume is increasing with the radius when the later is 10 cm. 10. A ladder 5 m long is leaning against a wall. The bottom of the ladder is pulled along the ground, away from the wall, at the rate of 2cm/s. How fast is its height on the wall decreasing when the foot of the ladder is 4 m away from the wall ? 11. A particle moves along the curve 6 y = x 3 +2. Find the points on the curve at which the y -coordinate is changing 8 times as fast as the x -coordinate.",
+      "12.",
+      "The radius of an air bubble is increasing at the rate of 1",
+      "2 cm/s. At what rate is the",
+      "volume of the bubble increasing when the radius is 1 cm?",
+      "13.",
+      "A balloon, which always remains spherical, has a variable diameter 3 (2 1) 2 x + .",
+      "Find the rate of change of its volume with respect to x . 14. Sand is pouring from a pipe at the rate of 12 cm 3 /s. The falling sand forms a cone on the ground in such a way that the height of the cone is always one-sixth of the radius of the base. How fast is the height of the sand cone increasing when the height is 4 cm? 15. The total cost C ( x ) in Rupees associated with the production of x units of an item is given by",
+      "C ( x ) = 0.007 x 3 \u2013 0.003 x 2 + 15 x + 4000. Find the marginal cost when 17 units are produced. 16. The total revenue in Rupees received from the sale of x units of a product is given by",
+      "R ( x ) = 13 x 2 + 26 x + 15. Find the marginal revenue when x = 7. Choose the correct answer for questions 17 and 18.",
+      "17.",
+      "The rate of change of the area of a circle with respect to its radius r at r = 6 cm is (A) 10 \u03c0 (B) 12 \u03c0 (C) 8 \u03c0 (D) 11 \u03c0",
+      "Reprint 2026-27",
+      "MATHEMATICS 152",
+      "18.",
+      "The total revenue in Rupees received from the sale of x units of a product is given by R( x ) = 3 x 2 + 36 x + 5. The marginal revenue, when x = 15 is (A) 116 (B) 96 (C) 90 (D) 126"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "25af7df6279affb9",
+        "object_type": "exercise"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "61a110ebf0cfe535",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "fd61d9321ad233f9",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "c3bcb7f3f2588954",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "45694e0a79dd4264",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "3f755bed1384c0e2",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "3e9d59bc2c5c63d3",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "91cf858867164d02",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "04905ef1540952e1",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "71594d3d97d9a9af",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "cd4f68d91f49e853",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "3fcff30e2ccccc46",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "602d2991e68d5943",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "2b7b217a5b0cbac8",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "320db382b5a9d489",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "a04bb533c7b18dbb",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "248cf5cad492b088",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "cf6d616cdd17304e",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "5afdd7d5233de243",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "ir_object",
+        "locator": "bac655577db05a62",
+        "object_type": "exercise_question"
+      }
+    ],
+    "note": ""
+  },
+  "comparison": {
+    "kind": "comparison",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "related_concepts": {
+    "kind": "related_concepts",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "suggested_next_topics": {
+    "kind": "next_topics",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "summary": {
+    "kind": "summary",
+    "status": "present",
+    "items": [
+      "Rate of Change of Quantities (Easy)"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.872cbd522bc5",
+        "concept_name": "Rate of Change of Quantities",
+        "source_field": "concept",
+        "locator": "concept.872cbd522bc5",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "references": [
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "0",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "1",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "2",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "3",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "4",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "5",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "6",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "7",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "8",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "9",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "10",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "11",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "12",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "13",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "14",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "15",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "16",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "17",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "18",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "19",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "20",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "21",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "22",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "23",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "24",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "25",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "26",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "27",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "28",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "29",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "30",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "31",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "32",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "33",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "34",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "35",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "36",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "37",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "38",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "39",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "40",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "41",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "42",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "43",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "44",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "45",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "46",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "47",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "48",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "49",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "50",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "51",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "52",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "53",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "54",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "55",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "56",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "57",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "58",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "59",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "60",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "61",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "62",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "63",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "64",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "65",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "66",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "67",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "68",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "69",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "example_texts",
+      "locator": "70",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "25af7df6279affb9",
+      "object_type": "exercise"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "61a110ebf0cfe535",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "fd61d9321ad233f9",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "c3bcb7f3f2588954",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "45694e0a79dd4264",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "3f755bed1384c0e2",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "3e9d59bc2c5c63d3",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "91cf858867164d02",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "04905ef1540952e1",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "71594d3d97d9a9af",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "cd4f68d91f49e853",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "3fcff30e2ccccc46",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "602d2991e68d5943",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "2b7b217a5b0cbac8",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "320db382b5a9d489",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "a04bb533c7b18dbb",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "248cf5cad492b088",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "cf6d616cdd17304e",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "5afdd7d5233de243",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "ir_object",
+      "locator": "bac655577db05a62",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.872cbd522bc5",
+      "concept_name": "Rate of Change of Quantities",
+      "source_field": "concept",
+      "locator": "concept.872cbd522bc5",
+      "object_type": null
+    }
+  ],
+  "notes": [
+    "intent 'explanation' \u2192 'concept_explanation' unavailable (lead section 'main_explanation' has no backing content); fell back to 'worked_example_walkthrough'"
+  ],
+  "deterministic": true
+}

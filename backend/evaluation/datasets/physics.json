@@ -1,0 +1,1154 @@
+[
+  {
+    "query": "What is The Solenoid?",
+    "expected": {
+      "concept": "The Solenoid",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Wheatstone Bridge?",
+    "expected": {
+      "concept": "Wheatstone Bridge",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Power In Ac Circuit : The Power Factor?",
+    "expected": {
+      "concept": "Power In Ac Circuit : The Power Factor",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Of Resistivity",
+    "expected": {
+      "concept": "Of Resistivity",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is The dipole in auniform magnetic field?",
+    "expected": {
+      "concept": "The dipole in auniform magnetic field",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Ac Voltage Applied To An Inductor",
+    "expected": {
+      "concept": "Ac Voltage Applied To An Inductor",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Ampere \u2019 Sc Ircuital Law?",
+    "expected": {
+      "concept": "Ampere \u2019 Sc Ircuital Law",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Capacitors in parallel",
+    "expected": {
+      "concept": "Capacitors in parallel",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Gauss \u2019 Sl Aw",
+    "expected": {
+      "concept": "Gauss \u2019 Sl Aw",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Ac Voltage Applied To Ac Apacitor",
+    "expected": {
+      "concept": "Ac Voltage Applied To Ac Apacitor",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Nicola Tesla?",
+    "expected": {
+      "concept": "Nicola Tesla",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Resonance",
+    "expected": {
+      "concept": "Resonance",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Sources of electromagnetic waves",
+    "expected": {
+      "concept": "Sources of electromagnetic waves",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Ac Voltage Applied To Ac Apacitor?",
+    "expected": {
+      "concept": "Ac Voltage Applied To Ac Apacitor",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Potential Due To Ap Oint Charge",
+    "expected": {
+      "concept": "Potential Due To Ap Oint Charge",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Energy Stored In Ac Apacitor",
+    "expected": {
+      "concept": "Energy Stored In Ac Apacitor",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Nicola Tesla",
+    "expected": {
+      "concept": "Nicola Tesla",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Sources of electromagnetic waves",
+    "expected": {
+      "concept": "Sources of electromagnetic waves",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Sources of electromagnetic waves?",
+    "expected": {
+      "concept": "Sources of electromagnetic waves",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Lenz's law",
+    "expected": {
+      "concept": "Lenz's law",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Quantisation of charge",
+    "expected": {
+      "concept": "Quantisation of charge",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Physical significance of dipoles?",
+    "expected": {
+      "concept": "Physical significance of dipoles",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Sources of electromagnetic waves?",
+    "expected": {
+      "concept": "Sources of electromagnetic waves",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Physical significance of dipoles",
+    "expected": {
+      "concept": "Physical significance of dipoles",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Potential energy of adipole in an external field",
+    "expected": {
+      "concept": "Potential energy of adipole in an external field",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Kirchhoff \u2019 Sr Ules",
+    "expected": {
+      "concept": "Kirchhoff \u2019 Sr Ules",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Gauss \u2019 Sl Aw?",
+    "expected": {
+      "concept": "Gauss \u2019 Sl Aw",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Nature of electromagnetic waves",
+    "expected": {
+      "concept": "Nature of electromagnetic waves",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Magnetism And Gauss \u2019 Sl Aw",
+    "expected": {
+      "concept": "Magnetism And Gauss \u2019 Sl Aw",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Ac Voltage Applied To Ac Apacitor?",
+    "expected": {
+      "concept": "Ac Voltage Applied To Ac Apacitor",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Power In Ac Circuit : The Power Factor?",
+    "expected": {
+      "concept": "Power In Ac Circuit : The Power Factor",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Ac Voltage Applied To Ac Apacitor",
+    "expected": {
+      "concept": "Ac Voltage Applied To Ac Apacitor",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Capacitors in parallel",
+    "expected": {
+      "concept": "Capacitors in parallel",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Magnetic force on a current-carrying conductor?",
+    "expected": {
+      "concept": "Magnetic force on a current-carrying conductor",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Resonance",
+    "expected": {
+      "concept": "Resonance",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Gauss \u2019 Sl Aw?",
+    "expected": {
+      "concept": "Gauss \u2019 Sl Aw",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Ac Generator",
+    "expected": {
+      "concept": "Ac Generator",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Magnetic Field Due To Ac Urrent Element , Biot -Savart Law",
+    "expected": {
+      "concept": "Magnetic Field Due To Ac Urrent Element , Biot -Savart Law",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is The dipole in auniform magnetic field?",
+    "expected": {
+      "concept": "The dipole in auniform magnetic field",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Mutual inductance",
+    "expected": {
+      "concept": "Mutual inductance",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Mutual inductance",
+    "expected": {
+      "concept": "Mutual inductance",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Resonance",
+    "expected": {
+      "concept": "Resonance",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Nicola Tesla?",
+    "expected": {
+      "concept": "Nicola Tesla",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Energy Stored In Ac Apacitor?",
+    "expected": {
+      "concept": "Energy Stored In Ac Apacitor",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Torque on arectangular current loop in auniform magnetic field",
+    "expected": {
+      "concept": "Torque on arectangular current loop in auniform magnetic field",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Quantisation of charge",
+    "expected": {
+      "concept": "Quantisation of charge",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Physical significance of dipoles",
+    "expected": {
+      "concept": "Physical significance of dipoles",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Motional Electromotive Force?",
+    "expected": {
+      "concept": "Motional Electromotive Force",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Field due to auniformly charged thin spherical shell",
+    "expected": {
+      "concept": "Field due to auniformly charged thin spherical shell",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Effect Of Dielectric On Capacitance?",
+    "expected": {
+      "concept": "Effect Of Dielectric On Capacitance",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Electrostatics Magnetism",
+    "expected": {
+      "concept": "Electrostatics Magnetism",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Energy Stored In Ac Apacitor",
+    "expected": {
+      "concept": "Energy Stored In Ac Apacitor",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Self-inductance",
+    "expected": {
+      "concept": "Self-inductance",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Potential Energy Of As Ystem Of Charges",
+    "expected": {
+      "concept": "Potential Energy Of As Ystem Of Charges",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Motion In Am Agnetic Field",
+    "expected": {
+      "concept": "Motion In Am Agnetic Field",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Forces Between Multiple Charges?",
+    "expected": {
+      "concept": "Forces Between Multiple Charges",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Torque on arectangular current loop in auniform magnetic field?",
+    "expected": {
+      "concept": "Torque on arectangular current loop in auniform magnetic field",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Sources of electromagnetic waves?",
+    "expected": {
+      "concept": "Sources of electromagnetic waves",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is of linear, surface and volume?",
+    "expected": {
+      "concept": "of linear, surface and volume",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Magnetisation And Magnetic Intensity",
+    "expected": {
+      "concept": "Magnetisation And Magnetic Intensity",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Of Resistivity",
+    "expected": {
+      "concept": "Of Resistivity",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Electrostatics Magnetism",
+    "expected": {
+      "concept": "Electrostatics Magnetism",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Wheatstone Bridge?",
+    "expected": {
+      "concept": "Wheatstone Bridge",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Kirchhoff \u2019 Sr Ules",
+    "expected": {
+      "concept": "Kirchhoff \u2019 Sr Ules",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Effect Of Dielectric On Capacitance?",
+    "expected": {
+      "concept": "Effect Of Dielectric On Capacitance",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Forces Between Multiple Charges?",
+    "expected": {
+      "concept": "Forces Between Multiple Charges",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Magnetic force on a current-carrying conductor?",
+    "expected": {
+      "concept": "Magnetic force on a current-carrying conductor",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Nicola Tesla",
+    "expected": {
+      "concept": "Nicola Tesla",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Ac Voltage Applied To An Inductor",
+    "expected": {
+      "concept": "Ac Voltage Applied To An Inductor",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Physical significance of electric field",
+    "expected": {
+      "concept": "Physical significance of electric field",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Motional Electromotive Force?",
+    "expected": {
+      "concept": "Motional Electromotive Force",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Effect Of Dielectric On Capacitance?",
+    "expected": {
+      "concept": "Effect Of Dielectric On Capacitance",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Gauss \u2019 Sl Aw?",
+    "expected": {
+      "concept": "Gauss \u2019 Sl Aw",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Electrostatics Magnetism?",
+    "expected": {
+      "concept": "Electrostatics Magnetism",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Nature of electromagnetic waves",
+    "expected": {
+      "concept": "Nature of electromagnetic waves",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Magnetism And Gauss \u2019 Sl Aw",
+    "expected": {
+      "concept": "Magnetism And Gauss \u2019 Sl Aw",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Nature of electromagnetic waves",
+    "expected": {
+      "concept": "Nature of electromagnetic waves",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Kirchhoff \u2019 Sr Ules?",
+    "expected": {
+      "concept": "Kirchhoff \u2019 Sr Ules",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Potential energy of asystem of two charges in an external field",
+    "expected": {
+      "concept": "Potential energy of asystem of two charges in an external field",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Temperature Dependence Of Resistivity",
+    "expected": {
+      "concept": "Temperature Dependence Of Resistivity",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is of linear, surface and volume?",
+    "expected": {
+      "concept": "of linear, surface and volume",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Nature of electromagnetic waves",
+    "expected": {
+      "concept": "Nature of electromagnetic waves",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Capacitors in parallel",
+    "expected": {
+      "concept": "Capacitors in parallel",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Ac Voltage Applied To Ac Apacitor",
+    "expected": {
+      "concept": "Ac Voltage Applied To Ac Apacitor",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Coulomb's law?",
+    "expected": {
+      "concept": "Coulomb's law",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Magnetisation And Magnetic Intensity?",
+    "expected": {
+      "concept": "Magnetisation And Magnetic Intensity",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Temperature Dependence Of Resistivity",
+    "expected": {
+      "concept": "Temperature Dependence Of Resistivity",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Magnetic Field On The Axis Of Ac Ircular Current Loop?",
+    "expected": {
+      "concept": "Magnetic Field On The Axis Of Ac Ircular Current Loop",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Self-inductance",
+    "expected": {
+      "concept": "Self-inductance",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Electrostatic shielding?",
+    "expected": {
+      "concept": "Electrostatic shielding",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Magnetism And Gauss \u2019 Sl Aw?",
+    "expected": {
+      "concept": "Magnetism And Gauss \u2019 Sl Aw",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Of Resistivity",
+    "expected": {
+      "concept": "Of Resistivity",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How to bake a cake",
+    "expected": {
+      "concept": "",
+      "intent": "explanation",
+      "strategy": "",
+      "supported": false,
+      "sections": []
+    }
+  }
+]

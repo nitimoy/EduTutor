@@ -1,0 +1,155 @@
+{
+  "query": "What are the types of relations?",
+  "intent": "definition",
+  "strategy": "concept_explanation",
+  "primary_concept_id": "concept.458676395ae5",
+  "primary_concept_name": "Types of Relations",
+  "prerequisites": {
+    "kind": "prerequisites",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "main_explanation": {
+    "kind": "main_explanation",
+    "status": "present",
+    "items": [
+      "Definition 1"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.458676395ae5",
+        "concept_name": "Types of Relations",
+        "source_field": "definition_texts",
+        "locator": "0",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "formula": {
+    "kind": "formula",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "worked_example": {
+    "kind": "worked_example",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "proof": {
+    "kind": "proof",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "exercise": {
+    "kind": "exercise",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "comparison": {
+    "kind": "comparison",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "related_concepts": {
+    "kind": "related_concepts",
+    "status": "present",
+    "items": [
+      "empty relation",
+      "universal relation",
+      "an equivalence relation"
+    ],
+    "citations": [
+      {
+        "concept_id": null,
+        "concept_name": "empty relation",
+        "source_field": "related_concepts",
+        "locator": "0",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "related_concepts",
+        "locator": "1",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.f2a2e0a5dbad",
+        "concept_name": "an equivalence relation",
+        "source_field": "related_concepts",
+        "locator": "2",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "suggested_next_topics": {
+    "kind": "next_topics",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "summary": {
+    "kind": "summary",
+    "status": "present",
+    "items": [
+      "Types of Relations (Easy)"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.458676395ae5",
+        "concept_name": "Types of Relations",
+        "source_field": "concept",
+        "locator": "concept.458676395ae5",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "references": [
+    {
+      "concept_id": "concept.458676395ae5",
+      "concept_name": "Types of Relations",
+      "source_field": "definition_texts",
+      "locator": "0",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "related_concepts",
+      "locator": "1",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.f2a2e0a5dbad",
+      "concept_name": "an equivalence relation",
+      "source_field": "related_concepts",
+      "locator": "2",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.458676395ae5",
+      "concept_name": "Types of Relations",
+      "source_field": "concept",
+      "locator": "concept.458676395ae5",
+      "object_type": null
+    }
+  ],
+  "notes": [],
+  "deterministic": true
+}

@@ -1,0 +1,599 @@
+{
+  "coverage": {
+    "expected_kinds": [
+      "main_explanation",
+      "worked_example",
+      "summary"
+    ],
+    "rendered_kinds": [
+      "main_explanation",
+      "worked_example",
+      "summary"
+    ],
+    "missing": [],
+    "extra": [],
+    "duplicated": [],
+    "order_preserved": true,
+    "coverage_pct": 1.0,
+    "passed": true
+  },
+  "citations": {
+    "expected": 17,
+    "preserved": 17,
+    "missing": [],
+    "extra": [],
+    "reordered_units": [],
+    "references_preserved": true,
+    "citation_accuracy": 1.0,
+    "passed": true
+  },
+  "grounding": {
+    "sections": [
+      {
+        "unit_id": "concept.cb2eaca4b418::main_explanation",
+        "kind": "main_explanation",
+        "source_terms": 13,
+        "rendered_terms": 21,
+        "supported_terms": 21,
+        "unsupported_terms": [],
+        "unsupported_citations": [],
+        "coverage_pct": 1.0,
+        "grounded": true
+      },
+      {
+        "unit_id": "concept.cb2eaca4b418::worked_example",
+        "kind": "worked_example",
+        "source_terms": 59,
+        "rendered_terms": 98,
+        "supported_terms": 72,
+        "unsupported_terms": [
+          "define",
+          "text",
+          "because",
+          "admits",
+          "other",
+          "varnothing",
+          "another",
+          "clear",
+          "height",
+          "times",
+          "represent",
+          "matrix",
+          "written",
+          "whenever",
+          "kinds",
+          "examine",
+          "basic",
+          "properties",
+          "together",
+          "imply",
+          "citations"
+        ],
+        "unsupported_citations": [],
+        "coverage_pct": 0.734694,
+        "grounded": false
+      },
+      {
+        "unit_id": "concept.cb2eaca4b418::summary",
+        "kind": "summary",
+        "source_terms": 3,
+        "rendered_terms": 7,
+        "supported_terms": 5,
+        "unsupported_terms": [
+          "concept",
+          "grasp"
+        ],
+        "unsupported_citations": [],
+        "coverage_pct": 0.714286,
+        "grounded": false
+      }
+    ],
+    "unsupported_additions": 23,
+    "grounding_completeness": 0.333333,
+    "passed": false
+  },
+  "completeness": {
+    "covered_lines": 16,
+    "missing_lines": [
+      "Reprint 2026-27"
+    ],
+    "extra_lines": [],
+    "total_lines": 17,
+    "coverage_pct": 0.941176,
+    "passed": false
+  },
+  "contract": {
+    "no_new_sections": true,
+    "no_reordered": true,
+    "no_missing_required": true,
+    "no_duplicates": true,
+    "no_empty_rendered": true,
+    "passed": true
+  },
+  "provider": {
+    "citations_unchanged": true,
+    "identity_unchanged": true,
+    "unit_id_unchanged": true,
+    "ordering_unchanged": true,
+    "passed": true
+  },
+  "metrics": {
+    "coverage": 1.0,
+    "citation_accuracy": 1.0,
+    "section_preservation": 1.0,
+    "grounding_completeness": 0.333333,
+    "unsupported_additions": 23,
+    "missing_content": 1,
+    "deterministic": true
+  },
+  "results": [
+    {
+      "name": "section_coverage",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "name": "citation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "name": "grounding",
+      "passed": false,
+      "issues": [
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'define' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "define"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'text' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "text"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'because' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "because"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'admits' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "admits"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'other' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "other"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'varnothing' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "varnothing"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'another' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "another"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'clear' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "clear"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'height' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "height"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'times' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "times"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'represent' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "represent"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'matrix' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "matrix"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'written' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "written"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'whenever' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "whenever"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'kinds' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "kinds"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'examine' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "examine"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'basic' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "basic"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'properties' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "properties"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'together' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "together"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'imply' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "imply"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'citations' not grounded in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "term": "citations"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'concept' not grounded in section 'summary'",
+          "unit_id": "concept.cb2eaca4b418::summary",
+          "detail": {
+            "term": "concept"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'grasp' not grounded in section 'summary'",
+          "unit_id": "concept.cb2eaca4b418::summary",
+          "detail": {
+            "term": "grasp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "completeness",
+      "passed": false,
+      "issues": [
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.cb2eaca4b418::worked_example",
+          "detail": {
+            "line": "Reprint 2026-27"
+          }
+        }
+      ]
+    },
+    {
+      "name": "contract",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "name": "provider_invariant",
+      "passed": true,
+      "issues": []
+    }
+  ],
+  "issues": [
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "line": "Reprint 2026-27"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'concept' not grounded in section 'summary'",
+      "unit_id": "concept.cb2eaca4b418::summary",
+      "detail": {
+        "term": "concept"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'grasp' not grounded in section 'summary'",
+      "unit_id": "concept.cb2eaca4b418::summary",
+      "detail": {
+        "term": "grasp"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'define' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "define"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'text' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "text"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'because' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "because"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'admits' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "admits"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'other' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "other"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'varnothing' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "varnothing"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'another' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "another"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'clear' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "clear"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'height' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "height"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'times' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "times"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'represent' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "represent"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'matrix' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "matrix"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'written' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "written"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'whenever' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "whenever"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'kinds' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "kinds"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'examine' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "examine"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'basic' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "basic"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'properties' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "properties"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'together' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "together"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'imply' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "imply"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'citations' not grounded in section 'worked_example'",
+      "unit_id": "concept.cb2eaca4b418::worked_example",
+      "detail": {
+        "term": "citations"
+      }
+    }
+  ],
+  "passed": false,
+  "deterministic": true
+}

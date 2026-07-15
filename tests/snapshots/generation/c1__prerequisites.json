@@ -1,0 +1,37 @@
+{
+  "unit_id": "c1::prerequisites",
+  "unit_kind": "prerequisites",
+  "system": "You are a teaching renderer. Rephrase ONLY the provided content into clear, natural prose for a student. Do NOT add facts, examples, numbers, formulas, or concepts that are not present in the content. Do NOT reorder or merge unrelated points. Preserve every citation marker exactly as given. Output only the rendered section text.\nSection: prerequisites.\nTone: supportive.\nFormat: a short bulleted list.\nThe student asked: What is c1?",
+  "blocks": [
+    {
+      "label": "Content",
+      "lines": [
+        "C2"
+      ]
+    },
+    {
+      "label": "Citations",
+      "lines": [
+        "[C2] concept=c2 field=definition_texts locator=0"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "concept_id": "c2",
+      "concept_name": "C2",
+      "source_field": "definition_texts",
+      "locator": "0",
+      "object_type": null,
+      "subject": "",
+      "chapter": ""
+    }
+  ],
+  "metadata": {
+    "section": "prerequisites",
+    "intent": "definition",
+    "strategy": "concept_explanation",
+    "preset": "default",
+    "model_id": "echo-v1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "unit_id": "c1::worked_example",
+  "unit_kind": "worked_example",
+  "system": "You are a teaching renderer. Rephrase ONLY the provided content into clear, natural prose for a student. Do NOT add facts, examples, numbers, formulas, or concepts that are not present in the content. Do NOT reorder or merge unrelated points. Preserve every citation marker exactly as given. Output only the rendered section text.\n\nIMPORTANT: The Content block contains EXAMPLES from the NCERT textbook. Use ONLY the examples provided in the Content block. Do NOT invent new examples. Do NOT create your own numbers, symbols, or problems. Pick the SINGLE most relevant example and solve it step by step. Show your working clearly: state the given information, the formula used, the step-by-step calculation, and the final answer. If the Content block has no matching example, say 'No worked example is available for this problem in the current source material.' and stop.\nSection: worked_example.\nTone: step-by-step and patient.\nFormat: numbered steps.\nThe student asked: What is c1?",
+  "blocks": [
+    {
+      "label": "Content",
+      "lines": [
+        "Step one.",
+        "Step two."
+      ]
+    },
+    {
+      "label": "Citations",
+      "lines": [
+        "[C1] concept=c1 field=definition_texts locator=0"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "concept_id": "c1",
+      "concept_name": "C1",
+      "source_field": "definition_texts",
+      "locator": "0",
+      "object_type": null,
+      "subject": "",
+      "chapter": ""
+    }
+  ],
+  "metadata": {
+    "section": "worked_example",
+    "intent": "definition",
+    "strategy": "concept_explanation",
+    "preset": "default",
+    "model_id": "echo-v1"
+  }
+}

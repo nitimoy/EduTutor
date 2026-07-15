@@ -1,0 +1,168 @@
+{
+  "query": "What is the difference between conductors and insulators?",
+  "intent": "comparison",
+  "strategy": "compare_and_contrast",
+  "primary_concept_id": "concept.bce7563402a8",
+  "primary_concept_name": "Conductors And Insulators",
+  "prerequisites": {
+    "kind": "prerequisites",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "main_explanation": {
+    "kind": "main_explanation",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "formula": {
+    "kind": "formula",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "worked_example": {
+    "kind": "worked_example",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "proof": {
+    "kind": "proof",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "exercise": {
+    "kind": "exercise",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "comparison": {
+    "kind": "comparison",
+    "status": "present",
+    "items": [
+      "Conductors And Insulators",
+      "Electrostatics Of Conductors",
+      "Electric Currents In Conductors",
+      "Energy Stored In Ac Apacitor",
+      "Magnetic force on a current-carrying conductor"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.bce7563402a8",
+        "concept_name": "Conductors And Insulators",
+        "source_field": "concept",
+        "locator": "concept.bce7563402a8",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.7088e8eb5f42",
+        "concept_name": "Electrostatics Of Conductors",
+        "source_field": "concept",
+        "locator": "concept.7088e8eb5f42",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4f976eefdc3a",
+        "concept_name": "Electric Currents In Conductors",
+        "source_field": "concept",
+        "locator": "concept.4f976eefdc3a",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.b62a9c3c77a6",
+        "concept_name": "Energy Stored In Ac Apacitor",
+        "source_field": "concept",
+        "locator": "concept.b62a9c3c77a6",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.95589843b7c7",
+        "concept_name": "Magnetic force on a current-carrying conductor",
+        "source_field": "concept",
+        "locator": "concept.95589843b7c7",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "related_concepts": {
+    "kind": "related_concepts",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "suggested_next_topics": {
+    "kind": "next_topics",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "summary": {
+    "kind": "summary",
+    "status": "present",
+    "items": [
+      "Conductors And Insulators (Easy)"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.bce7563402a8",
+        "concept_name": "Conductors And Insulators",
+        "source_field": "concept",
+        "locator": "concept.bce7563402a8",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "references": [
+    {
+      "concept_id": "concept.bce7563402a8",
+      "concept_name": "Conductors And Insulators",
+      "source_field": "concept",
+      "locator": "concept.bce7563402a8",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.7088e8eb5f42",
+      "concept_name": "Electrostatics Of Conductors",
+      "source_field": "concept",
+      "locator": "concept.7088e8eb5f42",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4f976eefdc3a",
+      "concept_name": "Electric Currents In Conductors",
+      "source_field": "concept",
+      "locator": "concept.4f976eefdc3a",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.b62a9c3c77a6",
+      "concept_name": "Energy Stored In Ac Apacitor",
+      "source_field": "concept",
+      "locator": "concept.b62a9c3c77a6",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.95589843b7c7",
+      "concept_name": "Magnetic force on a current-carrying conductor",
+      "source_field": "concept",
+      "locator": "concept.95589843b7c7",
+      "object_type": null
+    }
+  ],
+  "notes": [],
+  "deterministic": true
+}

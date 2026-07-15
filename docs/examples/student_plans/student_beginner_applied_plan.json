@@ -1,0 +1,1424 @@
+{
+  "query": "Prove the properties of a skew symmetric matrix",
+  "intent": "proof",
+  "strategy": "step_by_step_derivation",
+  "primary_concept_id": "concept.0e3243205095",
+  "primary_concept_name": "skew symmetric matrix",
+  "supporting_concept_ids": [
+    "concept.772e45d1debd",
+    "concept.4d645d237808",
+    "concept.1d4736e5e970",
+    "concept.1dde0c4b107f"
+  ],
+  "sections": [
+    {
+      "kind": "worked_example",
+      "status": "present",
+      "item_refs": [
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "0",
+          "object_type": null,
+          "text": "Example 22 Express the matrix",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "1",
+          "object_type": null,
+          "text": "as the sum of a symmetric and a",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "2",
+          "object_type": null,
+          "text": "B 1 3 4 1 2 3",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "3",
+          "object_type": null,
+          "text": "skew symmetric matrix.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "4",
+          "object_type": null,
+          "text": "Solution Here",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "5",
+          "object_type": null,
+          "text": "−     −  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "6",
+          "object_type": null,
+          "text": "2 1",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "7",
+          "object_type": null,
+          "text": "B ′ =",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "8",
+          "object_type": null,
+          "text": "2 3 2",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "9",
+          "object_type": null,
+          "text": "4 3",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "10",
+          "object_type": null,
+          "text": "−     −    ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "11",
+          "object_type": null,
+          "text": "3 2 3 1 3 2",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "12",
+          "object_type": null,
+          "text": "−     ′ = −   −  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "13",
+          "object_type": null,
+          "text": "4 3 1 (B + B ) 3 6 2 3 2 6",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "14",
+          "object_type": null,
+          "text": "Let P =",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "15",
+          "object_type": null,
+          "text": "−     −    ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "16",
+          "object_type": null,
+          "text": "3 2 3 1 3 2",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "17",
+          "object_type": null,
+          "text": "Now P ′ =",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "18",
+          "object_type": null,
+          "text": "= P",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "19",
+          "object_type": null,
+          "text": "Thus P = 1 (B + B ) 2 ′ is a symmetric matrix.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "20",
+          "object_type": null,
+          "text": "−     ′ =   −    ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "21",
+          "object_type": null,
+          "text": "1 5 0 2 0 1 5 1 (B – B ) 1 0 6 0 3 2 5 6 0 5 3 0 2",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "22",
+          "object_type": null,
+          "text": "Also, let Q =",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "23",
+          "object_type": null,
+          "text": "Reprint 2026-27",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "24",
+          "object_type": null,
+          "text": "    − = −    ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "25",
+          "object_type": null,
+          "text": "1 5 0 2 3 1 0 3 Q 2 5 3 0 2",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "26",
+          "object_type": null,
+          "text": "Then Q ′ =",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "27",
+          "object_type": null,
+          "text": "Thus Q = 1 (B – B ) 2 ′ is a skew symmetric matrix.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "28",
+          "object_type": null,
+          "text": "−     −   = + = − =  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "29",
+          "object_type": null,
+          "text": "3 1 5 2 0 2 4 3 1 P + Q 3 1 0 3 1 3 4 B 2 1 2 3 5 1 3 0 2",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "30",
+          "object_type": null,
+          "text": "Now",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "31",
+          "object_type": null,
+          "text": "  −    ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "32",
+          "object_type": null,
+          "text": "Thus, B is represented as the sum of a symmetric and a skew symmetric matrix.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "33",
+          "object_type": null,
+          "text": "Example 23 If cos sin A sin cos θ   =   − θ  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "34",
+          "object_type": null,
+          "text": "n θ   =   − θ  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "35",
+          "object_type": null,
+          "text": ", then prove that cos sin A sin cos",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "36",
+          "object_type": null,
+          "text": ", n ∈ N .",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "37",
+          "object_type": null,
+          "text": "Solution",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "38",
+          "object_type": null,
+          "text": "We shall prove the result by using principle of mathematical induction.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "39",
+          "object_type": null,
+          "text": "We have P( n ) : If cos sin A sin cos θ   =   − θ  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "40",
+          "object_type": null,
+          "text": "n θ   =   − θ  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "41",
+          "object_type": null,
+          "text": ", then cos sin A sin cos",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "42",
+          "object_type": null,
+          "text": ", n ∈ N",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "43",
+          "object_type": null,
+          "text": ", so 1 cos sin A sin cos θ   =   − θ   Therefore, the result is true for n = 1. Let the result be true for n = k . So",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "44",
+          "object_type": null,
+          "text": "P(1) : cos sin A sin cos θ   =   − θ  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "45",
+          "object_type": null,
+          "text": "k θ   =   − θ  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "46",
+          "object_type": null,
+          "text": "P( k ) : cos sin A sin cos θ   =   − θ  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "47",
+          "object_type": null,
+          "text": "cos sin A sin cos",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "48",
+          "object_type": null,
+          "text": ", then",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "49",
+          "object_type": null,
+          "text": "Now, we prove that the result holds for n = k +1",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "50",
+          "object_type": null,
+          "text": "θ    ⋅ =    − θ   ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "51",
+          "object_type": null,
+          "text": "cos sin AA sin cos",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "52",
+          "object_type": null,
+          "text": "Now A k + 1 =",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "53",
+          "object_type": null,
+          "text": "cos – sin cos k θ + θ     − θ + θ  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "54",
+          "object_type": null,
+          "text": "θ + θ   =   − θ + θ − + θ  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "55",
+          "object_type": null,
+          "text": "cos( ) sin( ) cos( 1) sin ( 1)",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "56",
+          "object_type": null,
+          "text": "sin( ) cos( ) sin ( 1) cos( 1)",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "57",
+          "object_type": null,
+          "text": "Therefore, the result is true for n = k + 1. Thus by principle of mathematical induction,",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "58",
+          "object_type": null,
+          "text": "θ   =   − θ  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "59",
+          "object_type": null,
+          "text": "we have cos sin A sin cos",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "60",
+          "object_type": null,
+          "text": ", holds for all natural numbers.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "61",
+          "object_type": null,
+          "text": "Example 24 If A and B are symmetric matrices of the same order, then show that AB is symmetric if and only if A and B commute, that is AB = BA.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "62",
+          "object_type": null,
+          "text": "Solution Since A and B are both symmetric matrices, therefore A ′ = A and B ′ = B.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "63",
+          "object_type": null,
+          "text": "Reprint 2026-27",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "64",
+          "object_type": null,
+          "text": "MATRICES 71",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "65",
+          "object_type": null,
+          "text": "Let AB be symmetric, then (AB) ′ = AB But (AB) ′ = B ′ A ′ = BA (Why?) Therefore BA = AB Conversely, if AB = BA, then we shall show that AB is symmetric. Now (AB) ′ = B ′ A ′",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "66",
+          "object_type": null,
+          "text": "= BA (as A and B are symmetric) = AB Hence AB is symmetric.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "67",
+          "object_type": null,
+          "text": "Example 25 Let 2 1 5 2 5 A , B , C 3 4 7 4 3 8 −   =    ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "68",
+          "object_type": null,
+          "text": ". Find a matrix D such that",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "69",
+          "object_type": null,
+          "text": "CD – AB = O.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "70",
+          "object_type": null,
+          "text": "Solution Since A, B, C are all square matrices of order 2, and CD – AB is well defined, D must be a square matrix of order 2.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "71",
+          "object_type": null,
+          "text": "Let D = a b c d      ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "72",
+          "object_type": null,
+          "text": ". Then CD – AB = 0 gives",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "73",
+          "object_type": null,
+          "text": "−    −      ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "74",
+          "object_type": null,
+          "text": "2 5 2 1 5 2 3 8 3 4 7 4 a b c d",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "75",
+          "object_type": null,
+          "text": "= O",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "76",
+          "object_type": null,
+          "text": "or 2 5 3 0 3 8 43 22 a c b d +   −   +  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "77",
+          "object_type": null,
+          "text": "= 0      ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "78",
+          "object_type": null,
+          "text": "or 2 5 3 8 43 3 8 22 a c b d + − +     + −  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "79",
+          "object_type": null,
+          "text": "= 0      ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "80",
+          "object_type": null,
+          "text": "By equality of matrices, we get",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "81",
+          "object_type": null,
+          "text": "2 a + 5 c – 3 = 0 ... (1) 3 a + 8 c – 43 = 0 ... (2) 2 b + 5 d = 0 ... (3) and 3 b + 8 d – 22 = 0 ... (4) Solving (1) and (2), we get a = –191, c = 77. Solving (3) and (4), we get b = – 110, d = 44.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "82",
+          "object_type": null,
+          "text": "Reprint 2026-27",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "83",
+          "object_type": null,
+          "text": "−   =    ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "84",
+          "object_type": null,
+          "text": "Therefore D = 191 110 77 44 a b c d",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "85",
+          "object_type": null,
+          "text": "Miscellaneous Exercise on Chapter 3",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "86",
+          "object_type": null,
+          "text": "1. If A and B are symmetric matrices, prove that AB – BA is a skew symmetric matrix.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "87",
+          "object_type": null,
+          "text": "2. Show that the matrix B ′ AB is symmetric or skew symmetric according as A is symmetric or skew symmetric.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "88",
+          "object_type": null,
+          "text": "    = −   −  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "89",
+          "object_type": null,
+          "text": "0 2",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "90",
+          "object_type": null,
+          "text": "y z",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "91",
+          "object_type": null,
+          "text": "x y z",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "92",
+          "object_type": null,
+          "text": "3. Find the values of x , y , z if the matrix",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "93",
+          "object_type": null,
+          "text": "satisfy the equation",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "94",
+          "object_type": null,
+          "text": "x y z",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "95",
+          "object_type": null,
+          "text": "A ′ A = I.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "96",
+          "object_type": null,
+          "text": "     ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "97",
+          "object_type": null,
+          "text": "1 2 0",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "98",
+          "object_type": null,
+          "text": "4. For what values of x : [ ]",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "99",
+          "object_type": null,
+          "text": "1 2 0 1 2",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "100",
+          "object_type": null,
+          "text": "= O?",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "101",
+          "object_type": null,
+          "text": "1 0 2 x",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "102",
+          "object_type": null,
+          "text": "5. If 3 1 A 1 2   =   −  ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "103",
+          "object_type": null,
+          "text": ", show that A 2 – 5A + 7I = 0.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "104",
+          "object_type": null,
+          "text": "    − =    ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "105",
+          "object_type": null,
+          "text": "1 0 2",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "106",
+          "object_type": null,
+          "text": "6. Find x , if [ ]",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "107",
+          "object_type": null,
+          "text": "5 1 0 2 1 4 O 2 0 3 1",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "108",
+          "object_type": null,
+          "text": "7. A manufacturer produces three products x , y , z which he sells in two markets. Annual sales are indicated below:",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "109",
+          "object_type": null,
+          "text": "Market Products I 10,000 2,000 18,000 II 6,000 20,000 8,000",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "110",
+          "object_type": null,
+          "text": "Reprint 2026-27",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "111",
+          "object_type": null,
+          "text": "MATRICES 73",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "112",
+          "object_type": null,
+          "text": "(a) If unit sale prices of x , y and z are ` 2.50, ` 1.50 and ` 1.00, respectively,",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "113",
+          "object_type": null,
+          "text": "find the total revenue in each market with the help of matrix algebra. (b) If the unit costs of the above three commodities are ` 2.00, ` 1.00 and",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "114",
+          "object_type": null,
+          "text": "50 paise respectively. Find the gross profit.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "115",
+          "object_type": null,
+          "text": "8. Find the matrix X so that 1 2 3 7 8 9 X 4 5 6 2 4 6 −   =    ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "116",
+          "object_type": null,
+          "text": "Choose the correct answer in the following questions:",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "117",
+          "object_type": null,
+          "text": "γ α − ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "118",
+          "object_type": null,
+          "text": "α β",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "119",
+          "object_type": null,
+          "text": "9. If A = is such that A² = I, then",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "120",
+          "object_type": null,
+          "text": " ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "121",
+          "object_type": null,
+          "text": " ",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "122",
+          "object_type": null,
+          "text": "(A) 1 + α ² + βγ = 0 (B) 1 – α ² + βγ = 0 (C) 1 – α ² – βγ = 0 (D) 1 + α ² – βγ = 0 10. If the matrix A is both symmetric and skew symmetric, then (A) A is a diagonal matrix (B) A is a zero matrix (C) A is a square matrix (D) None of these 11. If A is square matrix such that A 2 = A, then (I + A)³ – 7 A is equal to (A) A (B) I – A (C) I (D) 3A",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "123",
+          "object_type": null,
+          "text": "® A matrix is an ordered rectangular array of numbers or functions. ® A matrix having m rows and n columns is called a matrix of order m × n . ® [ a ij ] m × 1 is a column matrix. ® [ a ij ] 1 × n is a row matrix. ® An m × n matrix is a square matrix if m = n . ® A = [ a ij ] m × m is a diagonal matrix if a ij = 0, when i ≠ j . ® A = [ a ij ] n × n is a scalar matrix if a ij = 0, when i ≠ j , a ij = k , ( k is some",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "124",
+          "object_type": null,
+          "text": "constant), when i = j . ® A = [ a ij ] n × n is an identity matrix, if a ij = 1, when i = j , a ij = 0, when i ≠ j . ® A zero matrix has all its elements as zero. ® A = [ a ij ] = [ b ij ] = B if (i) A and B are of same order, (ii) a ij = b ij for all",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "125",
+          "object_type": null,
+          "text": "possible values of i and j .",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "126",
+          "object_type": null,
+          "text": "Reprint 2026-27",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "127",
+          "object_type": null,
+          "text": "® k A = k [ a ij ] m × n = [ k ( a ij )] m × n ® – A = (–1)A ® A – B = A + (–1) B ® A + B = B + A ® (A + B) + C = A + (B + C), where A, B and C are of same order. ® k (A + B) = k A + k B, where A and B are of same order, k is constant. ® ( k + l ) A = k A + l A, where k and l are constant. ® If A = [ a ij ] m × n and B = [ b jk ] n × p , then AB = C = [ c ik ] m × p , where = ® (i) A(BC) = (AB)C, (ii) A(B + C) = AB + AC, (iii) (A + B)C = AC + BC ® If A = [ a ij ] m × n , then A ′ or AT = [ a ji ] n × m ® (i) (A ′ ) ′ = A, (ii) ( k A) ′ = k A ′ , (iii) (A + B) ′ = A ′ + B ′ , (iv) (AB) ′ = B ′ A ′ ® A is a symmetric matrix if A ′ = A. ® A is a skew symmetric matrix if A ′ = –A. ® Any square matrix can be represented as the sum of a symmetric and a",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "128",
+          "object_type": null,
+          "text": "1 =",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "129",
+          "object_type": null,
+          "text": "ik ij jk j c a b ∑",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "130",
+          "object_type": null,
+          "text": "skew symmetric matrix. ® If A and B are two square matrices such that AB = BA = I, then B is the",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "131",
+          "object_type": null,
+          "text": "inverse matrix of A and is denoted by A –1 and A is the inverse of B. ® Inverse of a square matrix, if it exists, is unique.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "132",
+          "object_type": null,
+          "text": "— v —",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "133",
+          "object_type": null,
+          "text": "Reprint 2026-27",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "example_texts",
+          "locator": "134",
+          "object_type": null,
+          "text": "MATRICES 75",
+          "latex": []
+        }
+      ],
+      "note": ""
+    },
+    {
+      "kind": "main_explanation",
+      "status": "present",
+      "item_refs": [
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "definition_texts",
+          "locator": "0",
+          "object_type": null,
+          "text": "Definition 5 A square matrix A = [ a ij ] is said to be skew symmetric matrix if A ′ = – A, that is a ji = – a ij for all possible values of i and j . Now, if we put i = j , we have a ii = – a ii . Therefore 2 a ii = 0 or a ii = 0 for all i ’s.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "definition_texts",
+          "locator": "1",
+          "object_type": null,
+          "text": "This means that all the diagonal elements of a skew symmetric matrix are zero.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "definition_texts",
+          "locator": "2",
+          "object_type": null,
+          "text": "Reprint 2026-27",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "ae57c21cab88e81a",
+          "object_type": "theorem",
+          "text": "Theorem 1 For any square matrix A with real number entries, A + A ′ is a symmetric matrix and A – A ′ is a skew symmetric matrix. Proof Let B = A + A ′ , then",
+          "latex": [
+            "Theorem 1 For any square matrix A with real number entries, A + A ′ is a symmetric matrix and A – A ′ is a skew symmetric matrix. Proof Let B = A + A ′ , then"
+          ]
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "977fdd67deb4905f",
+          "object_type": "theorem",
+          "text": "B ′ = (A + A ′ ) ′",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "e7b5c798a89b0c84",
+          "object_type": "theorem",
+          "text": "= A ′ + (A ′ ) ′ (as (A + B) ′ = A ′ + B ′ )",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "f4fcb65e7d4bb39e",
+          "object_type": "theorem",
+          "text": "= A ′ + A (as (A ′ ) ′ = A)",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "9f3e2fd275d028dd",
+          "object_type": "theorem",
+          "text": "= A + A ′ (as A + B = B + A)",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "87a8d1a873912944",
+          "object_type": "theorem",
+          "text": "= B",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "d946004ae2ee0af1",
+          "object_type": "theorem",
+          "text": "Therefore B = A + A ′ is a symmetric matrix",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "f2e9f6ca1d1cc58e",
+          "object_type": "theorem",
+          "text": "Now let C = A – A ′",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "c0950570505f83e8",
+          "object_type": "theorem",
+          "text": "C ′ = (A – A ′ ) ′ = A ′ – (A ′ ) ′ (Why?)",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "bdbbe6bc13ebc127",
+          "object_type": "theorem",
+          "text": "= A ′ – A (Why?)",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "06a755d47791cd2f",
+          "object_type": "theorem",
+          "text": "= – (A – A ′ ) = – C",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "cd02ac63b9c2e775",
+          "object_type": "theorem",
+          "text": "Therefore C = A – A ′ is a skew symmetric matrix.",
+          "latex": []
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "5a5c9ceb64db87bc",
+          "object_type": "theorem",
+          "text": "Theorem 2 Any square matrix can be expressed as the sum of a symmetric and a skew symmetric matrix.",
+          "latex": [
+            "Theorem 2 Any square matrix can be expressed as the sum of a symmetric and a skew symmetric matrix."
+          ]
+        },
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "ir_object",
+          "locator": "e468158456a79b46",
+          "object_type": "theorem",
+          "text": "Theorem 3",
+          "latex": []
+        }
+      ],
+      "note": ""
+    },
+    {
+      "kind": "formula",
+      "status": "empty",
+      "item_refs": [],
+      "note": ""
+    },
+    {
+      "kind": "summary",
+      "status": "present",
+      "item_refs": [
+        {
+          "concept_id": "concept.0e3243205095",
+          "concept_name": "skew symmetric matrix",
+          "source_field": "concept",
+          "locator": "concept.0e3243205095",
+          "object_type": null,
+          "text": "skew symmetric matrix (Hard)",
+          "latex": []
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "notes": []
+}

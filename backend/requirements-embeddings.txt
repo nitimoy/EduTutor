@@ -1,0 +1,5 @@
+# Optional heavy dependencies for the BGE-M3 production embedding provider.
+# Install with:  pip install -r backend/requirements-embeddings.txt
+# ~2.5 GB including the model download on first use.
+FlagEmbedding
+torch

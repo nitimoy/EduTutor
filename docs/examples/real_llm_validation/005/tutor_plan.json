@@ -1,0 +1,2909 @@
+{
+  "query": "Show me an example of Minors and Cofactors",
+  "intent": "worked_example",
+  "strategy": "worked_example_walkthrough",
+  "primary_concept_id": "concept.4407c78c6540",
+  "primary_concept_name": "Minors and Cofactors",
+  "prerequisites": {
+    "kind": "prerequisites",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "main_explanation": {
+    "kind": "main_explanation",
+    "status": "present",
+    "items": [
+      "Definition 1",
+      "Minor of an element a ij of a determinant is the determinant obtained by deleting its i th row and j th column in which element a ij lies. Minor of an element a ij is denoted by M ij .",
+      "Definition 2",
+      "Theorem 1"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "definition_texts",
+        "locator": "0",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "definition_texts",
+        "locator": "1",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "definition_texts",
+        "locator": "2",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "7b1519b37d6a6e0a",
+        "object_type": "theorem"
+      }
+    ],
+    "note": ""
+  },
+  "formula": {
+    "kind": "formula",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "worked_example": {
+    "kind": "worked_example",
+    "status": "present",
+    "items": [
+      "Example 8 Find the minor of element 6 in the determinant",
+      "7 8 9",
+      "Solution Since 6 lies in the second row and third column, its minor M 23 is given by",
+      "1 2 7 8 = 8 \u2013 14 = \u2013 6 (obtained by deleting R 2 and C 3 in \u2206 ).",
+      "M 23 =",
+      "Cofactor of an element a ij , denoted by A ij is defined by",
+      "A ij = (\u20131) i + j M ij , where M ij is minor of a ij .",
+      "1 \u20132",
+      "Example 9",
+      "Find minors and cofactors of all the elements of the determinant",
+      "4 3",
+      "Solution",
+      "Minor of the element a ij is M ij",
+      "Here a 11 = 1. So M 11 = Minor of a 11 = 3 M 12",
+      "= Minor of the element a 12 = 4 M 21 = Minor of the element a 21 = \u20132",
+      "M 22 = Minor of the element a 22 = 1",
+      "Now, cofactor of a ij is A ij . So",
+      "A 11 = (\u20131) 1 + 1 M 11 = (\u20131) 2 (3) = 3",
+      "A 12 = (\u20131) 1 + 2 M 12 = (\u20131) 3 (4) = \u2013 4",
+      "A 21 = (\u20131) 2 + 1 M 21 = (\u20131) 3 (\u20132) = 2",
+      "A 22 = (\u20131) 2 + 2 M 22 = (\u20131) 4 (1) = 1",
+      "Reprint 2026-27",
+      "DETERMINANTS 85",
+      "Example 10 Find minors and cofactors of the elements a 11 , a 21 in the determinant",
+      "11 12 13",
+      "\u2206 =",
+      "21 22 23",
+      "31 32 33",
+      "Solution",
+      "By definition of minors and cofactors, we have",
+      "a = a 22 a 33 \u2013 a 23 a 32",
+      "22 23",
+      "Minor of a 11 = M 11 =",
+      "32 33",
+      "Cofactor of a 11 = A 11 = (\u20131) 1+1 M 11 = a 22 a 33 \u2013 a 23 a 32",
+      "a = a 12 a 33 \u2013 a 13 a 32",
+      "12 13",
+      "Minor of a 21 = M 21 =",
+      "32 33",
+      "Cofactor of a 21 = A 21 = (\u20131) 2+1 M 21 = (\u20131) ( a 12 a 33 \u2013 a 13 a 32 ) = \u2013 a 12 a 33 + a 13 a 32 Remark Expanding the determinant \u2206 , in Example 21, along R 1 , we have",
+      "a + (\u20131) 1+2 a 12",
+      "a + (\u20131) 1+3 a 13",
+      "21 22",
+      "22 23",
+      "21 23",
+      "\u2206 = (\u20131) 1+1 a 11",
+      "31 32",
+      "32 33",
+      "31 33",
+      "= a 11 A 11 + a 12 A 12 + a 13 A 13 , where A ij is cofactor of a ij = sum of product of elements of R 1 with their corresponding cofactors Similarly, \u2206 can be calculated by other five ways of expansion that is along R 2 , R 3 , C 1 , C 2 and C 3 .",
+      "Hence \u2206 = sum of the product of elements of any row (or column) with their corresponding cofactors.",
+      "A Note If elements of a row (or column) are multiplied with cofactors of any other row (or column), then their sum is zero. For example,",
+      "\u2206 = a 11 A 21 + a 12 A 22 + a 13 A 23",
+      "a + a 12 (\u20131) 1+2 11 13",
+      "a + a 13 (\u20131) 1+3 11 12",
+      "12 13",
+      "= a 11 (\u20131) 1+1",
+      "32 33",
+      "31 33",
+      "31 32",
+      "11 12 13",
+      "= 0 (since R 1 and R 2 are identical)",
+      "11 12 13",
+      "31 32 33",
+      "Similarly, we can try for other rows and columns.",
+      "Reprint 2026-27",
+      "Example 11",
+      "Find minors and cofactors of the elements of the determinant",
+      "2 3 5 6 0 4 1 5 7",
+      "and verify that a 11 A 31 + a 12 A 32 + a 13 A 33 = 0",
+      "0 4",
+      "5 7 \u2013 = 0 \u201320 = \u201320; A 11 = (\u20131) 1+1 (\u201320) = \u201320",
+      "Solution",
+      "We have M 11 =",
+      "6 4",
+      "1 7 \u2013 = \u2013 42 \u2013 4 = \u2013 46; A 12 = (\u20131) 1+2 (\u2013 46) = 46",
+      "M 12 =",
+      "6 0",
+      "1 5 = 30 \u2013 0 = 30; A 13 = (\u20131) 1+3 (30) = 30",
+      "M 13 =",
+      "3 5",
+      "\u2013 = 21 \u2013 25 = \u2013 4; A 21 = (\u20131) 2+1 (\u2013 4) = 4",
+      "M 21 =",
+      "5 7",
+      "2 5",
+      "1 7 \u2013 = \u201314 \u2013 5 = \u201319; A 22 = (\u20131) 2+2 (\u201319) = \u201319",
+      "M 22 =",
+      "2 3 1 5 \u2013",
+      "= 10 + 3 = 13; A 23 = (\u20131) 2+3 (13) = \u201313",
+      "M 23 =",
+      "3 5",
+      "= \u201312 \u2013 0 = \u201312; A 31 = (\u20131) 3+1 (\u201312) = \u201312",
+      "M 31 =",
+      "0 4",
+      "2 5",
+      "6 4 = 8 \u2013 30 = \u201322; A 32 = (\u20131) 3+2 (\u201322) = 22",
+      "M 32 =",
+      "2 3",
+      "= 0 + 18 = 18; A 33 = (\u20131) 3+3 (18) = 18",
+      "and M 33 =",
+      "6 0",
+      "Now a 11 = 2, a 12 = \u20133, a 13 = 5; A 31 = \u201312, A 32 = 22, A 33 = 18",
+      "So a 11 A 31 + a 12 A 32 + a 13 A 33 = 2 (\u201312) + (\u20133) (22) + 5 (18) = \u201324 \u2013 66 + 90 = 0",
+      "Reprint 2026-27",
+      "DETERMINANTS 87",
+      "Example 12",
+      "2 3 Find A for A = 1 4 adj \uf8ee \uf8f9 \uf8ef \uf8fa \uf8f0 \uf8fb Solution We have A 11 = 4, A 12 = \u20131, A 21 = \u20133, A 22 = 2",
+      "AA 4 \u20133 = AA \u20131 2 \uf8ee \uf8f9 \uf8ef \uf8fa \uf8f0 \uf8fb Remark For a square matrix of order 2, given by",
+      "11 21",
+      "Hence adj A =",
+      "12 22",
+      "a \uf8ee \uf8f9 \uf8ef \uf8fa \uf8f0 \uf8fb The adj A can also be obtained by interchanging a 11 and a 22 and by changing signs of a 12 and a 21 , i.e.,",
+      "11 12",
+      "A =",
+      "21 22",
+      "We state the following theorem without proof.",
+      "If A be any given square matrix of order n , then",
+      "A( adj A) = ( adj A) A = AI ,",
+      "where I is the identity matrix of order n Verification",
+      "\uf8ee \uf8f9 \uf8ef \uf8fa \uf8f0 \uf8fb",
+      "\uf8ee \uf8f9 \uf8ef \uf8fa \uf8f0 \uf8fb Since sum of product of elements of a row (or a column) with corresponding cofactors is equal to |A| and otherwise zero, we have",
+      "AA",
+      "11 12 13",
+      "11 21 31",
+      "Let A =",
+      ", then adj A =",
+      "21 22 23",
+      "12 22 32",
+      "31 32 33",
+      "13 23 33",
+      "Reprint 2026-27",
+      "DETERMINANTS 89",
+      "\uf8ee \uf8f9 \uf8ef \uf8fa \uf8f0 \uf8fb",
+      "\uf8ee \uf8f9 \uf8ef \uf8fa \uf8f0 \uf8fb",
+      "A 0 A",
+      "1 0",
+      "= A",
+      "= AI",
+      "A ( adj A) =",
+      "0 1",
+      "Similarly, we can show ( adj A) A = AI",
+      "Hence A ( adj A) = ( adj A) A = AI"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "0",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "1",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "2",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "3",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "4",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "5",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "6",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "7",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "8",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "9",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "10",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "11",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "12",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "13",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "14",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "15",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "16",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "17",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "18",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "19",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "20",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "21",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "22",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "23",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "24",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "25",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "26",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "27",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "28",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "29",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "30",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "31",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "32",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "33",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "34",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "35",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "36",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "37",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "38",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "39",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "40",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "41",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "42",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "43",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "44",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "45",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "46",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "47",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "48",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "49",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "50",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "51",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "52",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "53",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "54",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "55",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "56",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "57",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "58",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "59",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "60",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "61",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "62",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "63",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "64",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "65",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "66",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "67",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "68",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "69",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "70",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "71",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "72",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "73",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "74",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "75",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "76",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "77",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "78",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "79",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "80",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "81",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "82",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "83",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "84",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "85",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "86",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "87",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "88",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "89",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "90",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "91",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "92",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "93",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "94",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "95",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "96",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "97",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "98",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "99",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "100",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "101",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "102",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "103",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "104",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "105",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "106",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "107",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "108",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "109",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "110",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "111",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "112",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "113",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "114",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "115",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "116",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "117",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "118",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "119",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "120",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "121",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "122",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "123",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "124",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "125",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "126",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "127",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "128",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "129",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "130",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "131",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "132",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "133",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "134",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "135",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "136",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "137",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "138",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "139",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "140",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "example_texts",
+        "locator": "141",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "proof": {
+    "kind": "proof",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "exercise": {
+    "kind": "exercise",
+    "status": "present",
+    "items": [
+      "EXERCISE 4.3",
+      "Write Minors and Cofactors of the elements of following determinants:",
+      "1. (i) 2 4 0 3 \u2013 (ii) a c b d",
+      "1 0",
+      "1 0 4 3 5 1",
+      "2. (i)",
+      "0 1 (ii)",
+      "0 1 2",
+      "5 3 8 2 0 1",
+      "3. Using Cofactors of elements of second row, evaluate \u2206 =",
+      "1 2 3 .",
+      "x yz y zx",
+      "4. Using Cofactors of elements of third column, evaluate \u2206 =",
+      "z xy",
+      "11 12 13",
+      "5. If \u2206 =",
+      "and A ij is Cofactors of a ij , then value of \u2206 is given by",
+      "21 22 23",
+      "31 32 33",
+      "(A) a 11 A 31 + a 12 A 32 + a 13 A 33 (B) a 11 A 11 + a 12 A 21 + a 13 A 31 (C) a 21 A 11 + a 22 A 12 + a 23 A 13 (D) a 11 A 11 + a 21 A 21 + a 31 A 31 4.5 Adjoint and Inverse of a Matrix In the previous chapter, we have studied inverse of a matrix. In this section, we shall discuss the condition for existence of inverse of a matrix.",
+      "To find inverse of a matrix A, i.e., A \u20131 we shall first define adjoint of a matrix.",
+      "4.5.1 Adjoint of a matrix Definition 3 The adjoint of a square matrix A = [ a ij ] n \u00d7 n is defined as the transpose of the matrix [A ij ] n \u00d7 n , where A ij is the cofactor of the element a ij . Adjoint of the matrix A is denoted by adj A.",
+      "\uf8ee \uf8f9 \uf8ef \uf8fa \uf8f0 \uf8fb",
+      "11 12 13",
+      "Let",
+      "A =",
+      "21 22 23",
+      "31 32 33",
+      "Reprint 2026-27",
+      "\uf8ee \uf8f9 \uf8ef \uf8fa \uf8f0 \uf8fb",
+      "\uf8ee \uf8f9 \uf8ef \uf8fa \uf8f0 \uf8fb",
+      "AA =Transposeof AA A",
+      "AA A = AA A",
+      "11 12 13",
+      "11 21 31",
+      "adj",
+      "Then",
+      "21 22 23",
+      "12 22 32",
+      "31 32 33",
+      "13 23 33"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "31449ce5b3d923b4",
+        "object_type": "exercise"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "6d485195f9e49ae7",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "f4b39bc7ac66114f",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "a1b1f68a622f1e25",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "aa10255b87f0a340",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "cdb354999cad9d50",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "e2a9af82662dd54d",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "d0f06f2fab5d65a5",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "fe164dedc8679b4d",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "606a7a660f19ddca",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "106fb870dc620409",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "3def84b14221ed3f",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "bf6151ae4297558d",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "3a19504477ee04ab",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "cffb5ab546740bcc",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "462d33fc7a4057d3",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "c2688ed3ebcaa660",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "d6d3ff46908ba223",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "676aeb74a8545530",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "aaf94e28dbaad548",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "e0906e5075ce2155",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "70b02309536b85f8",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "a12eb8505221c2ee",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "a6d7d05449cc3640",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "950b018c21e0b7d0",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "f163e392945dddf9",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "6e29127a00797126",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "a9b7bbf9403c54ea",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "43a42b80e52cf5f7",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "c6ead09a8a765977",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "292032757b2c96b5",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "915f342a4360a1dc",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "c5080b6e891f6fb9",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "e32a970eed3588cc",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "99f11202ae373280",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "eb4248f8ae776a2f",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "06f5148c2ea0deec",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "8ba941ea0045f1ab",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "5df0d6371e60045a",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "58cb8d5692913bcc",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "ir_object",
+        "locator": "2862453e5d74e4a5",
+        "object_type": "exercise_question"
+      }
+    ],
+    "note": ""
+  },
+  "comparison": {
+    "kind": "comparison",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "related_concepts": {
+    "kind": "related_concepts",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "suggested_next_topics": {
+    "kind": "next_topics",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "summary": {
+    "kind": "summary",
+    "status": "present",
+    "items": [
+      "Minors and Cofactors (Medium)"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.4407c78c6540",
+        "concept_name": "Minors and Cofactors",
+        "source_field": "concept",
+        "locator": "concept.4407c78c6540",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "references": [
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "0",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "1",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "2",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "3",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "4",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "5",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "6",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "7",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "8",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "9",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "10",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "11",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "12",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "13",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "14",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "15",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "16",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "17",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "18",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "19",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "20",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "21",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "22",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "23",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "24",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "25",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "26",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "27",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "28",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "29",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "30",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "31",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "32",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "33",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "34",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "35",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "36",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "37",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "38",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "39",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "40",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "41",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "42",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "43",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "44",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "45",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "46",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "47",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "48",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "49",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "50",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "51",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "52",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "53",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "54",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "55",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "56",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "57",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "58",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "59",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "60",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "61",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "62",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "63",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "64",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "65",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "66",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "67",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "68",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "69",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "70",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "71",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "72",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "73",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "74",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "75",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "76",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "77",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "78",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "79",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "80",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "81",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "82",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "83",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "84",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "85",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "86",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "87",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "88",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "89",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "90",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "91",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "92",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "93",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "94",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "95",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "96",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "97",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "98",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "99",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "100",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "101",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "102",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "103",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "104",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "105",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "106",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "107",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "108",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "109",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "110",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "111",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "112",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "113",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "114",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "115",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "116",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "117",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "118",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "119",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "120",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "121",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "122",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "123",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "124",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "125",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "126",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "127",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "128",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "129",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "130",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "131",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "132",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "133",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "134",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "135",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "136",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "137",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "138",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "139",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "140",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "example_texts",
+      "locator": "141",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "definition_texts",
+      "locator": "0",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "definition_texts",
+      "locator": "1",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "definition_texts",
+      "locator": "2",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "7b1519b37d6a6e0a",
+      "object_type": "theorem"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "31449ce5b3d923b4",
+      "object_type": "exercise"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "6d485195f9e49ae7",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "f4b39bc7ac66114f",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "a1b1f68a622f1e25",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "aa10255b87f0a340",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "cdb354999cad9d50",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "e2a9af82662dd54d",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "d0f06f2fab5d65a5",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "fe164dedc8679b4d",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "606a7a660f19ddca",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "106fb870dc620409",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "3def84b14221ed3f",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "bf6151ae4297558d",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "3a19504477ee04ab",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "cffb5ab546740bcc",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "462d33fc7a4057d3",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "c2688ed3ebcaa660",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "d6d3ff46908ba223",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "676aeb74a8545530",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "aaf94e28dbaad548",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "e0906e5075ce2155",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "70b02309536b85f8",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "a12eb8505221c2ee",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "a6d7d05449cc3640",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "950b018c21e0b7d0",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "f163e392945dddf9",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "6e29127a00797126",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "a9b7bbf9403c54ea",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "43a42b80e52cf5f7",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "c6ead09a8a765977",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "292032757b2c96b5",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "915f342a4360a1dc",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "c5080b6e891f6fb9",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "e32a970eed3588cc",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "99f11202ae373280",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "eb4248f8ae776a2f",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "06f5148c2ea0deec",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "8ba941ea0045f1ab",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "5df0d6371e60045a",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "58cb8d5692913bcc",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "ir_object",
+      "locator": "2862453e5d74e4a5",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.4407c78c6540",
+      "concept_name": "Minors and Cofactors",
+      "source_field": "concept",
+      "locator": "concept.4407c78c6540",
+      "object_type": null
+    }
+  ],
+  "notes": [],
+  "deterministic": true
+}

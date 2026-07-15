@@ -1,0 +1,1062 @@
+[
+  {
+    "query": "What is Lenz's law?",
+    "expected": {
+      "primary_concept": "Lenz's law",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Capacitors in parallel?",
+    "expected": {
+      "primary_concept": "Capacitors in parallel",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Magnetic Field On The Axis Of Ac Ircular Current Loop?",
+    "expected": {
+      "primary_concept": "Magnetic Field On The Axis Of Ac Ircular Current Loop",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Kirchhoff \u2019 Sr Ules?",
+    "expected": {
+      "primary_concept": "Kirchhoff \u2019 Sr Ules",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Sources of electromagnetic waves?",
+    "expected": {
+      "primary_concept": "Sources of electromagnetic waves",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Physical significance of dipoles?",
+    "expected": {
+      "primary_concept": "Physical significance of dipoles",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Nicola Tesla?",
+    "expected": {
+      "primary_concept": "Nicola Tesla",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is of linear, surface and volume?",
+    "expected": {
+      "primary_concept": "of linear, surface and volume",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Magnetism And Gauss \u2019 Sl Aw?",
+    "expected": {
+      "primary_concept": "Magnetism And Gauss \u2019 Sl Aw",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Ac Generator?",
+    "expected": {
+      "primary_concept": "Ac Generator",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What are the types of Sources of electromagnetic waves?",
+    "expected": {
+      "primary_concept": "Sources of electromagnetic waves",
+      "intent": "explanation",
+      "goal": "classify_or_compare"
+    }
+  },
+  {
+    "query": "What are the types of Mutual inductance?",
+    "expected": {
+      "primary_concept": "Mutual inductance",
+      "intent": "explanation",
+      "goal": "classify_or_compare"
+    }
+  },
+  {
+    "query": "What are the types of Temperature Dependence Of Resistivity?",
+    "expected": {
+      "primary_concept": "Temperature Dependence Of Resistivity",
+      "intent": "explanation",
+      "goal": "classify_or_compare"
+    }
+  },
+  {
+    "query": "What are the types of The dipole in auniform magnetic field?",
+    "expected": {
+      "primary_concept": "The dipole in auniform magnetic field",
+      "intent": "explanation",
+      "goal": "classify_or_compare"
+    }
+  },
+  {
+    "query": "What are the types of Kirchhoff \u2019 Sr Ules?",
+    "expected": {
+      "primary_concept": "Kirchhoff \u2019 Sr Ules",
+      "intent": "explanation",
+      "goal": "classify_or_compare"
+    }
+  },
+  {
+    "query": "What are the types of Kirchhoff \u2019 Sr Ules?",
+    "expected": {
+      "primary_concept": "Kirchhoff \u2019 Sr Ules",
+      "intent": "explanation",
+      "goal": "classify_or_compare"
+    }
+  },
+  {
+    "query": "What are the types of Magnetisation And Magnetic Intensity?",
+    "expected": {
+      "primary_concept": "Magnetisation And Magnetic Intensity",
+      "intent": "explanation",
+      "goal": "classify_or_compare"
+    }
+  },
+  {
+    "query": "What are the types of Forces Between Multiple Charges?",
+    "expected": {
+      "primary_concept": "Forces Between Multiple Charges",
+      "intent": "explanation",
+      "goal": "classify_or_compare"
+    }
+  },
+  {
+    "query": "What are the types of Ac Voltage Applied To An Inductor?",
+    "expected": {
+      "primary_concept": "Ac Voltage Applied To An Inductor",
+      "intent": "explanation",
+      "goal": "classify_or_compare"
+    }
+  },
+  {
+    "query": "What are the types of Potential energy of asystem of two charges in an external field?",
+    "expected": {
+      "primary_concept": "Potential energy of asystem of two charges in an external field",
+      "intent": "explanation",
+      "goal": "classify_or_compare"
+    }
+  },
+  {
+    "query": "Where should I start to learn of linear, surface and volume?",
+    "expected": {
+      "primary_concept": "of linear, surface and volume",
+      "intent": "prerequisite",
+      "strategy": "prerequisite_pathway",
+      "must_have_sections": [
+        "prerequisites"
+      ]
+    }
+  },
+  {
+    "query": "Where should I start to learn Power In Ac Circuit : The Power Factor?",
+    "expected": {
+      "primary_concept": "Power In Ac Circuit : The Power Factor",
+      "intent": "prerequisite",
+      "strategy": "prerequisite_pathway",
+      "must_have_sections": [
+        "prerequisites"
+      ]
+    }
+  },
+  {
+    "query": "Where should I start to learn Electrostatics Magnetism?",
+    "expected": {
+      "primary_concept": "Electrostatics Magnetism",
+      "intent": "prerequisite",
+      "strategy": "prerequisite_pathway",
+      "must_have_sections": [
+        "prerequisites"
+      ]
+    }
+  },
+  {
+    "query": "Where should I start to learn Physical significance of electric field?",
+    "expected": {
+      "primary_concept": "Physical significance of electric field",
+      "intent": "prerequisite",
+      "strategy": "prerequisite_pathway",
+      "must_have_sections": [
+        "prerequisites"
+      ]
+    }
+  },
+  {
+    "query": "Where should I start to learn Ac Voltage Applied To Ac Apacitor?",
+    "expected": {
+      "primary_concept": "Ac Voltage Applied To Ac Apacitor",
+      "intent": "prerequisite",
+      "strategy": "prerequisite_pathway",
+      "must_have_sections": [
+        "prerequisites"
+      ]
+    }
+  },
+  {
+    "query": "Where should I start to learn Magnetic Field Due To Ac Urrent Element , Biot -Savart Law?",
+    "expected": {
+      "primary_concept": "Magnetic Field Due To Ac Urrent Element , Biot -Savart Law",
+      "intent": "prerequisite",
+      "strategy": "prerequisite_pathway",
+      "must_have_sections": [
+        "prerequisites"
+      ]
+    }
+  },
+  {
+    "query": "Where should I start to learn Power In Ac Circuit : The Power Factor?",
+    "expected": {
+      "primary_concept": "Power In Ac Circuit : The Power Factor",
+      "intent": "prerequisite",
+      "strategy": "prerequisite_pathway",
+      "must_have_sections": [
+        "prerequisites"
+      ]
+    }
+  },
+  {
+    "query": "Where should I start to learn Temperature Dependence Of Resistivity?",
+    "expected": {
+      "primary_concept": "Temperature Dependence Of Resistivity",
+      "intent": "prerequisite",
+      "strategy": "prerequisite_pathway",
+      "must_have_sections": [
+        "prerequisites"
+      ]
+    }
+  },
+  {
+    "query": "Where should I start to learn Nature of electromagnetic waves?",
+    "expected": {
+      "primary_concept": "Nature of electromagnetic waves",
+      "intent": "prerequisite",
+      "strategy": "prerequisite_pathway",
+      "must_have_sections": [
+        "prerequisites"
+      ]
+    }
+  },
+  {
+    "query": "Where should I start to learn Ac Voltage Applied To An Inductor?",
+    "expected": {
+      "primary_concept": "Ac Voltage Applied To An Inductor",
+      "intent": "prerequisite",
+      "strategy": "prerequisite_pathway",
+      "must_have_sections": [
+        "prerequisites"
+      ]
+    }
+  },
+  {
+    "query": "Compare Lenz's law and Capacitors in parallel",
+    "expected": {
+      "intent": "comparison",
+      "strategy": "compare_and_contrast",
+      "must_have_sections": [
+        "comparison"
+      ]
+    }
+  },
+  {
+    "query": "Compare Magnetic Field On The Axis Of Ac Ircular Current Loop and Kirchhoff \u2019 Sr Ules",
+    "expected": {
+      "intent": "comparison",
+      "strategy": "compare_and_contrast",
+      "must_have_sections": [
+        "comparison"
+      ]
+    }
+  },
+  {
+    "query": "Compare Sources of electromagnetic waves and Physical significance of dipoles",
+    "expected": {
+      "intent": "comparison",
+      "strategy": "compare_and_contrast",
+      "must_have_sections": [
+        "comparison"
+      ]
+    }
+  },
+  {
+    "query": "Who is the president of USA?",
+    "expected": {
+      "supported": false
+    }
+  },
+  {
+    "query": "How to cook pasta?",
+    "expected": {
+      "supported": false
+    }
+  },
+  {
+    "query": "Explain quantum string theory",
+    "expected": {
+      "supported": false
+    }
+  },
+  {
+    "query": "What is the capital of France?",
+    "expected": {
+      "supported": false
+    }
+  },
+  {
+    "query": "What is a matrix in chemistry?",
+    "expected": {
+      "supported": false
+    }
+  },
+  {
+    "query": "Explain Coulomb's law in the context of biology.",
+    "expected": {
+      "supported": false
+    }
+  },
+  {
+    "query": "Compare conductor and capacitor in maths.",
+    "expected": {
+      "supported": false
+    }
+  },
+  {
+    "query": "Summarize Resonance quickly",
+    "expected": {
+      "primary_concept": "Resonance",
+      "intent": "revision",
+      "strategy": "revision_summary",
+      "must_have_sections": [
+        "summary"
+      ],
+      "must_not_have_sections": [
+        "worked_example",
+        "exercise"
+      ]
+    }
+  },
+  {
+    "query": "Summarize Field due to auniformly charged thin spherical shell quickly",
+    "expected": {
+      "primary_concept": "Field due to auniformly charged thin spherical shell",
+      "intent": "revision",
+      "strategy": "revision_summary",
+      "must_have_sections": [
+        "summary"
+      ],
+      "must_not_have_sections": [
+        "worked_example",
+        "exercise"
+      ]
+    }
+  },
+  {
+    "query": "Summarize Nature of electromagnetic waves quickly",
+    "expected": {
+      "primary_concept": "Nature of electromagnetic waves",
+      "intent": "revision",
+      "strategy": "revision_summary",
+      "must_have_sections": [
+        "summary"
+      ],
+      "must_not_have_sections": [
+        "worked_example",
+        "exercise"
+      ]
+    }
+  },
+  {
+    "query": "Summarize Magnetic force on a current-carrying conductor quickly",
+    "expected": {
+      "primary_concept": "Magnetic force on a current-carrying conductor",
+      "intent": "revision",
+      "strategy": "revision_summary",
+      "must_have_sections": [
+        "summary"
+      ],
+      "must_not_have_sections": [
+        "worked_example",
+        "exercise"
+      ]
+    }
+  },
+  {
+    "query": "Summarize Motional Electromotive Force quickly",
+    "expected": {
+      "primary_concept": "Motional Electromotive Force",
+      "intent": "revision",
+      "strategy": "revision_summary",
+      "must_have_sections": [
+        "summary"
+      ],
+      "must_not_have_sections": [
+        "worked_example",
+        "exercise"
+      ]
+    }
+  },
+  {
+    "query": "Summarize Resonance quickly",
+    "expected": {
+      "primary_concept": "Resonance",
+      "intent": "revision",
+      "strategy": "revision_summary",
+      "must_have_sections": [
+        "summary"
+      ],
+      "must_not_have_sections": [
+        "worked_example",
+        "exercise"
+      ]
+    }
+  },
+  {
+    "query": "Summarize Of Resistivity quickly",
+    "expected": {
+      "primary_concept": "Of Resistivity",
+      "intent": "revision",
+      "strategy": "revision_summary",
+      "must_have_sections": [
+        "summary"
+      ],
+      "must_not_have_sections": [
+        "worked_example",
+        "exercise"
+      ]
+    }
+  },
+  {
+    "query": "Summarize Magnetic force on a current-carrying conductor quickly",
+    "expected": {
+      "primary_concept": "Magnetic force on a current-carrying conductor",
+      "intent": "revision",
+      "strategy": "revision_summary",
+      "must_have_sections": [
+        "summary"
+      ],
+      "must_not_have_sections": [
+        "worked_example",
+        "exercise"
+      ]
+    }
+  },
+  {
+    "query": "Summarize Sources of electromagnetic waves quickly",
+    "expected": {
+      "primary_concept": "Sources of electromagnetic waves",
+      "intent": "revision",
+      "strategy": "revision_summary",
+      "must_have_sections": [
+        "summary"
+      ],
+      "must_not_have_sections": [
+        "worked_example",
+        "exercise"
+      ]
+    }
+  },
+  {
+    "query": "Summarize The Solenoid quickly",
+    "expected": {
+      "primary_concept": "The Solenoid",
+      "intent": "revision",
+      "strategy": "revision_summary",
+      "must_have_sections": [
+        "summary"
+      ],
+      "must_not_have_sections": [
+        "worked_example",
+        "exercise"
+      ]
+    }
+  },
+  {
+    "query": "What is Quantisation of charge?",
+    "expected": {
+      "primary_concept": "Quantisation of charge",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Coulomb's law?",
+    "expected": {
+      "primary_concept": "Coulomb's law",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Types of Relations in detail.",
+    "expected": {
+      "primary_concept": "Types of Relations",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain empty relation in detail.",
+    "expected": {
+      "primary_concept": "empty relation",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain universal relation in detail.",
+    "expected": {
+      "primary_concept": "universal relation",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain an equivalence relation in detail.",
+    "expected": {
+      "primary_concept": "an equivalence relation",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Types of Functions in detail.",
+    "expected": {
+      "primary_concept": "Types of Functions",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain one-one and onto in detail.",
+    "expected": {
+      "primary_concept": "one-one and onto",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Invertible Function in detail.",
+    "expected": {
+      "primary_concept": "Invertible Function",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Remarks in detail.",
+    "expected": {
+      "primary_concept": "Remarks",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain ANote in detail.",
+    "expected": {
+      "primary_concept": "ANote",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Properties of Inverse Trigonometric Functions in detail.",
+    "expected": {
+      "primary_concept": "Properties of Inverse Trigonometric Functions",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Equality of matrices in detail.",
+    "expected": {
+      "primary_concept": "Equality of matrices",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Operations on Matrices in detail.",
+    "expected": {
+      "primary_concept": "Operations on Matrices",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Negative of amatrix in detail.",
+    "expected": {
+      "primary_concept": "Negative of amatrix",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Properties of multiplication of matrices in detail.",
+    "expected": {
+      "primary_concept": "Properties of multiplication of matrices",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Properties of transpose of the matrices in detail.",
+    "expected": {
+      "primary_concept": "Properties of transpose of the matrices",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Symmetric and Skew Symmetric Matrices in detail.",
+    "expected": {
+      "primary_concept": "Symmetric and Skew Symmetric Matrices",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain skew symmetric matrix in detail.",
+    "expected": {
+      "primary_concept": "skew symmetric matrix",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "must_have_sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How do I solve problems on Expressing Concentration of Solutions?",
+    "expected": {
+      "primary_concept": "Expressing Concentration of Solutions",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "must_have_sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How do I solve problems on Gas Temperature/KK H /kbar?",
+    "expected": {
+      "primary_concept": "Gas Temperature/KK H /kbar",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "must_have_sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How do I solve problems on the Raoult's law?",
+    "expected": {
+      "primary_concept": "the Raoult's law",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "must_have_sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How do I solve problems on Relative Lowering of Vapour Pressure?",
+    "expected": {
+      "primary_concept": "Relative Lowering of Vapour Pressure",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "must_have_sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How do I solve problems on Elevation of Boiling Point?",
+    "expected": {
+      "primary_concept": "Elevation of Boiling Point",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "must_have_sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How do I solve problems on Depression Constants for Some Solvents?",
+    "expected": {
+      "primary_concept": "Depression Constants for Some Solvents",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "must_have_sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How do I solve problems on Osmosis and Osmotic Pressure?",
+    "expected": {
+      "primary_concept": "Osmosis and Osmotic Pressure",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "must_have_sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How do I solve problems on Salt?",
+    "expected": {
+      "primary_concept": "Salt",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "must_have_sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How do I solve problems on the following terms?",
+    "expected": {
+      "primary_concept": "the following terms",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "must_have_sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Can you explain Electro- chemical Cell and Gibbs Energy of the Reaction to me?",
+    "expected": {
+      "primary_concept": "Electro- chemical Cell and Gibbs Energy of the Reaction",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Concentration/Molarity Conductivity Molar Conductivity to me?",
+    "expected": {
+      "primary_concept": "Concentration/Molarity Conductivity Molar Conductivity",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Strong Electrolytes to me?",
+    "expected": {
+      "primary_concept": "Strong Electrolytes",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Faraday\u2019s Laws of Electrolysis to me?",
+    "expected": {
+      "primary_concept": "Faraday\u2019s Laws of Electrolysis",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain conductivity and molar conductivity for the solution of an electrolyte. Discuss to me?",
+    "expected": {
+      "primary_concept": "conductivity and molar conductivity for the solution of an electrolyte. Discuss",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Units of rate of areaction to me?",
+    "expected": {
+      "primary_concept": "Units of rate of areaction",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Order of aReaction to me?",
+    "expected": {
+      "primary_concept": "Order of aReaction",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain First Order Reactions to me?",
+    "expected": {
+      "primary_concept": "First Order Reactions",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Half-Life of aReaction to me?",
+    "expected": {
+      "primary_concept": "Half-Life of aReaction",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Temperature Dependence of the Rate of aReaction to me?",
+    "expected": {
+      "primary_concept": "Temperature Dependence of the Rate of aReaction",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain th Series to me?",
+    "expected": {
+      "primary_concept": "th Series",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Density/g cm to me?",
+    "expected": {
+      "primary_concept": "Density/g cm",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain + /M Standard Electrode Potentials to me?",
+    "expected": {
+      "primary_concept": "+ /M Standard Electrode Potentials",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Groups to me?",
+    "expected": {
+      "primary_concept": "Groups",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Values to me?",
+    "expected": {
+      "primary_concept": "Values",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Calculated Observed to me?",
+    "expected": {
+      "primary_concept": "Calculated Observed",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Alloy Formation to me?",
+    "expected": {
+      "primary_concept": "Alloy Formation",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain General Characteristics and Comparison with Lanthanoids to me?",
+    "expected": {
+      "primary_concept": "General Characteristics and Comparison with Lanthanoids",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain corresponds to to me?",
+    "expected": {
+      "primary_concept": "corresponds to",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Naming of Mononuclear Coordination Compounds to me?",
+    "expected": {
+      "primary_concept": "Naming of Mononuclear Coordination Compounds",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Geometric Isomerism to me?",
+    "expected": {
+      "primary_concept": "Geometric Isomerism",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Optical Isomerism to me?",
+    "expected": {
+      "primary_concept": "Optical Isomerism",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Magnetic Properties of Coordination Compounds to me?",
+    "expected": {
+      "primary_concept": "Magnetic Properties of Coordination Compounds",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  },
+  {
+    "query": "Can you explain Illustration to me?",
+    "expected": {
+      "primary_concept": "Illustration",
+      "intent": "definition",
+      "strategy": "concept_explanation"
+    }
+  }
+]

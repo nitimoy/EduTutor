@@ -1,0 +1,37 @@
+{
+  "unit_id": "c1::main_explanation",
+  "unit_kind": "main_explanation",
+  "system": "You are a teaching renderer. Rephrase ONLY the provided content into clear, natural prose for a student. Do NOT add facts, examples, numbers, formulas, or concepts that are not present in the content. Do NOT reorder or merge unrelated points. Preserve every citation marker exactly as given. Output only the rendered section text.\n\nDEFINITION-ONLY RESPONSE: The student asked for a definition. Provide ONLY a clear, concise definition of the concept. Do NOT include examples, notation, properties, or worked problems. Keep it to 2-3 sentences maximum. If the Content block has a definition, use it. If not, state that no definition is available in the current source material.\nSection: main_explanation.\nTone: clear and encouraging.\nFormat: short paragraphs.\nThe student asked: What is c1?",
+  "blocks": [
+    {
+      "label": "Content",
+      "lines": [
+        "C1 is the first thing."
+      ]
+    },
+    {
+      "label": "Citations",
+      "lines": [
+        "[C1] concept=c1 field=definition_texts locator=0"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "concept_id": "c1",
+      "concept_name": "C1",
+      "source_field": "definition_texts",
+      "locator": "0",
+      "object_type": null,
+      "subject": "",
+      "chapter": ""
+    }
+  ],
+  "metadata": {
+    "section": "main_explanation",
+    "intent": "definition",
+    "strategy": "concept_explanation",
+    "preset": "default",
+    "model_id": "echo-v1"
+  }
+}

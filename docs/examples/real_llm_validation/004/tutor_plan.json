@@ -1,0 +1,342 @@
+{
+  "query": "Show me an example of universal relation",
+  "intent": "worked_example",
+  "strategy": "worked_example_walkthrough",
+  "primary_concept_id": "concept.cb2eaca4b418",
+  "primary_concept_name": "universal relation",
+  "prerequisites": {
+    "kind": "prerequisites",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "main_explanation": {
+    "kind": "main_explanation",
+    "status": "present",
+    "items": [
+      "Definition 2 A relation R in a set A is called universal relation , if each element of A is related to every element of A, i.e., R = A \u00d7 A.",
+      "Both the empty relation and the universal relation are some times called trivial relations .",
+      "Definition 3",
+      "Definition 4"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "definition_texts",
+        "locator": "0",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "definition_texts",
+        "locator": "1",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "definition_texts",
+        "locator": "2",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "definition_texts",
+        "locator": "3",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "formula": {
+    "kind": "formula",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "worked_example": {
+    "kind": "worked_example",
+    "status": "present",
+    "items": [
+      "Example 1",
+      "Let A be the set of all students of a boys school. Show that the relation R in A given by R = {( a , b ) : a is sister of b } is the empty relation and R \u2032 = {( a , b ) : the difference between heights of a and b is less than 3 meters} is the universal relation.",
+      "Solution Since the school is boys school, no student of the school can be sister of any student of the school. Hence, R = \u03c6 , showing that R is the empty relation. It is also obvious that the difference between heights of any two students of the school has to be less than 3 meters. This shows that R \u2032 = A \u00d7 A is the universal relation.",
+      "In Class XI, we have seen two ways of representing a relation, namely raster method and set builder method. However, a relation R in the set {1, 2, 3, 4} defined by R = {( a , b ) : b = a + 1} is also expressed as a R b if and only if b = a + 1 by many authors. We may also use this notation, as and when convenient.",
+      "If ( a , b ) \u2208 R, we say that a is related to b and we denote it as a R b .",
+      "One of the most important relation, which plays a significant role in Mathematics, is an equivalence relation . To study equivalence relation, we first consider three types of relations, namely reflexive, symmetric and transitive.",
+      "A relation R in a set A is called",
+      "(i) reflexive , if ( a , a ) \u2208 R, for every a \u2208 A,",
+      "(ii) symmetric , if ( a 1 , a 2 ) \u2208 R implies that ( a 2 , a 1 ) \u2208 R, for all a 1 , a 2 \u2208 A.",
+      "(iii) transitive , if ( a 1 , a 2 ) \u2208 R and ( a 2 , a 3 ) \u2208 R implies that ( a 1 , a 3 ) \u2208 R, for all a 1 , a 2 , a 3 \u2208 A.",
+      "Reprint 2026-27",
+      "RELATIONS AND FUNCTIONS 3"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "0",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "1",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "2",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "3",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "4",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "5",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "6",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "7",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "8",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "9",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "10",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "example_texts",
+        "locator": "11",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "proof": {
+    "kind": "proof",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "exercise": {
+    "kind": "exercise",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "comparison": {
+    "kind": "comparison",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "related_concepts": {
+    "kind": "related_concepts",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "suggested_next_topics": {
+    "kind": "next_topics",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "summary": {
+    "kind": "summary",
+    "status": "present",
+    "items": [
+      "universal relation (Easy)"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.cb2eaca4b418",
+        "concept_name": "universal relation",
+        "source_field": "concept",
+        "locator": "concept.cb2eaca4b418",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "references": [
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "0",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "1",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "2",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "3",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "4",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "5",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "6",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "7",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "8",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "9",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "10",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "example_texts",
+      "locator": "11",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "definition_texts",
+      "locator": "0",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "definition_texts",
+      "locator": "1",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "definition_texts",
+      "locator": "2",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "definition_texts",
+      "locator": "3",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.cb2eaca4b418",
+      "concept_name": "universal relation",
+      "source_field": "concept",
+      "locator": "concept.cb2eaca4b418",
+      "object_type": null
+    }
+  ],
+  "notes": [],
+  "deterministic": true
+}

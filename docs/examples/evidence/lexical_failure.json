@@ -1,0 +1,11 @@
+{
+  "supported": false,
+  "reason": "Evidence rejected: Zero lexical overlap between query and primary concept.",
+  "retrieval_score": 0.0,
+  "coverage": 0.0,
+  "planner_supported": false,
+  "presence": "NOT_FOUND",
+  "issues": [
+    "Zero lexical overlap between query and primary concept."
+  ]
+}

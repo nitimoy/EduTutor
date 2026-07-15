@@ -1,0 +1,297 @@
+{
+  "query": "Explain Operations on Matrices",
+  "intent": "explanation",
+  "strategy": "worked_example_walkthrough",
+  "primary_concept_id": "concept.bdb87927b59a",
+  "primary_concept_name": "Operations on Matrices",
+  "prerequisites": {
+    "kind": "prerequisites",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "main_explanation": {
+    "kind": "main_explanation",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "formula": {
+    "kind": "formula",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "worked_example": {
+    "kind": "worked_example",
+    "status": "present",
+    "items": [
+      "Example 6",
+      "Given 3 1 A",
+      "and",
+      ", find A + B",
+      "2 3 0",
+      "Since A, B are of the same order 2 \u00d7 3. Therefore, addition of A and B is defined and is given by",
+      "\uf8ee \uf8f9 + \u2212 + \uf8ef \uf8fa = \uf8ef \uf8fa \u2212 + \uf8ef \uf8fa \uf8f0 \uf8fb A Note",
+      "2 3 1 5 1 2 3 1 5 0 A+B 1 2 3 0 6 2",
+      "1. We emphasise that if A and B are not of the same order, then A + B is not",
+      "defined. For example if 2 3 A 1 0 \uf8ee \uf8f9 = \uf8ef \uf8fa \uf8f0 \uf8fb",
+      ", 1 2 3 B , 1 0 1 \uf8ee \uf8f9 = \uf8ef \uf8fa \uf8f0 \uf8fb",
+      "then A + B is not defined.",
+      "2. We may observe that addition of matrices is an example of binary operation on the set of matrices of the same order."
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "0",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "1",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "2",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "3",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "4",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "5",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "6",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "7",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "8",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "9",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "10",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "11",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "example_texts",
+        "locator": "12",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "proof": {
+    "kind": "proof",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "exercise": {
+    "kind": "exercise",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "comparison": {
+    "kind": "comparison",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "related_concepts": {
+    "kind": "related_concepts",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "suggested_next_topics": {
+    "kind": "next_topics",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "summary": {
+    "kind": "summary",
+    "status": "present",
+    "items": [
+      "Operations on Matrices (Easy)"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.bdb87927b59a",
+        "concept_name": "Operations on Matrices",
+        "source_field": "concept",
+        "locator": "concept.bdb87927b59a",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "references": [
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "0",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "1",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "2",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "3",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "4",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "5",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "6",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "7",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "8",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "9",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "10",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "11",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "example_texts",
+      "locator": "12",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.bdb87927b59a",
+      "concept_name": "Operations on Matrices",
+      "source_field": "concept",
+      "locator": "concept.bdb87927b59a",
+      "object_type": null
+    }
+  ],
+  "notes": [
+    "intent 'explanation' \u2192 'concept_explanation' unavailable (lead section 'main_explanation' has no backing content); fell back to 'worked_example_walkthrough'"
+  ],
+  "deterministic": true
+}

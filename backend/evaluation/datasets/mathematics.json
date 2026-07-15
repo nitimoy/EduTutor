@@ -1,0 +1,1016 @@
+[
+  {
+    "query": "Explain Operations on Matrices",
+    "expected": {
+      "concept": "Operations on Matrices",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Rate of Change of Quantities",
+    "expected": {
+      "concept": "Rate of Change of Quantities",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is y = log b x \u2013 log b y?",
+    "expected": {
+      "concept": "y = log b x \u2013 log b y",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of universal relation",
+    "expected": {
+      "concept": "universal relation",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Minors and Cofactors",
+    "expected": {
+      "concept": "Minors and Cofactors",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Properties of transpose of the matrices?",
+    "expected": {
+      "concept": "Properties of transpose of the matrices",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Properties of Inverse Trigonometric Functions?",
+    "expected": {
+      "concept": "Properties of Inverse Trigonometric Functions",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of singular",
+    "expected": {
+      "concept": "singular",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Negative of amatrix",
+    "expected": {
+      "concept": "Negative of amatrix",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Rate of Change of Quantities",
+    "expected": {
+      "concept": "Rate of Change of Quantities",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain one-one",
+    "expected": {
+      "concept": "one-one",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Case I",
+    "expected": {
+      "concept": "Case I",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Properties of multiplication of matrices",
+    "expected": {
+      "concept": "Properties of multiplication of matrices",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain an equivalence relation",
+    "expected": {
+      "concept": "an equivalence relation",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Derivatives of Functions in Parametric Forms",
+    "expected": {
+      "concept": "Derivatives of Functions in Parametric Forms",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Minors and Cofactors",
+    "expected": {
+      "concept": "Minors and Cofactors",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is ANote?",
+    "expected": {
+      "concept": "ANote",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is universal relation?",
+    "expected": {
+      "concept": "universal relation",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain an equivalence relation",
+    "expected": {
+      "concept": "an equivalence relation",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Properties of transpose of the matrices",
+    "expected": {
+      "concept": "Properties of transpose of the matrices",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain an equivalence relation",
+    "expected": {
+      "concept": "an equivalence relation",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of continuous",
+    "expected": {
+      "concept": "continuous",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Matrix",
+    "expected": {
+      "concept": "Matrix",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of singular",
+    "expected": {
+      "concept": "singular",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Derivatives of Functions in Parametric Forms",
+    "expected": {
+      "concept": "Derivatives of Functions in Parametric Forms",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Decreasing Functions",
+    "expected": {
+      "concept": "Decreasing Functions",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Minors and Cofactors",
+    "expected": {
+      "concept": "Minors and Cofactors",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Second Order Derivative",
+    "expected": {
+      "concept": "Second Order Derivative",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain onto",
+    "expected": {
+      "concept": "onto",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Types of Functions",
+    "expected": {
+      "concept": "Types of Functions",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Case I?",
+    "expected": {
+      "concept": "Case I",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Continuity",
+    "expected": {
+      "concept": "Continuity",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of y = log b x \u2013 log b y",
+    "expected": {
+      "concept": "y = log b x \u2013 log b y",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of skew symmetric matrix",
+    "expected": {
+      "concept": "skew symmetric matrix",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Equality of matrices",
+    "expected": {
+      "concept": "Equality of matrices",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Second Order Derivative",
+    "expected": {
+      "concept": "Second Order Derivative",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Negative of amatrix",
+    "expected": {
+      "concept": "Negative of amatrix",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Invertible Function",
+    "expected": {
+      "concept": "Invertible Function",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Symmetric and Skew Symmetric Matrices",
+    "expected": {
+      "concept": "Symmetric and Skew Symmetric Matrices",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Determinant of amatrix of order two",
+    "expected": {
+      "concept": "Determinant of amatrix of order two",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is onto?",
+    "expected": {
+      "concept": "onto",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Properties of multiplication of matrices?",
+    "expected": {
+      "concept": "Properties of multiplication of matrices",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain (iii)",
+    "expected": {
+      "concept": "(iii)",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain apoint of local minima",
+    "expected": {
+      "concept": "apoint of local minima",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Area of aTriangle",
+    "expected": {
+      "concept": "Area of aTriangle",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is one-one?",
+    "expected": {
+      "concept": "one-one",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain (iii)",
+    "expected": {
+      "concept": "(iii)",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Remarks?",
+    "expected": {
+      "concept": "Remarks",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Remarks",
+    "expected": {
+      "concept": "Remarks",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Derivatives of Functions in Parametric Forms",
+    "expected": {
+      "concept": "Derivatives of Functions in Parametric Forms",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Continuity",
+    "expected": {
+      "concept": "Continuity",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of an equivalence relation",
+    "expected": {
+      "concept": "an equivalence relation",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Properties of transpose of the matrices",
+    "expected": {
+      "concept": "Properties of transpose of the matrices",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Maxima and Minima?",
+    "expected": {
+      "concept": "Maxima and Minima",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Properties of transpose of the matrices?",
+    "expected": {
+      "concept": "Properties of transpose of the matrices",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Case I?",
+    "expected": {
+      "concept": "Case I",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is universal relation?",
+    "expected": {
+      "concept": "universal relation",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Decreasing Functions",
+    "expected": {
+      "concept": "Decreasing Functions",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Maxima and Minima?",
+    "expected": {
+      "concept": "Maxima and Minima",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Derivatives of Functions in Parametric Forms",
+    "expected": {
+      "concept": "Derivatives of Functions in Parametric Forms",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is singular?",
+    "expected": {
+      "concept": "singular",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Continuity",
+    "expected": {
+      "concept": "Continuity",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Types of Relations?",
+    "expected": {
+      "concept": "Types of Relations",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain continuous",
+    "expected": {
+      "concept": "continuous",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Operations on Matrices?",
+    "expected": {
+      "concept": "Operations on Matrices",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Invertible Function",
+    "expected": {
+      "concept": "Invertible Function",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of skew symmetric matrix",
+    "expected": {
+      "concept": "skew symmetric matrix",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Derivatives of Functions in Parametric Forms?",
+    "expected": {
+      "concept": "Derivatives of Functions in Parametric Forms",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Derivatives of Functions in Parametric Forms",
+    "expected": {
+      "concept": "Derivatives of Functions in Parametric Forms",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is continuous?",
+    "expected": {
+      "concept": "continuous",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Rate of Change of Quantities",
+    "expected": {
+      "concept": "Rate of Change of Quantities",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Operations on Matrices",
+    "expected": {
+      "concept": "Operations on Matrices",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain skew symmetric matrix",
+    "expected": {
+      "concept": "skew symmetric matrix",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Minors and Cofactors",
+    "expected": {
+      "concept": "Minors and Cofactors",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Logarithmic Functions",
+    "expected": {
+      "concept": "Logarithmic Functions",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Invertible Function",
+    "expected": {
+      "concept": "Invertible Function",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Fig A",
+    "expected": {
+      "concept": "Fig A",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Matrix?",
+    "expected": {
+      "concept": "Matrix",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How to bake a cake",
+    "expected": {
+      "concept": "",
+      "intent": "explanation",
+      "strategy": "",
+      "supported": false,
+      "sections": []
+    }
+  }
+]

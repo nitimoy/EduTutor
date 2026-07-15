@@ -1,0 +1,1 @@
+Summary: A. Principles of Mathematical Modelling (Easy)

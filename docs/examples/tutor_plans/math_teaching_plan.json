@@ -1,0 +1,106 @@
+{
+  "query": "What are the types of relations?",
+  "intent": "definition",
+  "strategy": "concept_explanation",
+  "primary_concept_id": "concept.458676395ae5",
+  "primary_concept_name": "Types of Relations",
+  "supporting_concept_ids": [
+    "concept.cb2eaca4b418",
+    "concept.ff5aea6e6e90",
+    "concept.f2a2e0a5dbad",
+    "concept.3de70f5edcc2"
+  ],
+  "sections": [
+    {
+      "kind": "main_explanation",
+      "status": "present",
+      "item_refs": [
+        {
+          "concept_id": "concept.458676395ae5",
+          "concept_name": "Types of Relations",
+          "source_field": "definition_texts",
+          "locator": "0",
+          "object_type": null,
+          "text": "Definition 1",
+          "latex": []
+        }
+      ],
+      "note": ""
+    },
+    {
+      "kind": "prerequisites",
+      "status": "empty",
+      "item_refs": [],
+      "note": ""
+    },
+    {
+      "kind": "formula",
+      "status": "empty",
+      "item_refs": [],
+      "note": ""
+    },
+    {
+      "kind": "worked_example",
+      "status": "empty",
+      "item_refs": [],
+      "note": ""
+    },
+    {
+      "kind": "related_concepts",
+      "status": "present",
+      "item_refs": [
+        {
+          "concept_id": null,
+          "concept_name": "empty relation",
+          "source_field": "related_concepts",
+          "locator": "0",
+          "object_type": null,
+          "text": "empty relation",
+          "latex": []
+        },
+        {
+          "concept_id": null,
+          "concept_name": "universal relation",
+          "source_field": "related_concepts",
+          "locator": "1",
+          "object_type": null,
+          "text": "universal relation",
+          "latex": []
+        },
+        {
+          "concept_id": null,
+          "concept_name": "an equivalence relation",
+          "source_field": "related_concepts",
+          "locator": "2",
+          "object_type": null,
+          "text": "an equivalence relation",
+          "latex": []
+        }
+      ],
+      "note": ""
+    },
+    {
+      "kind": "next_topics",
+      "status": "empty",
+      "item_refs": [],
+      "note": ""
+    },
+    {
+      "kind": "summary",
+      "status": "present",
+      "item_refs": [
+        {
+          "concept_id": "concept.458676395ae5",
+          "concept_name": "Types of Relations",
+          "source_field": "concept",
+          "locator": "concept.458676395ae5",
+          "object_type": null,
+          "text": "Types of Relations (Easy)",
+          "latex": []
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "notes": []
+}

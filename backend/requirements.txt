@@ -1,0 +1,22 @@
+fastapi
+httpx
+openai
+pydantic
+pydantic-settings
+python-dotenv
+uvicorn
+pymupdf
+pdfplumber
+
+# --- Optional dense-retrieval extras -----------------------------------------
+# The dense retrieval layer runs offline with its default HashingEmbeddingProvider
+# + LocalVectorStore (pure Python, no extra deps). The backends below are OPTIONAL
+# and imported lazily; install them only for the production dense stack.
+#   Qdrant vector store:        pip install qdrant-client
+# qdrant-client
+#
+# BGE-M3 embedding provider (Phase 3.3 production embeddings). These are heavy
+# (~2.5 GB incl. the model download) and optional; install them to run the
+# BGEM3EmbeddingProvider:
+#   pip install -r backend/requirements-embeddings.txt
+

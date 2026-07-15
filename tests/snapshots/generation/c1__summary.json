@@ -1,0 +1,37 @@
+{
+  "unit_id": "c1::summary",
+  "unit_kind": "summary",
+  "system": "You are a teaching renderer. Rephrase ONLY the provided content into clear, natural prose for a student. Do NOT add facts, examples, numbers, formulas, or concepts that are not present in the content. Do NOT reorder or merge unrelated points. Preserve every citation marker exactly as given. Output only the rendered section text.\nSection: summary.\nTone: concise and reassuring.\nFormat: two to three sentences.\nUse at most 3 sentences.\nThe student asked: What is c1?",
+  "blocks": [
+    {
+      "label": "Content",
+      "lines": [
+        "C1 recap."
+      ]
+    },
+    {
+      "label": "Citations",
+      "lines": [
+        "[C1] concept=c1 field=definition_texts locator=0"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "concept_id": "c1",
+      "concept_name": "C1",
+      "source_field": "definition_texts",
+      "locator": "0",
+      "object_type": null,
+      "subject": "",
+      "chapter": ""
+    }
+  ],
+  "metadata": {
+    "section": "summary",
+    "intent": "definition",
+    "strategy": "concept_explanation",
+    "preset": "default",
+    "model_id": "echo-v1"
+  }
+}

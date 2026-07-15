@@ -1,0 +1,42 @@
+{
+  "source": "https://ncert.nic.in/textbook.php",
+  "grade": 12,
+  "books": [
+    {
+      "subject": "mathematics",
+      "book": "Mathematics Part-I",
+      "ncert_code": "lemh1",
+      "suggested_filename": "mathematics_part_1.pdf"
+    },
+    {
+      "subject": "mathematics",
+      "book": "Mathematics Part-II",
+      "ncert_code": "lemh2",
+      "suggested_filename": "mathematics_part_2.pdf"
+    },
+    {
+      "subject": "physics",
+      "book": "Physics Part-I",
+      "ncert_code": "leph1",
+      "suggested_filename": "physics_part_1.pdf"
+    },
+    {
+      "subject": "physics",
+      "book": "Physics Part-II",
+      "ncert_code": "leph2",
+      "suggested_filename": "physics_part_2.pdf"
+    },
+    {
+      "subject": "chemistry",
+      "book": "Chemistry-I",
+      "ncert_code": "lech1",
+      "suggested_filename": "chemistry_part_1.pdf"
+    },
+    {
+      "subject": "chemistry",
+      "book": "Chemistry-II",
+      "ncert_code": "lech2",
+      "suggested_filename": "chemistry_part_2.pdf"
+    }
+  ]
+}

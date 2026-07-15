@@ -1,0 +1,84 @@
+[
+  {
+    "query": "Why does swapping two rows change the sign of the determinant?",
+    "expected": {
+      "question_type": "conceptual_reasoning",
+      "must_not_have_sections_as_lead": ["worked_example"],
+      "must_not_hallucinate": true,
+      "disclaimer_if_no_explanation": true,
+      "notes": "Should detect CONCEPTUAL_REASONING. Must NOT start with a worked example. If explanation unavailable, disclaimer + grounded facts only."
+    }
+  },
+  {
+    "query": "Compare conductor and capacitor.",
+    "expected": {
+      "question_type": "comparison",
+      "strategy": "compare_and_contrast",
+      "must_have_sections": ["comparison"],
+      "must_not_have_sections_as_lead": ["worked_example"],
+      "structured_output_required": true,
+      "notes": "Should detect COMPARISON. Must produce structured comparison, not paragraphs."
+    }
+  },
+  {
+    "query": "Can two non-zero matrices produce a zero matrix?",
+    "expected": {
+      "question_type": "conceptual_reasoning",
+      "must_not_hallucinate": true,
+      "disclaimer_if_no_explanation": true,
+      "notes": "CONCEPTUAL_REASONING. Must NOT infer 'inverse matrix' claim. If explanation absent, emit disclaimer."
+    }
+  },
+  {
+    "query": "Why do capacitors in parallel increase capacitance?",
+    "expected": {
+      "question_type": "conceptual_reasoning",
+      "must_not_have_sections_as_lead": ["worked_example"],
+      "disclaimer_if_no_explanation": true,
+      "notes": "CONCEPTUAL_REASONING. Must not fall back to a worked example."
+    }
+  },
+  {
+    "query": "What should I study after matrices?",
+    "expected": {
+      "question_type": "learning_path",
+      "strategy": "prerequisite_pathway",
+      "must_not_have_sections": ["worked_example", "formula"],
+      "must_not_have_sections_as_lead": ["worked_example", "main_explanation"],
+      "disclaimer_if_no_explanation": true,
+      "notes": "LEARNING_PATH. Chapter hierarchy is empty in index, so must emit disclaimer. Must NOT return Equality of Matrices as lead content."
+    }
+  },
+  {
+    "query": "Compare emf and potential difference.",
+    "expected": {
+      "question_type": "comparison",
+      "strategy": "compare_and_contrast",
+      "must_have_sections": ["comparison"],
+      "must_not_have_sections_as_lead": ["worked_example"],
+      "structured_output_required": true,
+      "notes": "COMPARISON. Must produce structured table output."
+    }
+  },
+  {
+    "query": "How should I learn electrochemistry?",
+    "expected": {
+      "question_type": "learning_path",
+      "strategy": "prerequisite_pathway",
+      "must_not_have_sections": ["worked_example", "formula"],
+      "must_not_have_sections_as_lead": ["worked_example"],
+      "disclaimer_if_no_explanation": true,
+      "notes": "LEARNING_PATH. Chapter hierarchy empty in index — must emit disclaimer + grounded facts."
+    }
+  },
+  {
+    "query": "Summarize determinants.",
+    "expected": {
+      "question_type": "revision",
+      "strategy": "revision_summary",
+      "must_have_sections": ["summary"],
+      "must_not_have_sections_as_lead": ["worked_example"],
+      "notes": "REVISION. Must have summary section; key formulae optional."
+    }
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "query": "What is the formula for Henry's law?",
+  "intent": "formula",
+  "strategy": "revision_summary",
+  "primary_concept_id": "concept.c8d2406207ce",
+  "primary_concept_name": "Henry's law",
+  "prerequisites": {
+    "kind": "prerequisites",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "main_explanation": {
+    "kind": "main_explanation",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "formula": {
+    "kind": "formula",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "worked_example": {
+    "kind": "worked_example",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "proof": {
+    "kind": "proof",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "exercise": {
+    "kind": "exercise",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "comparison": {
+    "kind": "comparison",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "related_concepts": {
+    "kind": "related_concepts",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "suggested_next_topics": {
+    "kind": "next_topics",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "summary": {
+    "kind": "summary",
+    "status": "present",
+    "items": [
+      "Henry's law (Easy)"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.c8d2406207ce",
+        "concept_name": "Henry's law",
+        "source_field": "concept",
+        "locator": "concept.c8d2406207ce",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "references": [
+    {
+      "concept_id": "concept.c8d2406207ce",
+      "concept_name": "Henry's law",
+      "source_field": "concept",
+      "locator": "concept.c8d2406207ce",
+      "object_type": null
+    }
+  ],
+  "notes": [
+    "intent 'formula' → 'formula_explanation' unavailable (lead section 'formula' has no backing content); fell back to 'revision_summary'"
+  ],
+  "deterministic": true
+}

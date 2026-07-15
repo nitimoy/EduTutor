@@ -1,0 +1,66 @@
+# === Secrets ===
+.env
+.env.local
+.env.*.local
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# === Node.js ===
+node_modules/
+.next/
+out/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Project-specific ===
+.mimocode/
+.claude/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# === ALL generated data (rebuilt by run.py --build) ===
+data/raw/
+data/compiled/
+data/figures/
+data/v2/
+data/*.zip
+data/sessions.db
+data/users.db
+data/chat_sessions.db
+data/compiler.db
+data/openrouter_usage.jsonl
+data/embeddings_eval/
+data/evaluation/
+
+# === Debug/scratch files ===
+response*.json
+debug_*.py
+scratch_debug_filter.py
+scratch/
+verification_failure_analysis.md
+
+# === Eval text files ===
+*_eval.txt
+
+# === Logs ===
+*.log

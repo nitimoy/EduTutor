@@ -1,0 +1,11 @@
+{
+  "supported": false,
+  "reason": "Evidence rejected: Intent formula requires formulas, but none exist.",
+  "retrieval_score": 0.0,
+  "coverage": 0.0,
+  "planner_supported": false,
+  "presence": "FOUND",
+  "issues": [
+    "Intent formula requires formulas, but none exist."
+  ]
+}

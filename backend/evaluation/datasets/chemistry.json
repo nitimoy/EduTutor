@@ -1,0 +1,898 @@
+[
+  {
+    "query": "Show me an example of Units of rate of areaction",
+    "expected": {
+      "concept": "Units of rate of areaction",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Units of rate of areaction",
+    "expected": {
+      "concept": "Units of rate of areaction",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Order of aReaction",
+    "expected": {
+      "concept": "Order of aReaction",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain + /M Standard Electrode Potentials",
+    "expected": {
+      "concept": "+ /M Standard Electrode Potentials",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain First Order Reactions",
+    "expected": {
+      "concept": "First Order Reactions",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Expressing Concentration of Solutions?",
+    "expected": {
+      "concept": "Expressing Concentration of Solutions",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain the Raoult's law",
+    "expected": {
+      "concept": "the Raoult's law",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of General Characteristics and Comparison with Lanthanoids",
+    "expected": {
+      "concept": "General Characteristics and Comparison with Lanthanoids",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Gas Temperature/KK H /kbar",
+    "expected": {
+      "concept": "Gas Temperature/KK H /kbar",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Electro- chemical Cell and Gibbs Energy of the Reaction",
+    "expected": {
+      "concept": "Electro- chemical Cell and Gibbs Energy of the Reaction",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Expressing Concentration of Solutions?",
+    "expected": {
+      "concept": "Expressing Concentration of Solutions",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Osmosis and Osmotic Pressure?",
+    "expected": {
+      "concept": "Osmosis and Osmotic Pressure",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Concentration/Molarity Conductivity Molar Conductivity",
+    "expected": {
+      "concept": "Concentration/Molarity Conductivity Molar Conductivity",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Gas Temperature/KK H /kbar",
+    "expected": {
+      "concept": "Gas Temperature/KK H /kbar",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Calculated Observed",
+    "expected": {
+      "concept": "Calculated Observed",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is + /M Standard Electrode Potentials?",
+    "expected": {
+      "concept": "+ /M Standard Electrode Potentials",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Geometric Isomerism",
+    "expected": {
+      "concept": "Geometric Isomerism",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain (the most common ones are in bold types)",
+    "expected": {
+      "concept": "(the most common ones are in bold types)",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Geometric Isomerism?",
+    "expected": {
+      "concept": "Geometric Isomerism",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Magnetic Properties of Coordination Compounds",
+    "expected": {
+      "concept": "Magnetic Properties of Coordination Compounds",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Expressing Concentration of Solutions",
+    "expected": {
+      "concept": "Expressing Concentration of Solutions",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Illustration?",
+    "expected": {
+      "concept": "Illustration",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Naming of Mononuclear Coordination Compounds?",
+    "expected": {
+      "concept": "Naming of Mononuclear Coordination Compounds",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Illustration",
+    "expected": {
+      "concept": "Illustration",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Calculated Observed?",
+    "expected": {
+      "concept": "Calculated Observed",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain conductivity and molar conductivity for the solution of an electrolyte. Discuss",
+    "expected": {
+      "concept": "conductivity and molar conductivity for the solution of an electrolyte. Discuss",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Naming of Mononuclear Coordination Compounds",
+    "expected": {
+      "concept": "Naming of Mononuclear Coordination Compounds",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Illustration?",
+    "expected": {
+      "concept": "Illustration",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain th Series",
+    "expected": {
+      "concept": "th Series",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Temperature Dependence of the Rate of aReaction",
+    "expected": {
+      "concept": "Temperature Dependence of the Rate of aReaction",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Naming of Mononuclear Coordination Compounds",
+    "expected": {
+      "concept": "Naming of Mononuclear Coordination Compounds",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Alloy Formation",
+    "expected": {
+      "concept": "Alloy Formation",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is corresponds to?",
+    "expected": {
+      "concept": "corresponds to",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Electro- chemical Cell and Gibbs Energy of the Reaction",
+    "expected": {
+      "concept": "Electro- chemical Cell and Gibbs Energy of the Reaction",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain General Characteristics and Comparison with Lanthanoids",
+    "expected": {
+      "concept": "General Characteristics and Comparison with Lanthanoids",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Naming of Mononuclear Coordination Compounds",
+    "expected": {
+      "concept": "Naming of Mononuclear Coordination Compounds",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain the following terms",
+    "expected": {
+      "concept": "the following terms",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Values",
+    "expected": {
+      "concept": "Values",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain corresponds to",
+    "expected": {
+      "concept": "corresponds to",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Naming of Mononuclear Coordination Compounds?",
+    "expected": {
+      "concept": "Naming of Mononuclear Coordination Compounds",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Expressing Concentration of Solutions",
+    "expected": {
+      "concept": "Expressing Concentration of Solutions",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Values",
+    "expected": {
+      "concept": "Values",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Relative Lowering of Vapour Pressure",
+    "expected": {
+      "concept": "Relative Lowering of Vapour Pressure",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Density/g cm?",
+    "expected": {
+      "concept": "Density/g cm",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is General Characteristics and Comparison with Lanthanoids?",
+    "expected": {
+      "concept": "General Characteristics and Comparison with Lanthanoids",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Naming of Mononuclear Coordination Compounds",
+    "expected": {
+      "concept": "Naming of Mononuclear Coordination Compounds",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Depression Constants for Some Solvents",
+    "expected": {
+      "concept": "Depression Constants for Some Solvents",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Optical Isomerism?",
+    "expected": {
+      "concept": "Optical Isomerism",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Units of rate of areaction",
+    "expected": {
+      "concept": "Units of rate of areaction",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Concentration/Molarity Conductivity Molar Conductivity?",
+    "expected": {
+      "concept": "Concentration/Molarity Conductivity Molar Conductivity",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Expressing Concentration of Solutions",
+    "expected": {
+      "concept": "Expressing Concentration of Solutions",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Naming of Mononuclear Coordination Compounds",
+    "expected": {
+      "concept": "Naming of Mononuclear Coordination Compounds",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Equilibrium Constant from Nernst Equation",
+    "expected": {
+      "concept": "Equilibrium Constant from Nernst Equation",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Calculated Observed",
+    "expected": {
+      "concept": "Calculated Observed",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Geometric Isomerism?",
+    "expected": {
+      "concept": "Geometric Isomerism",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain corresponds to",
+    "expected": {
+      "concept": "corresponds to",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Values?",
+    "expected": {
+      "concept": "Values",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is the Raoult's law?",
+    "expected": {
+      "concept": "the Raoult's law",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Half-Life of aReaction?",
+    "expected": {
+      "concept": "Half-Life of aReaction",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Strong Electrolytes",
+    "expected": {
+      "concept": "Strong Electrolytes",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Elevation of Boiling Point",
+    "expected": {
+      "concept": "Elevation of Boiling Point",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain conductivity and molar conductivity for the solution of an electrolyte. Discuss",
+    "expected": {
+      "concept": "conductivity and molar conductivity for the solution of an electrolyte. Discuss",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is conductivity and molar conductivity for the solution of an electrolyte. Discuss?",
+    "expected": {
+      "concept": "conductivity and molar conductivity for the solution of an electrolyte. Discuss",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "main_explanation",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Elevation of Boiling Point",
+    "expected": {
+      "concept": "Elevation of Boiling Point",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Illustration",
+    "expected": {
+      "concept": "Illustration",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Electro- chemical Cell and Gibbs Energy of the Reaction",
+    "expected": {
+      "concept": "Electro- chemical Cell and Gibbs Energy of the Reaction",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Strong Electrolytes",
+    "expected": {
+      "concept": "Strong Electrolytes",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Show me an example of Salt",
+    "expected": {
+      "concept": "Salt",
+      "intent": "worked_example",
+      "strategy": "worked_example_walkthrough",
+      "supported": true,
+      "sections": [
+        "prerequisites",
+        "worked_example",
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "Explain Depression Constants for Some Solvents",
+    "expected": {
+      "concept": "Depression Constants for Some Solvents",
+      "intent": "explanation",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "What is Naming of Mononuclear Coordination Compounds?",
+    "expected": {
+      "concept": "Naming of Mononuclear Coordination Compounds",
+      "intent": "definition",
+      "strategy": "concept_explanation",
+      "supported": true,
+      "sections": [
+        "summary"
+      ]
+    }
+  },
+  {
+    "query": "How to bake a cake",
+    "expected": {
+      "concept": "",
+      "intent": "explanation",
+      "strategy": "",
+      "supported": false,
+      "sections": []
+    }
+  }
+]

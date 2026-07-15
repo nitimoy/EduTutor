@@ -1,0 +1,2457 @@
+{
+  "coverage": {
+    "expected_kinds": [
+      "main_explanation",
+      "worked_example",
+      "exercise",
+      "summary"
+    ],
+    "rendered_kinds": [
+      "main_explanation",
+      "worked_example",
+      "exercise",
+      "summary"
+    ],
+    "missing": [],
+    "extra": [],
+    "duplicated": [],
+    "order_preserved": true,
+    "coverage_pct": 1.0,
+    "passed": true
+  },
+  "citations": {
+    "expected": 188,
+    "preserved": 188,
+    "missing": [],
+    "extra": [],
+    "reordered_units": [],
+    "references_preserved": true,
+    "citation_accuracy": 1.0,
+    "passed": true
+  },
+  "grounding": {
+    "sections": [
+      {
+        "unit_id": "concept.4407c78c6540::main_explanation",
+        "kind": "main_explanation",
+        "source_terms": 13,
+        "rendered_terms": 22,
+        "supported_terms": 14,
+        "unsupported_terms": [
+          "obtain",
+          "after",
+          "removing",
+          "contain",
+          "written",
+          "definitions",
+          "object",
+          "7b1519b37d6a6e0a"
+        ],
+        "unsupported_citations": [],
+        "coverage_pct": 0.636364,
+        "grounded": false
+      },
+      {
+        "unit_id": "concept.4407c78c6540::worked_example",
+        "kind": "worked_example",
+        "source_terms": 81,
+        "rendered_terms": 90,
+        "supported_terms": 63,
+        "unsupported_terms": [
+          "step",
+          "identify",
+          "end",
+          "located",
+          "delete",
+          "containing",
+          "removing",
+          "leaves",
+          "sub",
+          "compute",
+          "recall",
+          "new",
+          "using"
+        ],
+        "unsupported_citations": [],
+        "coverage_pct": 0.7,
+        "grounded": false
+      },
+      {
+        "unit_id": "concept.4407c78c6540::exercise",
+        "kind": "exercise",
+        "source_terms": 48,
+        "rendered_terms": 298,
+        "supported_terms": 124,
+        "unsupported_terms": [
+          "bmatrix",
+          "end",
+          "object",
+          "31449ce5b3d923b4",
+          "question",
+          "6d485195f9e49ae7",
+          "delta",
+          "f4b39bc7ac66114f",
+          "a1b1f68a622f1e25",
+          "gives",
+          "aa10255b87f0a340",
+          "cdb354999cad9d50",
+          "explicitly",
+          "show",
+          "e2a9af82662dd54d",
+          "citations",
+          "d0f06f2fab5d65a5",
+          "fe164dedc8679b4d",
+          "606a7a660f19ddca",
+          "106fb870dc620409",
+          "3def84b14221ed3f",
+          "bf6151ae4297558d",
+          "3a19504477ee04ab",
+          "cffb5ab546740bcc",
+          "462d33fc7a4057d3",
+          "c2688ed3ebcaa660",
+          "d6d3ff46908ba223",
+          "676aeb74a8545530",
+          "aaf94e28dbaad548",
+          "e0906e5075ce2155",
+          "70b02309536b85f8",
+          "a12eb8505221c2ee",
+          "a6d7d05449cc3640",
+          "950b018c21e0b7d0",
+          "f163e392945dddf9",
+          "6e29127a00797126",
+          "a9b7bbf9403c54ea",
+          "43a42b80e52cf5f7",
+          "c6ead09a8a765977",
+          "292032757b2c96b5",
+          "915f342a4360a1dc",
+          "c5080b6e891f6fb9",
+          "e32a970eed3588cc",
+          "99f11202ae373280",
+          "eb4248f8ae776a2f",
+          "06f5148c2ea0deec",
+          "8ba941ea0045f1ab",
+          "5df0d6371e60045a",
+          "58cb8d5692913bcc",
+          "2862453e5d74e4a5"
+        ],
+        "unsupported_citations": [],
+        "coverage_pct": 0.416107,
+        "grounded": false
+      },
+      {
+        "unit_id": "concept.4407c78c6540::summary",
+        "kind": "summary",
+        "source_terms": 3,
+        "rendered_terms": 9,
+        "supported_terms": 3,
+        "unsupported_terms": [
+          "subject",
+          "presented",
+          "level",
+          "difficulty",
+          "further",
+          "information"
+        ],
+        "unsupported_citations": [],
+        "coverage_pct": 0.333333,
+        "grounded": false
+      }
+    ],
+    "unsupported_additions": 77,
+    "grounding_completeness": 0.0,
+    "passed": false
+  },
+  "completeness": {
+    "covered_lines": 144,
+    "missing_lines": [
+      "Solution",
+      "Reprint 2026-27",
+      "DETERMINANTS 85",
+      "31 32 33",
+      "Solution",
+      "32 33",
+      "32 33",
+      "a + (\u20131) 1+3 a 13",
+      "31 32",
+      "32 33",
+      "31 33",
+      "32 33",
+      "31 33",
+      "31 32",
+      "= 0 (since R 1 and R 2 are identical)",
+      "31 32 33",
+      "Similarly, we can try for other rows and columns.",
+      "Reprint 2026-27",
+      "Solution",
+      "1 5 = 30 \u2013 0 = 30; A 13 = (\u20131) 1+3 (30) = 30",
+      "M 13 =",
+      "M 31 =",
+      "M 32 =",
+      "= 0 + 18 = 18; A 33 = (\u20131) 3+3 (18) = 18",
+      "and M 33 =",
+      "Reprint 2026-27",
+      "DETERMINANTS 87",
+      "Hence adj A =",
+      "We state the following theorem without proof.",
+      "A( adj A) = ( adj A) A = AI ,",
+      "AA",
+      ", then adj A =",
+      "31 32 33",
+      "Reprint 2026-27",
+      "DETERMINANTS 89",
+      "= AI",
+      "A ( adj A) =",
+      "Similarly, we can show ( adj A) A = AI",
+      "Hence A ( adj A) = ( adj A) A = AI",
+      "x yz y zx",
+      "z xy",
+      "Reprint 2026-27",
+      "AA =Transposeof AA A",
+      "AA A = AA A"
+    ],
+    "extra_lines": [],
+    "total_lines": 188,
+    "coverage_pct": 0.765957,
+    "passed": false
+  },
+  "contract": {
+    "no_new_sections": true,
+    "no_reordered": true,
+    "no_missing_required": true,
+    "no_duplicates": true,
+    "no_empty_rendered": true,
+    "passed": true
+  },
+  "provider": {
+    "citations_unchanged": true,
+    "identity_unchanged": true,
+    "unit_id_unchanged": true,
+    "ordering_unchanged": true,
+    "passed": true
+  },
+  "metrics": {
+    "coverage": 1.0,
+    "citation_accuracy": 1.0,
+    "section_preservation": 1.0,
+    "grounding_completeness": 0.0,
+    "unsupported_additions": 77,
+    "missing_content": 44,
+    "deterministic": true
+  },
+  "results": [
+    {
+      "name": "section_coverage",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "name": "citation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "name": "grounding",
+      "passed": false,
+      "issues": [
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'obtain' not grounded in section 'main_explanation'",
+          "unit_id": "concept.4407c78c6540::main_explanation",
+          "detail": {
+            "term": "obtain"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'after' not grounded in section 'main_explanation'",
+          "unit_id": "concept.4407c78c6540::main_explanation",
+          "detail": {
+            "term": "after"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'removing' not grounded in section 'main_explanation'",
+          "unit_id": "concept.4407c78c6540::main_explanation",
+          "detail": {
+            "term": "removing"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'contain' not grounded in section 'main_explanation'",
+          "unit_id": "concept.4407c78c6540::main_explanation",
+          "detail": {
+            "term": "contain"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'written' not grounded in section 'main_explanation'",
+          "unit_id": "concept.4407c78c6540::main_explanation",
+          "detail": {
+            "term": "written"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'definitions' not grounded in section 'main_explanation'",
+          "unit_id": "concept.4407c78c6540::main_explanation",
+          "detail": {
+            "term": "definitions"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'object' not grounded in section 'main_explanation'",
+          "unit_id": "concept.4407c78c6540::main_explanation",
+          "detail": {
+            "term": "object"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '7b1519b37d6a6e0a' not grounded in section 'main_explanation'",
+          "unit_id": "concept.4407c78c6540::main_explanation",
+          "detail": {
+            "term": "7b1519b37d6a6e0a"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'step' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "step"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'identify' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "identify"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'end' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "end"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'located' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "located"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'delete' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "delete"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'containing' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "containing"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'removing' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "removing"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'leaves' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "leaves"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'sub' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "sub"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'compute' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "compute"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'recall' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "recall"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'new' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "new"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'using' not grounded in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "term": "using"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'bmatrix' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "bmatrix"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'end' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "end"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'object' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "object"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '31449ce5b3d923b4' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "31449ce5b3d923b4"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'question' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "question"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '6d485195f9e49ae7' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "6d485195f9e49ae7"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'delta' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "delta"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'f4b39bc7ac66114f' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "f4b39bc7ac66114f"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'a1b1f68a622f1e25' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "a1b1f68a622f1e25"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'gives' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "gives"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'aa10255b87f0a340' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "aa10255b87f0a340"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'cdb354999cad9d50' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "cdb354999cad9d50"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'explicitly' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "explicitly"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'show' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "show"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'e2a9af82662dd54d' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "e2a9af82662dd54d"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'citations' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "citations"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'd0f06f2fab5d65a5' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "d0f06f2fab5d65a5"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'fe164dedc8679b4d' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "fe164dedc8679b4d"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '606a7a660f19ddca' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "606a7a660f19ddca"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '106fb870dc620409' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "106fb870dc620409"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '3def84b14221ed3f' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "3def84b14221ed3f"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'bf6151ae4297558d' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "bf6151ae4297558d"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '3a19504477ee04ab' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "3a19504477ee04ab"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'cffb5ab546740bcc' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "cffb5ab546740bcc"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '462d33fc7a4057d3' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "462d33fc7a4057d3"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'c2688ed3ebcaa660' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "c2688ed3ebcaa660"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'd6d3ff46908ba223' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "d6d3ff46908ba223"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '676aeb74a8545530' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "676aeb74a8545530"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'aaf94e28dbaad548' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "aaf94e28dbaad548"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'e0906e5075ce2155' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "e0906e5075ce2155"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '70b02309536b85f8' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "70b02309536b85f8"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'a12eb8505221c2ee' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "a12eb8505221c2ee"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'a6d7d05449cc3640' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "a6d7d05449cc3640"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '950b018c21e0b7d0' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "950b018c21e0b7d0"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'f163e392945dddf9' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "f163e392945dddf9"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '6e29127a00797126' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "6e29127a00797126"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'a9b7bbf9403c54ea' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "a9b7bbf9403c54ea"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '43a42b80e52cf5f7' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "43a42b80e52cf5f7"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'c6ead09a8a765977' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "c6ead09a8a765977"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '292032757b2c96b5' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "292032757b2c96b5"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '915f342a4360a1dc' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "915f342a4360a1dc"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'c5080b6e891f6fb9' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "c5080b6e891f6fb9"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'e32a970eed3588cc' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "e32a970eed3588cc"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '99f11202ae373280' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "99f11202ae373280"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'eb4248f8ae776a2f' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "eb4248f8ae776a2f"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '06f5148c2ea0deec' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "06f5148c2ea0deec"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '8ba941ea0045f1ab' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "8ba941ea0045f1ab"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '5df0d6371e60045a' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "5df0d6371e60045a"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '58cb8d5692913bcc' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "58cb8d5692913bcc"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word '2862453e5d74e4a5' not grounded in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "term": "2862453e5d74e4a5"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'subject' not grounded in section 'summary'",
+          "unit_id": "concept.4407c78c6540::summary",
+          "detail": {
+            "term": "subject"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'presented' not grounded in section 'summary'",
+          "unit_id": "concept.4407c78c6540::summary",
+          "detail": {
+            "term": "presented"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'level' not grounded in section 'summary'",
+          "unit_id": "concept.4407c78c6540::summary",
+          "detail": {
+            "term": "level"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'difficulty' not grounded in section 'summary'",
+          "unit_id": "concept.4407c78c6540::summary",
+          "detail": {
+            "term": "difficulty"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'further' not grounded in section 'summary'",
+          "unit_id": "concept.4407c78c6540::summary",
+          "detail": {
+            "term": "further"
+          }
+        },
+        {
+          "code": "UNSUPPORTED_TERM",
+          "severity": "error",
+          "message": "content word 'information' not grounded in section 'summary'",
+          "unit_id": "concept.4407c78c6540::summary",
+          "detail": {
+            "term": "information"
+          }
+        }
+      ]
+    },
+    {
+      "name": "completeness",
+      "passed": false,
+      "issues": [
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "Solution"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "Reprint 2026-27"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "DETERMINANTS 85"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "31 32 33"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "Solution"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "32 33"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "32 33"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "a + (\u20131) 1+3 a 13"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "31 32"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "32 33"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "31 33"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "32 33"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "31 33"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "31 32"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "= 0 (since R 1 and R 2 are identical)"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "31 32 33"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "Similarly, we can try for other rows and columns."
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "Reprint 2026-27"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "Solution"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "1 5 = 30 \u2013 0 = 30; A 13 = (\u20131) 1+3 (30) = 30"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "M 13 ="
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "M 31 ="
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "M 32 ="
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "= 0 + 18 = 18; A 33 = (\u20131) 3+3 (18) = 18"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "and M 33 ="
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "Reprint 2026-27"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "DETERMINANTS 87"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "Hence adj A ="
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "We state the following theorem without proof."
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "A( adj A) = ( adj A) A = AI ,"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "AA"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": ", then adj A ="
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "31 32 33"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "Reprint 2026-27"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "DETERMINANTS 89"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "= AI"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "A ( adj A) ="
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "Similarly, we can show ( adj A) A = AI"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'worked_example'",
+          "unit_id": "concept.4407c78c6540::worked_example",
+          "detail": {
+            "line": "Hence A ( adj A) = ( adj A) A = AI"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "line": "x yz y zx"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "line": "z xy"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "line": "Reprint 2026-27"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "line": "AA =Transposeof AA A"
+          }
+        },
+        {
+          "code": "CONTENT_MISSING",
+          "severity": "error",
+          "message": "content line not represented in section 'exercise'",
+          "unit_id": "concept.4407c78c6540::exercise",
+          "detail": {
+            "line": "AA A = AA A"
+          }
+        }
+      ]
+    },
+    {
+      "name": "contract",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "name": "provider_invariant",
+      "passed": true,
+      "issues": []
+    }
+  ],
+  "issues": [
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "line": "x yz y zx"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "line": "z xy"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "line": "Reprint 2026-27"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "line": "AA =Transposeof AA A"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "line": "AA A = AA A"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "Solution"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "Reprint 2026-27"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "DETERMINANTS 85"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "31 32 33"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "Solution"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "32 33"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "32 33"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "a + (\u20131) 1+3 a 13"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "31 32"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "32 33"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "31 33"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "32 33"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "31 33"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "31 32"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "= 0 (since R 1 and R 2 are identical)"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "31 32 33"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "Similarly, we can try for other rows and columns."
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "Reprint 2026-27"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "Solution"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "1 5 = 30 \u2013 0 = 30; A 13 = (\u20131) 1+3 (30) = 30"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "M 13 ="
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "M 31 ="
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "M 32 ="
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "= 0 + 18 = 18; A 33 = (\u20131) 3+3 (18) = 18"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "and M 33 ="
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "Reprint 2026-27"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "DETERMINANTS 87"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "Hence adj A ="
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "We state the following theorem without proof."
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "A( adj A) = ( adj A) A = AI ,"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "AA"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": ", then adj A ="
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "31 32 33"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "Reprint 2026-27"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "DETERMINANTS 89"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "= AI"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "A ( adj A) ="
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "Similarly, we can show ( adj A) A = AI"
+      }
+    },
+    {
+      "code": "CONTENT_MISSING",
+      "severity": "error",
+      "message": "content line not represented in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "line": "Hence A ( adj A) = ( adj A) A = AI"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'bmatrix' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "bmatrix"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'end' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "end"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'object' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "object"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '31449ce5b3d923b4' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "31449ce5b3d923b4"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'question' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "question"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '6d485195f9e49ae7' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "6d485195f9e49ae7"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'delta' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "delta"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'f4b39bc7ac66114f' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "f4b39bc7ac66114f"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'a1b1f68a622f1e25' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "a1b1f68a622f1e25"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'gives' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "gives"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'aa10255b87f0a340' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "aa10255b87f0a340"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'cdb354999cad9d50' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "cdb354999cad9d50"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'explicitly' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "explicitly"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'show' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "show"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'e2a9af82662dd54d' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "e2a9af82662dd54d"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'citations' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "citations"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'd0f06f2fab5d65a5' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "d0f06f2fab5d65a5"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'fe164dedc8679b4d' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "fe164dedc8679b4d"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '606a7a660f19ddca' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "606a7a660f19ddca"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '106fb870dc620409' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "106fb870dc620409"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '3def84b14221ed3f' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "3def84b14221ed3f"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'bf6151ae4297558d' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "bf6151ae4297558d"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '3a19504477ee04ab' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "3a19504477ee04ab"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'cffb5ab546740bcc' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "cffb5ab546740bcc"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '462d33fc7a4057d3' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "462d33fc7a4057d3"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'c2688ed3ebcaa660' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "c2688ed3ebcaa660"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'd6d3ff46908ba223' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "d6d3ff46908ba223"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '676aeb74a8545530' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "676aeb74a8545530"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'aaf94e28dbaad548' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "aaf94e28dbaad548"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'e0906e5075ce2155' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "e0906e5075ce2155"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '70b02309536b85f8' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "70b02309536b85f8"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'a12eb8505221c2ee' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "a12eb8505221c2ee"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'a6d7d05449cc3640' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "a6d7d05449cc3640"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '950b018c21e0b7d0' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "950b018c21e0b7d0"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'f163e392945dddf9' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "f163e392945dddf9"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '6e29127a00797126' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "6e29127a00797126"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'a9b7bbf9403c54ea' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "a9b7bbf9403c54ea"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '43a42b80e52cf5f7' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "43a42b80e52cf5f7"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'c6ead09a8a765977' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "c6ead09a8a765977"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '292032757b2c96b5' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "292032757b2c96b5"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '915f342a4360a1dc' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "915f342a4360a1dc"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'c5080b6e891f6fb9' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "c5080b6e891f6fb9"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'e32a970eed3588cc' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "e32a970eed3588cc"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '99f11202ae373280' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "99f11202ae373280"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'eb4248f8ae776a2f' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "eb4248f8ae776a2f"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '06f5148c2ea0deec' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "06f5148c2ea0deec"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '8ba941ea0045f1ab' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "8ba941ea0045f1ab"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '5df0d6371e60045a' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "5df0d6371e60045a"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '58cb8d5692913bcc' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "58cb8d5692913bcc"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '2862453e5d74e4a5' not grounded in section 'exercise'",
+      "unit_id": "concept.4407c78c6540::exercise",
+      "detail": {
+        "term": "2862453e5d74e4a5"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'obtain' not grounded in section 'main_explanation'",
+      "unit_id": "concept.4407c78c6540::main_explanation",
+      "detail": {
+        "term": "obtain"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'after' not grounded in section 'main_explanation'",
+      "unit_id": "concept.4407c78c6540::main_explanation",
+      "detail": {
+        "term": "after"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'removing' not grounded in section 'main_explanation'",
+      "unit_id": "concept.4407c78c6540::main_explanation",
+      "detail": {
+        "term": "removing"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'contain' not grounded in section 'main_explanation'",
+      "unit_id": "concept.4407c78c6540::main_explanation",
+      "detail": {
+        "term": "contain"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'written' not grounded in section 'main_explanation'",
+      "unit_id": "concept.4407c78c6540::main_explanation",
+      "detail": {
+        "term": "written"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'definitions' not grounded in section 'main_explanation'",
+      "unit_id": "concept.4407c78c6540::main_explanation",
+      "detail": {
+        "term": "definitions"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'object' not grounded in section 'main_explanation'",
+      "unit_id": "concept.4407c78c6540::main_explanation",
+      "detail": {
+        "term": "object"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word '7b1519b37d6a6e0a' not grounded in section 'main_explanation'",
+      "unit_id": "concept.4407c78c6540::main_explanation",
+      "detail": {
+        "term": "7b1519b37d6a6e0a"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'subject' not grounded in section 'summary'",
+      "unit_id": "concept.4407c78c6540::summary",
+      "detail": {
+        "term": "subject"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'presented' not grounded in section 'summary'",
+      "unit_id": "concept.4407c78c6540::summary",
+      "detail": {
+        "term": "presented"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'level' not grounded in section 'summary'",
+      "unit_id": "concept.4407c78c6540::summary",
+      "detail": {
+        "term": "level"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'difficulty' not grounded in section 'summary'",
+      "unit_id": "concept.4407c78c6540::summary",
+      "detail": {
+        "term": "difficulty"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'further' not grounded in section 'summary'",
+      "unit_id": "concept.4407c78c6540::summary",
+      "detail": {
+        "term": "further"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'information' not grounded in section 'summary'",
+      "unit_id": "concept.4407c78c6540::summary",
+      "detail": {
+        "term": "information"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'step' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "step"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'identify' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "identify"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'end' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "end"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'located' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "located"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'delete' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "delete"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'containing' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "containing"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'removing' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "removing"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'leaves' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "leaves"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'sub' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "sub"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'compute' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "compute"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'recall' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "recall"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'new' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "new"
+      }
+    },
+    {
+      "code": "UNSUPPORTED_TERM",
+      "severity": "error",
+      "message": "content word 'using' not grounded in section 'worked_example'",
+      "unit_id": "concept.4407c78c6540::worked_example",
+      "detail": {
+        "term": "using"
+      }
+    }
+  ],
+  "passed": false,
+  "deterministic": true
+}

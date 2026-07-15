@@ -1,0 +1,2697 @@
+{
+  "query": "Give a worked example of properties of inverse trigonometric functions",
+  "intent": "worked_example",
+  "strategy": "worked_example_walkthrough",
+  "primary_concept_id": "concept.1d4736e5e970",
+  "primary_concept_name": "Properties of Inverse Trigonometric Functions",
+  "prerequisites": {
+    "kind": "prerequisites",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "main_explanation": {
+    "kind": "main_explanation",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "formula": {
+    "kind": "formula",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "worked_example": {
+    "kind": "worked_example",
+    "status": "present",
+    "items": [
+      "Example 3 Show that",
+      "1 2 x − ≤",
+      "(i) sin –1 ( ) 2 1 x − = 2 sin –1 x ,",
+      "1 2 x ≤",
+      "(ii) sin –1 ( ) 2 1 x − = 2 cos –1 x ,",
+      "Solution",
+      "(i) Let x = sin θ . Then sin –1 x = θ . We have",
+      "sin –1 ( ) 2 1 x − = sin –1 ( ) 2 2sin 1 sin θ − θ",
+      "= sin –1 (2sin θ cos θ ) = sin –1 (sin2 θ ) = 2 θ",
+      "= 2 sin –1 x",
+      "(ii) Take x = cos θ , then proceeding as above, we get, sin –1 ( ) 2 1 x − = 2 cos –1 x",
+      "Example 4 Express 1 cos tan 1 sin",
+      ", 3 2 π − < x in the simplest form.",
+      "Solution",
+      "We write",
+      "  −    =     −     + −  ",
+      "cos sin cos 2 tan 1 sin cos sin 2sin cos 2",
+      "1 –1",
+      "     + −               −        ",
+      "cos sin 2 tan",
+      "–1",
+      "cos sin 2",
+      "  +   −  ",
+      "  +   =   −  ",
+      "–1 cos sin 2 tan",
+      "–1 1 tan 2 tan",
+      "cos sin 2",
+      "1 tan 2",
+      "–1 tan 4 2 x   π   + = +        ",
+      "Reprint 2026-27",
+      "INVERSE TRIGONOMETRIC FUNCTIONS 29",
+      "    −  ",
+      "2 1 cot",
+      "–1",
+      "Example 5",
+      "Write",
+      ", x > 1 in the simplest form.",
+      "1 x",
+      "Solution",
+      "Let x = sec θ , then 2 1 x − = 2 sec 1 tan θ −= θ",
+      "2 1 cot",
+      "Therefore, –1",
+      "= cot –1 (cot θ ) = θ = sec –1 x, which is the simplest form.",
+      "1 x −",
+      "Example 6",
+      "Find the value of",
+      "− π =",
+      "1 3 sin (sin ) 5",
+      "Solution",
+      "We know that 1 sin (sin ) x − = . Therefore,",
+      "But 3 , 5 2 π   ∉−     , which is the principal branch of sin –1 x",
+      "However 3 2 sin ( ) sin( ) sin 5 π = π − = and 2 , 5 2 π   ∈−    ",
+      "− π =",
+      "1 3 2 sin (sin ) 5",
+      "Therefore",
+      "Reprint 2026-27",
+      "INVERSE TRIGONOMETRIC FUNCTIONS 31",
+      "Miscellaneous Exercise on Chapter 2",
+      "Find the value of the following:",
+      "π       2. –1 7 tan 6",
+      "π      ",
+      "1. –1 13 cos 6",
+      "Prove that",
+      "3. –1 3 24 2sin tan 5 7 = 4. –1 8 3 77 sin tan 17 5 36 + =",
+      "5. –1 4 12 33 cos 5 13 65 + = 6. –1 12 3 56 cos sin 13 5 65 + =",
+      "7. –1 63 5 3 tan sin cos 16 13 5 = +",
+      "Prove that",
+      "8. –1 1 tan cos 2 1 x − = + , x ∈ [0, 1]",
+      "  + − =   + −  ",
+      ", 0, 4 x π   ∈   ",
+      "9. –1 1 sin cot 2 1 sin",
+      "  + − π = −   + −  ",
+      ", 1 2 x − ≤ [Hint: Put x = cos 2 θ ]",
+      "10.",
+      "–1 1 tan cos 4 2 1",
+      "Solve the following equations:",
+      "11.",
+      "2tan –1 (cos x ) = tan –1 (2 cosec x ) 12. –1 1 tan ,( 0) 1 2 x − = > + 13. sin (tan –1 x ), | x | < 1 is equal to",
+      "(B) 2 1",
+      "(C) 2 1",
+      "(A) 2 1",
+      "(D) 2 1",
+      "1 x −",
+      "x +",
+      "x −",
+      "1 x +",
+      "π , then x is equal to",
+      "14.",
+      "sin –1 (1 – x ) – 2 sin –1 x = 2",
+      "(A) 0, 1",
+      "2 (B) 1, 1",
+      "2 (C) 0 (D) 1",
+      "Reprint 2026-27",
+      "® The domains and ranges (principal value branches) of inverse trigonometric",
+      "functions are given in the following table:",
+      "Functions Domain Range (Principal Value Branches)",
+      "y = sin –1 x [–1, 1] , 2 −π π       y = cos –1 x [–1, 1] [0, π ]",
+      "y = cosec –1 x R – (–1,1) , 2 −π π      ",
+      "– {0}",
+      "y = sec –1 x R – (–1, 1) [0, π ] – { } 2 π",
+      "y = tan –1 x R , 2 π   −    ",
+      "y = cot –1 x R (0, π )",
+      "® sin –1 x should not be confused with (sin x ) –1 . In fact (sin x ) –1 = 1 sin x and",
+      "similarly for other trigonometric functions. ® The value of an inverse trigonometric functions which lies in its principal",
+      "value branch is called the principal value of that inverse trigonometric functions. For suitable values of domain, we have ® y = sin –1 x ⇒ x = sin y ® x = sin y ⇒ y = sin –1 x ® sin (sin –1 x ) = x ® sin –1 (sin x ) = x",
+      "Reprint 2026-27",
+      "INVERSE TRIGONOMETRIC FUNCTIONS 33",
+      "Historical Note",
+      "The study of trigonometry was first started in India. The ancient Indian Mathematicians, Aryabhata (476A.D.), Brahmagupta (598 A.D.), Bhaskara I (600 A.D.) and Bhaskara II (1114 A.D.) got important results of trigonometry. All this knowledge went from India to Arabia and then from there to Europe. The Greeks had also started the study of trigonometry but their approach was so clumsy that when the Indian approach became known, it was immediately adopted throughout the world.",
+      "In India, the predecessor of the modern trigonometric functions, known as the sine of an angle, and the introduction of the sine function represents one of the main contribution of the siddhantas (Sanskrit astronomical works) to mathematics.",
+      "Bhaskara I (about 600 A.D.) gave formulae to find the values of sine functions for angles more than 90°. A sixteenth century Malayalam work Yuktibhasa contains a proof for the expansion of sin (A + B). Exact expression for sines or cosines of 18°, 36°, 54°, 72°, etc., were given by Bhaskara II.",
+      "The symbols sin –1 x , cos –1 x , etc., for arc sin x , arc cos x , etc., were suggested by the astronomer Sir John F.W. Hersehel (1813) The name of Thales (about 600 B.C.) is invariably associated with height and distance problems. He is credited with the determination of the height of a great pyramid in Egypt by measuring shadows of the pyramid and an auxiliary staff (or gnomon) of known height, and comparing the ratios:",
+      "s = tan (sun’s altitude)",
+      "Thales is also said to have calculated the distance of a ship at sea through the proportionality of sides of similar triangles. Problems on height and distance using the similarity property are also found in ancient Indian works.",
+      "— v —",
+      "Reprint 2026-27"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "0",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "1",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "2",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "3",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "4",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "5",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "6",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "7",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "8",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "9",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "10",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "11",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "12",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "13",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "14",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "15",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "16",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "17",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "18",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "19",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "20",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "21",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "22",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "23",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "24",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "25",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "26",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "27",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "28",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "29",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "30",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "31",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "32",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "33",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "34",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "35",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "36",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "37",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "38",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "39",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "40",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "41",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "42",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "43",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "44",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "45",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "46",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "47",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "48",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "49",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "50",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "51",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "52",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "53",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "54",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "55",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "56",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "57",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "58",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "59",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "60",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "61",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "62",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "63",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "64",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "65",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "66",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "67",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "68",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "69",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "70",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "71",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "72",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "73",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "74",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "75",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "76",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "77",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "78",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "79",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "80",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "81",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "82",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "83",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "84",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "85",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "86",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "87",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "88",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "89",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "90",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "91",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "92",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "93",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "94",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "95",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "96",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "97",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "98",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "99",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "100",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "101",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "102",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "103",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "104",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "105",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "106",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "107",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "108",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "109",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "110",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "111",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "112",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "113",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "114",
+        "object_type": null
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "example_texts",
+        "locator": "115",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "proof": {
+    "kind": "proof",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "exercise": {
+    "kind": "exercise",
+    "status": "present",
+    "items": [
+      "EXERCISE 2.2",
+      "Prove the following:",
+      "1. 3sin –1 x = sin –1 (3 x – 4 x 3 ), 1 – , 2 x   ∈   ",
+      "2. 3cos –1 x = cos –1 (4 x 3 – 3 x ), 1 , 1 2 x   ∈   ",
+      "Write the following functions in the simplest form:",
+      "−   −   +  ",
+      "− + − , x ≠ 0 4. 1 cos tan 1 cos",
+      "2 1 tan x",
+      ", 0 < x < π",
+      "3.",
+      "−   −   +  ",
+      "−π < x < 3",
+      "4 π",
+      "5. 1 cos sin tan cos sin x",
+      ", 4",
+      "2 tan x",
+      "6. 1",
+      ", | x | < a",
+      "a x",
+      ", a > 0; 3 − < a x",
+      "−   −   −  ",
+      "2 3 1 3 2 3 tan",
+      "3 a x a ax",
+      "7.",
+      "Find the values of each of the following:",
+      "8. –1 1 tan 2cos 2sin 2            ",
+      "  − +   +  ",
+      "2 –1 2 1 tan sin cos 2 1 x y",
+      "9.",
+      ", | x | < 1, y > 0 and xy < 1",
+      "Reprint 2026-27",
+      "Find the values of each of the expressions in Exercises 16 to 18.",
+      "π       11. –1 3 tan 4",
+      "10.",
+      "–1 2 sin 3",
+      "π      ",
+      "12.",
+      "–1 3 tan sin cot 5 2   +    ",
+      "− π      ",
+      "13.",
+      "1 7 cos is equal to 6",
+      "6 π (B) 5",
+      "6 π (C) 3 π (D) 6 π",
+      "(A) 7",
+      "− π   −     is equal to",
+      "14.",
+      "1 sin ( ) 3 2",
+      "(A) 1",
+      "2 (B) 1",
+      "3 (C) 1",
+      "4 (D) 1",
+      "15.",
+      "1 tan 3 cot ( 3) − is equal to",
+      "(A) π (B) 2 π − (C) 0 (D) 2 3",
+      "Miscellaneous Examples",
+      "− π",
+      "1 3 sin (sin ) 5"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "80a67f45ab246b3e",
+        "object_type": "exercise"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "4619cd5097df4d68",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "f161edd89673c967",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "366cc582c5372002",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "4e759866e0fe4c8d",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "6b4eaf46570a6ae7",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "0933994be3c63ca5",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "acbc3376103ca9cd",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "7556824afcf089c4",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "f17c1f49572dc0a7",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "4876e22582c16c5b",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "110e10716ec581e9",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "0461e1b7ff626d43",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "0533a385d59f9b63",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "c59992fd24d53770",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "7ba54e3d2ab6578b",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "4bffa05b6780d2df",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "9a6568538378c991",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "b2e5a70724d64257",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "8ca820970f72c0c3",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "c0ee075b469a55dd",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "1beb0904d9b47b01",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "c495b9e81c1118d2",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "68766b7fdcb1d144",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "5876fb3887e16734",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "b5049eb5da768a8a",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "df5784b184c3585d",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "488183884cd46aa4",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "2d23307438ebd5fc",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "ff8d710bc9a23e7a",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "f691c86f25ac9ed6",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "770f758718665167",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "4ede3d9e61aac5d2",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "5a926374563eb23c",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "7f9e267556d4db62",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "ec29dd579e4de1c8",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "fd1fb8764d2bb5db",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "e80f14ce436cf453",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "cec34893ee6290ab",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "ca7ce70abe43f734",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "478854f0b3454ece",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "fdcf12e1a0dce07b",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "3a8e99dfd52aae80",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "f8178d73c627e11a",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "c0af67953b235a9c",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "e0f55f9b00cc079f",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "7ee188aee8d8088f",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "673ec98a27829889",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "004aafb98f3cfa36",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "0c169eeacee5a7f4",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "ea24b5623793896c",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "7b53dd89934d7867",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "3cdc9ed02529061f",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "bda02c7b5d03ff60",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "df53d9ce08845bf8",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "04e1aa9dff4907d1",
+        "object_type": "exercise_question"
+      },
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "ir_object",
+        "locator": "029a65b341fa2a4b",
+        "object_type": "exercise_question"
+      }
+    ],
+    "note": ""
+  },
+  "comparison": {
+    "kind": "comparison",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "related_concepts": {
+    "kind": "related_concepts",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "suggested_next_topics": {
+    "kind": "next_topics",
+    "status": "empty",
+    "items": [],
+    "citations": [],
+    "note": ""
+  },
+  "summary": {
+    "kind": "summary",
+    "status": "present",
+    "items": [
+      "Properties of Inverse Trigonometric Functions (Hard)"
+    ],
+    "citations": [
+      {
+        "concept_id": "concept.1d4736e5e970",
+        "concept_name": "Properties of Inverse Trigonometric Functions",
+        "source_field": "concept",
+        "locator": "concept.1d4736e5e970",
+        "object_type": null
+      }
+    ],
+    "note": ""
+  },
+  "references": [
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "0",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "1",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "2",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "3",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "4",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "5",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "6",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "7",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "8",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "9",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "10",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "11",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "12",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "13",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "14",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "15",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "16",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "17",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "18",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "19",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "20",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "21",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "22",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "23",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "24",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "25",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "26",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "27",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "28",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "29",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "30",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "31",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "32",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "33",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "34",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "35",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "36",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "37",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "38",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "39",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "40",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "41",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "42",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "43",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "44",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "45",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "46",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "47",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "48",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "49",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "50",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "51",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "52",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "53",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "54",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "55",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "56",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "57",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "58",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "59",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "60",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "61",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "62",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "63",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "64",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "65",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "66",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "67",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "68",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "69",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "70",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "71",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "72",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "73",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "74",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "75",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "76",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "77",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "78",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "79",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "80",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "81",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "82",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "83",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "84",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "85",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "86",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "87",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "88",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "89",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "90",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "91",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "92",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "93",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "94",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "95",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "96",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "97",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "98",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "99",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "100",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "101",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "102",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "103",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "104",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "105",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "106",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "107",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "108",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "109",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "110",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "111",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "112",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "113",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "114",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "example_texts",
+      "locator": "115",
+      "object_type": null
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "80a67f45ab246b3e",
+      "object_type": "exercise"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "4619cd5097df4d68",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "f161edd89673c967",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "366cc582c5372002",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "4e759866e0fe4c8d",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "6b4eaf46570a6ae7",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "0933994be3c63ca5",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "acbc3376103ca9cd",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "7556824afcf089c4",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "f17c1f49572dc0a7",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "4876e22582c16c5b",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "110e10716ec581e9",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "0461e1b7ff626d43",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "0533a385d59f9b63",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "c59992fd24d53770",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "7ba54e3d2ab6578b",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "4bffa05b6780d2df",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "9a6568538378c991",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "b2e5a70724d64257",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "8ca820970f72c0c3",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "c0ee075b469a55dd",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "1beb0904d9b47b01",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "c495b9e81c1118d2",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "68766b7fdcb1d144",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "5876fb3887e16734",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "b5049eb5da768a8a",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "df5784b184c3585d",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "488183884cd46aa4",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "2d23307438ebd5fc",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "ff8d710bc9a23e7a",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "f691c86f25ac9ed6",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "770f758718665167",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "4ede3d9e61aac5d2",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "5a926374563eb23c",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "7f9e267556d4db62",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "ec29dd579e4de1c8",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "fd1fb8764d2bb5db",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "e80f14ce436cf453",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "cec34893ee6290ab",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "ca7ce70abe43f734",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "478854f0b3454ece",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "fdcf12e1a0dce07b",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "3a8e99dfd52aae80",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "f8178d73c627e11a",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "c0af67953b235a9c",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "e0f55f9b00cc079f",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "7ee188aee8d8088f",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "673ec98a27829889",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "004aafb98f3cfa36",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "0c169eeacee5a7f4",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "ea24b5623793896c",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "7b53dd89934d7867",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "3cdc9ed02529061f",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "bda02c7b5d03ff60",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "df53d9ce08845bf8",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "04e1aa9dff4907d1",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "ir_object",
+      "locator": "029a65b341fa2a4b",
+      "object_type": "exercise_question"
+    },
+    {
+      "concept_id": "concept.1d4736e5e970",
+      "concept_name": "Properties of Inverse Trigonometric Functions",
+      "source_field": "concept",
+      "locator": "concept.1d4736e5e970",
+      "object_type": null
+    }
+  ],
+  "notes": [],
+  "deterministic": true
+}
