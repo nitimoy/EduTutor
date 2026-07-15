@@ -5,7 +5,7 @@ import { useParams, useRouter } from 'next/navigation';
 import { MainLayout } from '@/components/layout/MainLayout';
 import { ChatInterface } from '@/components/chat/ChatInterface';
 import { useSession } from '@/lib/SessionContext';
-import { getSession, getV2Session, queryV2, askQuestion } from '@/services/api';
+import { getSession, getV2Session, queryV2, queryV2Stream, askQuestion } from '@/services/api';
 
 export default function SessionPage() {
     const params = useParams();
@@ -127,15 +127,29 @@ export default function SessionPage() {
 
     const handleSend = async (query: string) => {
         setIsLoading(true);
-        setActiveStream({ query, text: 'Thinking...' });
+        setActiveStream({ query, text: '' });
         setStreamError(null);
 
         try {
             if (engineVersion === 'v2') {
-                const data = await queryV2(query, sessionId);
-                const sources = data.sources || [];
-                const citations = data.citations || [];
-                const answer = data.answer || '';
+                // Use streaming for v2
+                let streamedAnswer = '';
+                let sources: any[] = [];
+                let citations: any[] = [];
+                let grounded = false;
+                let verification: any = {};
+
+                await queryV2Stream(query, sessionId, (event, data) => {
+                    if (event === 'text') {
+                        streamedAnswer += data.text || '';
+                        setActiveStream({ query, text: streamedAnswer });
+                    } else if (event === 'complete') {
+                        sources = data.sources || [];
+                        citations = data.citations || [];
+                        grounded = data.grounded || false;
+                        verification = data.verification || {};
+                    }
+                });
 
                 const newTurn = {
                     user_query: query,
@@ -144,12 +158,12 @@ export default function SessionPage() {
                     intent: 'definition',
                     strategy: 'concept_explanation',
                     primary_concept: sources[0]?.concept_name || '',
-                    tutor_response: answer,
-                    verification_passed: data.verification?.passed ?? true,
+                    tutor_response: streamedAnswer,
+                    verification_passed: verification.passed ?? true,
                     timestamp: new Date().toISOString(),
                     v2_citations: citations,
                     v2_sources: sources,
-                    v2_grounded: data.grounded,
+                    v2_grounded: grounded,
                 };
 
                 const prevCompleted: string[] = (session as any)?.student_profile?.state?.completed_concepts || [];
@@ -174,16 +188,16 @@ export default function SessionPage() {
                                 breakdown: { reasons: [`Source: ${s.source || 'N/A'}`, `Distance: ${s.distance || 'N/A'}`] }
                             }))
                         },
-                        verification_report: data.verification || {
-                            passed: data.grounded ?? true,
-                            grounding: { passed: data.grounded ?? true },
+                        verification_report: verification || {
+                            passed: grounded,
+                            grounding: { passed: grounded },
                             coverage: { passed: true },
                             citations: { passed: true },
                             completeness: { passed: true }
                         },
                         citations,
                         prompt_documents: sources,
-                        rendered_response: { sections: [], text: answer },
+                        rendered_response: { sections: [], text: streamedAnswer },
                     },
                 } as any);
             } else {

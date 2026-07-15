@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 from pathlib import Path
 from typing import Optional
 
@@ -416,6 +417,13 @@ class RAGEngine:
         self._hybrid_retriever = HybridRetriever(compiled_dir, qdrant_path)
         self._intent_resolver = IntentResolver()
 
+        # Cache OpenAI client for reuse
+        import openai
+        self._llm_client = openai.OpenAI(
+            base_url="https://api.cerebras.ai/v1",
+            api_key=api_key,
+        )
+
         # Caching: response cache + intent cache
         self._response_cache = TTLCache(max_size=500, default_ttl=600)  # 10 min
         self._intent_cache = TTLCache(max_size=1000, default_ttl=3600)  # 1 hour
@@ -512,7 +520,7 @@ class RAGEngine:
 
         # Step 2: Retrieve relevant content using the resolved query
         results = self._hybrid_retriever.search(
-            resolved_query, top_k=10, subject_filter=subject_filter
+            resolved_query, top_k=7, subject_filter=subject_filter
         )
 
         # Step 3: Build context from retrieved results
@@ -674,15 +682,7 @@ Student question: {question}"""
         messages.append({"role": "user", "content": user_message})
 
         # Call LLM
-        import openai
-        from backend.api.config import ServiceConfig
-        config = ServiceConfig()
-        client = openai.OpenAI(
-            base_url=config.base_url or "https://api.cerebras.ai/v1",
-            api_key=self._api_key,
-        )
-
-        response = client.chat.completions.create(
+        response = self._llm_client.chat.completions.create(
             model=self._llm_model,
             messages=messages,
             temperature=0.0,
@@ -818,7 +818,7 @@ Student question: {question}"""
         resolved_query = self._intent_resolver.resolve(question, session, self._intent_cache)
 
         # Retrieve
-        results = self._hybrid_retriever.search(resolved_query, top_k=10, subject_filter=subject_filter)
+        results = self._hybrid_retriever.search(resolved_query, top_k=7, subject_filter=subject_filter)
 
         # Build context
         context_parts = []
@@ -901,15 +901,7 @@ Student question: {question}"""
         messages.append({"role": "user", "content": user_message})
 
         # Call LLM with streaming
-        import openai
-        from backend.api.config import ServiceConfig
-        config = ServiceConfig()
-        client = openai.OpenAI(
-            base_url=config.base_url or "https://api.cerebras.ai/v1",
-            api_key=self._api_key,
-        )
-
-        stream = client.chat.completions.create(
+        stream = self._llm_client.chat.completions.create(
             model=self._llm_model,
             messages=messages,
             temperature=0.0,
@@ -919,6 +911,7 @@ Student question: {question}"""
 
         # Yield tokens as they arrive from the LLM
         full_answer = ""
+        import asyncio
         for chunk in stream:
             if chunk.choices[0].delta.content:
                 token = chunk.choices[0].delta.content

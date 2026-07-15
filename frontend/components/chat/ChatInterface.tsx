@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { useSession } from '@/lib/SessionContext';
 import { TurnCard } from './TurnCard';
 import { ChatInput } from './ChatInput';
@@ -14,6 +14,16 @@ interface ChatInterfaceProps {
 export function ChatInterface({ onSend, activeStream, error }: ChatInterfaceProps) {
     const { session, isLoading } = useSession();
     const endOfMessagesRef = useRef<HTMLDivElement>(null);
+    const [showSpinner, setShowSpinner] = useState(false);
+
+    // Show spinner when loading starts, hide when text appears or streaming ends
+    useEffect(() => {
+        if (isLoading && activeStream && !activeStream.text) {
+            setShowSpinner(true);
+        } else if (activeStream?.text || !activeStream || !isLoading) {
+            setShowSpinner(false);
+        }
+    }, [isLoading, activeStream?.text, activeStream]);
 
     useEffect(() => {
         endOfMessagesRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -33,7 +43,6 @@ export function ChatInterface({ onSend, activeStream, error }: ChatInterfaceProp
                 ) : (
                     <div className="space-y-4">
                         {history.map((turn, idx) => {
-                            // If it's the last turn, we can pass the last_response to show citations
                             const isLast = idx === history.length - 1;
                             const response = isLast && session?.last_response ? session.last_response : undefined;
 
@@ -42,25 +51,38 @@ export function ChatInterface({ onSend, activeStream, error }: ChatInterfaceProp
                             );
                         })}
 
+                        {/* Show user's question and response when streaming */}
                         {activeStream && (
                             <TurnCard
                                 turn={{
                                     user_query: activeStream.query,
-                                    resolved_query: "Analyzing...",
+                                    resolved_query: activeStream.query,
                                     retrieval_metadata: {},
                                     intent: "Processing",
                                     strategy: "Formulating",
                                     primary_concept: "Pending",
-                                    tutor_response: activeStream.text || "...",
+                                    tutor_response: activeStream.text || "",
                                     verification_passed: true,
                                     timestamp: new Date().toISOString()
                                 }}
                             />
                         )}
+
+                        {/* Spinner - shows below the question while waiting for first token */}
+                        {showSpinner && (
+                            <div className="flex items-center gap-3 px-4 py-3 bg-slate-800/50 rounded-lg ml-12 animate-pulse">
+                                <div className="flex gap-1.5">
+                                    <div className="w-2 h-2 rounded-full bg-blue-500 animate-bounce"></div>
+                                    <div className="w-2 h-2 rounded-full bg-blue-500 animate-bounce" style={{ animationDelay: '0.15s' }}></div>
+                                    <div className="w-2 h-2 rounded-full bg-blue-500 animate-bounce" style={{ animationDelay: '0.3s' }}></div>
+                                </div>
+                                <span className="text-sm text-slate-400">Thinking...</span>
+                            </div>
+                        )}
                     </div>
                 )}
 
-                {isLoading && !activeStream?.text && (
+                {isLoading && !activeStream && (
                     <div className="py-8 pl-12 flex gap-2">
                         <div className="w-2 h-2 rounded-full bg-blue-500 animate-bounce"></div>
                         <div className="w-2 h-2 rounded-full bg-blue-500 animate-bounce" style={{ animationDelay: '0.2s' }}></div>

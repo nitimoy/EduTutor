@@ -418,6 +418,12 @@ class ConceptBuilder:
         # Re-link definitions that are clearly about a different concept.
         self._fix_misattributed_definitions(concepts, obj_map)
 
+        # --- Phase 8: Add content-based aliases. ----------------------------
+        # Add aliases to concepts based on keywords found in their content.
+        # This improves retrieval by matching queries that mention topics
+        # covered by the concept but not in its name.
+        self._add_content_aliases(concepts, obj_map)
+
         return ConceptIndex(
             book_id=book.id,
             concepts=list(concepts.values()),
@@ -617,8 +623,13 @@ class ConceptBuilder:
         (reading-order-based linking). This method detects definitions that are
         clearly about a different concept and re-links them.
 
-        Pattern: "X is called/defined/said to be Y" where Y is a different
-        concept in the same chapter.
+        Patterns include:
+        - "X is called/defined/said to be Y"
+        - "X consists of Y"
+        - "X of Y" (when X is a concept name)
+        - "X linked with Y"
+        - "X in an Y"
+        - Content that starts with a different concept's name
         """
         # Build concept name -> concept map (case-insensitive)
         name_to_concept: dict[str, Concept] = {}
@@ -637,16 +648,31 @@ class ConceptBuilder:
 
                 text = obj.text.lower().strip()
 
-                # Pattern: "X is called/defined/said to be Y"
+                # Multiple patterns to catch different phrasings
                 patterns = [
+                    # Standard definition patterns
                     r'^([^,]+?)\s+is\s+(?:called|defined|said\s+to\s+be)\s+',
                     r'^the\s+([^,]+?)\s+is\s+(?:called|defined|said\s+to\s+be)\s+',
+                    # "X consists of Y"
+                    r'^([^,]+?)\s+consists\s+of\s+',
+                    # "X of Y" where X is a concept
+                    r'^([^,]+?)\s+of\s+(?:a|an|the)\s+',
+                    # "X linked with Y"
+                    r'^([^,]+?)\s+linked\s+with\s+',
+                    # "X in an Y"
+                    r'^([^,]+?)\s+in\s+(?:an|a|the)\s+',
+                    # "Having defined X" or "Having X"
+                    r'^having\s+(?:defined\s+)?([^,]+?)\s',
+                    # "We are investigating X"
+                    r'^we\s+are\s+investigating\s+',
+                    # "The conductivity of X"
+                    r'^the\s+([^,]+?)\s+of\s+',
                 ]
 
                 for pattern in patterns:
                     match = re.search(pattern, text)
                     if match:
-                        defined_term = match.group(1).strip()
+                        defined_term = match.group(1).strip() if match.lastindex else ""
 
                         # Check if this term matches a DIFFERENT concept name
                         for other_name, other_concept in name_to_concept.items():
@@ -656,7 +682,9 @@ class ConceptBuilder:
                                 continue
 
                             # The defined term should match the other concept
-                            if (other_name in defined_term or defined_term in other_name) and len(defined_term) > 3:
+                            # Check both directions: term in concept name OR concept name in term
+                            if (other_name in defined_term or defined_term in other_name or
+                                other_name in text[:100]) and len(other_name) > 3:
                                 defs_to_move.append((i, other_name))
                                 break
 
@@ -721,3 +749,98 @@ class ConceptBuilder:
 
         if fixes:
             logger.info("Fixed %d misattributed definitions/examples", fixes)
+
+    def _add_content_aliases(
+        self, concepts: dict[str, Concept], obj_map: dict[str, EducationalObject]
+    ) -> None:
+        """Add aliases to concepts based on keywords in their content.
+
+        This improves retrieval by matching queries that mention topics
+        covered by the concept but not in its name. Only adds aliases
+        when the keyword appears frequently in the content (not just once).
+        """
+        # Mapping of content keywords to alias suggestions
+        # Only add alias if keyword appears 3+ times in content
+        content_keyword_aliases = {
+            # Physics - Optics
+            'young': ['young double slit', "young's double slit experiment"],
+            'double slit': ['double slit', 'young double slit'],
+            'fringe width': ['fringe width'],
+            'interference fringes': ['interference fringes'],
+            'diffraction': ['diffraction'],
+            'polarization': ['polarization', 'polarisation'],
+
+            # Physics - Electromagnetism
+            "gauss's law": ["gauss's law"],
+            "coulomb's law": ["coulomb's law"],
+            "faraday's law": ["faraday's law"],
+            "lenz's law": ["lenz's law"],
+            "ampere's law": ["ampere's law"],
+            'lorentz force': ['lorentz force'],
+            "ohm's law": ["ohm's law"],
+            "kirchhoff's laws": ["kirchhoff's laws"],
+            'hall effect': ['hall effect'],
+
+            # Physics - Mechanics
+            "newton's laws": ["newton's laws"],
+            'conservation of energy': ['conservation of energy'],
+            'conservation of momentum': ['conservation of momentum'],
+            'centripetal force': ['centripetal force'],
+            'projectile motion': ['projectile motion'],
+
+            # Chemistry
+            'organic chemistry': ['organic chemistry'],
+            'chemical reaction': ['chemical reaction'],
+            'chemical equilibrium': ['chemical equilibrium'],
+            'electrochemistry': ['electrochemistry'],
+            'thermodynamics': ['thermodynamics'],
+            'chemical kinetics': ['chemical kinetics'],
+
+            # Mathematics
+            'matrix multiplication': ['matrix multiplication'],
+            'matrix addition': ['matrix addition'],
+            'matrix inverse': ['matrix inverse'],
+            'determinant': ['determinant'],
+            'integration': ['integration', 'integral'],
+            'differentiation': ['differentiation', 'derivative'],
+            'partial fractions': ['partial fractions'],
+            'probability': ['probability'],
+            'vectors': ['vectors'],
+        }
+
+        aliases_added = 0
+        for concept in concepts.values():
+            # Collect all content text for this concept
+            content_texts = []
+            for def_id in concept.definition_ids:
+                obj = obj_map.get(def_id)
+                if obj and obj.text:
+                    content_texts.append(obj.text.lower())
+            for ex_id in concept.example_ids:
+                obj = obj_map.get(ex_id)
+                if obj and obj.text:
+                    content_texts.append(obj.text.lower())
+
+            if not content_texts:
+                continue
+
+            all_content = ' '.join(content_texts)
+            concept_name_lower = concept.name.lower()
+
+            # Find matching keywords and add aliases
+            # Only add if keyword appears 2+ times (indicates it's a main topic)
+            new_aliases = []
+            for keyword, aliases in content_keyword_aliases.items():
+                count = all_content.count(keyword)
+                if count >= 2 and keyword not in concept_name_lower:
+                    for alias in aliases:
+                        if alias not in concept.aliases and alias != concept.name.lower():
+                            new_aliases.append(alias)
+
+            # Add new aliases (limit to 5 to avoid bloating)
+            for alias in new_aliases[:5]:
+                concept.aliases.append(alias)
+                aliases_added += 1
+
+        if aliases_added:
+            logger.info("Added %d content-based aliases", aliases_added)
