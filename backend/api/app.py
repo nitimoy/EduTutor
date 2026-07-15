@@ -24,6 +24,7 @@ from backend.api.routes.tutor import router as tutor_router
 from backend.api.routes.version_selector import router as version_router
 from backend.api.routes.auth import router as auth_router
 from backend.api.routes.chat_sessions import router as chat_sessions_router
+from backend.api.routes.flashcards import router as flashcards_router
 
 
 @asynccontextmanager
@@ -66,6 +67,7 @@ app.include_router(tutor_router)
 app.include_router(session_router)
 app.include_router(session_lifecycle_router)
 app.include_router(chat_router)
+app.include_router(flashcards_router)
 
 # Register orchestrator exception → HTTP status handlers.
 register_exception_handlers(app)

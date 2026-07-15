@@ -33,6 +33,7 @@ An AI tutor for CBSE Class 12 Mathematics, Physics, and Chemistry that answers q
 - Session persistence across page reloads
 - Developer mode with pipeline trace visualization
 - PDF paste → auto-converts tabular data to LaTeX matrix
+- Chapter-wise flashcards (in development)
 
 ### Backend
 - FastAPI REST API with OpenAPI docs
@@ -40,6 +41,22 @@ An AI tutor for CBSE Class 12 Mathematics, Physics, and Chemistry that answers q
 - User authentication with password hashing
 - Two engine versions behind a version selector
 - Health/readiness probes
+
+### Which Engine to Use?
+
+**Use v2 (Recommended)** — The v2 RAG engine provides better retrieval quality with hybrid search (BM25F + semantic), LLM-powered intent resolution, and better content attribution. It handles follow-up questions, chapter-based queries, and exercise-guided solving.
+
+**v1** is a deterministic pipeline focused on rule-based educational decisions. It's useful for understanding the pedagogical approach but v2 delivers better real-world results.
+
+---
+
+## Flashcards (In Development)
+
+Chapter-wise flashcard generation is available but still being improved. The flashcard quality depends on the compiled knowledge index, which may have fragmented definitions due to PDF extraction artifacts.
+
+**API Endpoint:** `GET /api/v1/flashcards/{subject}/{chapter}`
+
+**Status:** Basic functionality works, but question/answer quality needs improvement. Future versions will use LLM-powered generation for better flashcards.
 
 ---
 
@@ -272,6 +289,8 @@ PYTHONPATH=. python scripts/build_bge_embeddings.py
 | GET | `/api/v1/chapters/{subject}` | Chapters by subject |
 | GET | `/api/v1/figures` | List all figures |
 | GET | `/api/v1/concept-names` | Concept ID → name mapping |
+| GET | `/api/v1/flashcards/{subject}/{chapter}` | Generate flashcards for a chapter |
+| GET | `/api/v1/flashcards/{subject}` | List available chapters for flashcards |
 | GET | `/docs` | Swagger UI (auto-generated) |
 
 ---

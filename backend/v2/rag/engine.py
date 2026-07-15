@@ -80,9 +80,11 @@ NO HISTORY:
         q = query.lower().strip()
 
         # Stage 0: Preprocess formulas to natural language for better embedding
+        # Only apply preprocessing if it doesn't change the query significantly
+        # (e.g., just symbol replacement, not full concept replacement)
         preprocessed = formula_to_natural_language(query)
-        if preprocessed != query:
-            return preprocessed
+        # Don't return early if preprocessed - let other stages handle it
+        # The preprocessing is for embedding, not for intent resolution
 
         # Stage 0.5: Handle follow-up queries using session context
         # If query is vague and we have an active concept, resolve it
@@ -241,8 +243,29 @@ What is the student really asking about? Return only the search query."""
 
         # Detect flat matrix notation (numbers with spaces/tabs, possibly negative)
         # Pattern: 2+ numbers that could form a matrix
+        # Exclude non-matrix contexts that happen to have numbers
+        exclude_keywords = [
+            # Calculus
+            'integral', 'integrate', 'derivative', 'differentiate', 'partial fraction',
+            'antiderivative', 'limit', 'sum', 'differential equation', 'dy/dx',
+            # Chemistry
+            'reaction', 'equation', 'balance', 'acid', 'base', 'ph', 'molecule',
+            # Physics
+            'force', 'velocity', 'acceleration', 'energy', 'momentum', 'current',
+            'voltage', 'resistance', 'pressure', 'temperature',
+            # General
+            'chapter', 'section', 'exercise', 'problem', 'question', 'example',
+        ]
+        is_excluded = any(kw in q for kw in exclude_keywords)
+
+        # Also check for matrix-specific keywords to be sure
+        matrix_keywords = ['matrix', 'matrices', 'determinant', 'transpose', 'inverse',
+                          'adjoint', 'cofactor', 'minor', 'row matrix', 'column matrix',
+                          'square matrix', 'diagonal matrix', 'scalar matrix']
+        has_matrix_keyword = any(kw in q for kw in matrix_keywords)
+
         numbers = re.findall(r'-?\d+\.?\d*', query)
-        if len(numbers) >= 4 and len(query.split()) <= 20:
+        if len(numbers) >= 4 and len(query.split()) <= 20 and not is_excluded and has_matrix_keyword:
             # Check if there are keywords indicating math operation
             if any(word in q for word in ['determinant', 'det', 'find det']):
                 return f"determinant of a matrix"
@@ -260,13 +283,17 @@ What is the student really asking about? Return only the search query."""
 
         # Detect chemical formulas (only if they look like actual formulas, not words)
         # Must have 2+ capital letters with numbers or charges, OR be a known formula
+        # Also require chemistry context keywords
         known_formulas = ['H2O', 'CO2', 'NaCl', 'NaOH', 'HCl', 'H2SO4', 'NH3', 'CH4', 'C2H5OH']
+        chemistry_context = ['reaction', 'equation', 'balance', 'acid', 'base', 'ph',
+                           'molecule', 'compound', 'element', 'bond', 'solution']
+        has_chemistry_context = any(kw in q for kw in chemistry_context)
         has_chemical_formula = (
             any(f in query for f in known_formulas) or
             bool(re.search(r'[A-Z][a-z]?\d+[A-Z]', query)) or  # Like NaCl, H2O
             bool(re.search(r'[A-Z][a-z]?[+-]', query))  # Like Na+, Cl-
         )
-        if has_chemical_formula:
+        if has_chemical_formula and has_chemistry_context:
             if any(word in q for word in ['reaction', 'equation', 'balance']):
                 return f"chemical reactions"
             elif any(word in q for word in ['acid', 'base', 'ph']):
@@ -274,7 +301,7 @@ What is the student really asking about? Return only the search query."""
             else:
                 return f"chemical formulas and reactions"
 
-        # Detect physics formulas
+        # Detect physics formulas (require physics context)
         physics_keywords = {
             'f = ma': "Newton's second law",
             'f=ma': "Newton's second law",
@@ -289,21 +316,38 @@ What is the student really asking about? Return only the search query."""
             if pattern in q:
                 return concept
 
-        # Detect calculus operations
-        if any(word in q for word in ['integrate', 'integral', 'antiderivative']):
-            return f"integration calculus"
-        elif any(word in q for word in ['differentiate', 'derivative', 'differentiation']):
-            return f"differentiation calculus"
-        elif any(word in q for word in ['limit', 'limits']):
-            return f"limits calculus"
+        # Detect calculus operations (require calculus context)
+        calculus_keywords = ['integrate', 'integral', 'antiderivative', 'differentiate',
+                           'derivative', 'differentiation', 'partial fraction']
+        calculus_context = ['find', 'evaluate', 'compute', 'calculate', 'solve',
+                          'dx', 'dy', '∫', '∂', 'limit']
+        has_calculus_context = any(kw in q for kw in calculus_context)
+        has_calculus_keyword = any(kw in q for kw in calculus_keywords)
 
-        # Detect quadratic/polynomial
+        # Check for partial fractions specifically (before general calculus)
+        if 'partial fraction' in q:
+            return "integration by partial fractions"
+
+        if has_calculus_keyword or (has_calculus_context and any(kw in q for kw in ['dx', 'dy', '∫', '∂'])):
+            if any(word in q for word in ['integrate', 'integral', 'antiderivative']):
+                return f"integration calculus"
+            elif any(word in q for word in ['differentiate', 'derivative', 'differentiation']):
+                return f"differentiation calculus"
+            elif 'limit' in q:
+                # Only return limits calculus if it's clearly about math limits
+                if any(word in q for word in ['x→', 'approaches', 'tends to', 'infinity']):
+                    return f"limits calculus"
+
+        # Detect quadratic/polynomial (require math context)
+        math_keywords = ['solve', 'find', 'evaluate', 'compute', 'calculate', 'graph', 'roots']
+        has_math_context = any(kw in q for kw in math_keywords)
         if any(word in q for word in ['quadratic', 'polynomial', 'equation']):
-            if 'quadratic' in q:
-                return "quadratic equation formula"
-            return "polynomial equations"
+            if has_math_context:
+                if 'quadratic' in q:
+                    return "quadratic equation formula"
+                return "polynomial equations"
 
-        # Detect common math questions
+        # Detect common math questions (require formula context)
         if any(phrase in q for phrase in ['what is the formula', 'give formula', 'formula for']):
             # Extract what they want formula for
             for word in ['determinant', 'matrix', 'quadratic', 'integration', 'derivative']:
@@ -603,6 +647,8 @@ RULES:
 
 5. If the context doesn't contain enough information to answer at all, say: "The provided textbook material does not contain information about this."
 
+6. IMPORTANT: The context includes source tags like [Concept Name] or [Concept Name - Example]. Use these tags to correctly attribute content to the right concept. Do NOT confuse the content text with the source tag. For example, if you see "[Integrals - Example] are called indefinite integrals...", the definition belongs to the "Integrals" concept, NOT to "Some Properties of Definite Integrals" even if the text mentions that phrase.
+
 EXAMPLE OF CORRECT BEHAVIOR:
 Student: "Give me an example of a row matrix"
 You: The textbook defines a row matrix as: "A matrix is said to be a row matrix if it has only one row." (p.51)
@@ -829,6 +875,8 @@ RULES:
 4. NEVER add information that contradicts the textbook context.
 
 5. If the context doesn't contain enough information to answer at all, say: "The provided textbook material does not contain information about this."
+
+6. IMPORTANT: The context includes source tags like [Concept Name] or [Concept Name - Example]. Use these tags to correctly attribute content to the right concept. Do NOT confuse the content text with the source tag. For example, if you see "[Integrals - Example] are called indefinite integrals...", the definition belongs to the "Integrals" concept, NOT to "Some Properties of Definite Integrals" even if the text mentions that phrase.
 
 EXAMPLE OF CORRECT BEHAVIOR:
 Student: "Give me an example of a row matrix"

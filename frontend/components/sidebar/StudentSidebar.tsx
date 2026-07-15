@@ -117,6 +117,17 @@ export function StudentSidebar({ onClose }: { onClose?: () => void }) {
                         studentId={studentId}
                     />
                 </div>
+
+                {/* Flashcards */}
+                <div className="mb-6">
+                    <Link
+                        href="/flashcards"
+                        className="flex items-center gap-2 px-3 py-2 bg-slate-800 rounded hover:bg-slate-700 transition-colors"
+                    >
+                        <BookOpen className="w-4 h-4 text-blue-400" />
+                        <span className="text-sm text-slate-300">Chapter Flashcards</span>
+                    </Link>
+                </div>
             </div>
         </div>
     );

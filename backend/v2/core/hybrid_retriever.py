@@ -253,21 +253,36 @@ class HybridRetriever:
                 score *= 1.5
 
             # Filter definitions to only include real definitions
+            # Use a comprehensive set of patterns to identify educational content
+            definition_patterns = [
+                # Standard definition patterns
+                'is said to be', 'is defined as', 'is called',
+                'is known as', 'refers to', 'means that',
+                'are those which', 'are substances which',
+                'is the branch of', 'is the study of',
+                'deals with', 'involves the',
+                'is the process of', 'is the science of',
+                # Mathematical patterns
+                'let f be', 'let g be', 'then a',
+                'theorem', 'proposition', 'lemma',
+                'formula', 'equation', 'function',
+                'property', 'rule', 'law', 'principle',
+                # General educational patterns
+                'we say', 'we define', 'we call',
+                'consists of', 'comprises', 'includes',
+                'describes', 'expresses', 'represents',
+                'explains', 'shows that', 'indicates',
+                # Physics/Chemistry patterns
+                'force', 'energy', 'momentum', 'velocity',
+                'reaction', 'compound', 'element', 'molecule',
+            ]
+
             real_definitions = []
             for def_text in r.document.definition_texts:
                 def_lower = def_text.lower()
-                # Include definitions, theorems, and important statements
-                if any(pattern in def_lower for pattern in [
-                    'is said to be', 'is defined as', 'is called',
-                    'is known as', 'refers to', 'means that',
-                    'are those which', 'are substances which',
-                    'is the branch of', 'is the study of',
-                    'deals with', 'involves the',
-                    'is the process of', 'is the science of',
-                    'let f be', 'let g be', 'then a',
-                    'theorem', 'proposition', 'lemma',
-                    'formula', 'equation',
-                ]):
+                # Include if matches any pattern OR if it's substantial content
+                if (any(pattern in def_lower for pattern in definition_patterns) or
+                    len(def_text) > 100):  # Include substantial definitions
                     real_definitions.append(def_text)
 
             # Use real definitions if available, otherwise use examples

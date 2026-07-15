@@ -413,6 +413,11 @@ class ConceptBuilder:
         # Concepts in the same section or with shared definitions are related.
         self._infer_related_concepts(concepts, references)
 
+        # --- Phase 7: Fix misattributed definitions. -------------------------
+        # Some definitions are linked to the wrong concept due to PDF structure.
+        # Re-link definitions that are clearly about a different concept.
+        self._fix_misattributed_definitions(concepts, obj_map)
+
         return ConceptIndex(
             book_id=book.id,
             concepts=list(concepts.values()),
@@ -602,3 +607,117 @@ class ConceptBuilder:
         if obj.type in _CONCEPT_SOURCE_TYPES:
             return "heading_match"
         return "section_scope"
+
+    def _fix_misattributed_definitions(
+        self, concepts: dict[str, Concept], obj_map: dict[str, EducationalObject]
+    ) -> None:
+        """Fix definitions that are linked to the wrong concept.
+
+        Some definitions are linked to the wrong concept due to PDF structure
+        (reading-order-based linking). This method detects definitions that are
+        clearly about a different concept and re-links them.
+
+        Pattern: "X is called/defined/said to be Y" where Y is a different
+        concept in the same chapter.
+        """
+        # Build concept name -> concept map (case-insensitive)
+        name_to_concept: dict[str, Concept] = {}
+        for concept in concepts.values():
+            name_to_concept[concept.name.lower()] = concept
+
+        fixes = 0
+        for concept in list(concepts.values()):
+            # Check each definition in this concept
+            defs_to_move: list[tuple[int, str]] = []  # (index, target_concept_name)
+
+            for i, def_id in enumerate(concept.definition_ids):
+                obj = obj_map.get(def_id)
+                if not obj or not obj.text:
+                    continue
+
+                text = obj.text.lower().strip()
+
+                # Pattern: "X is called/defined/said to be Y"
+                patterns = [
+                    r'^([^,]+?)\s+is\s+(?:called|defined|said\s+to\s+be)\s+',
+                    r'^the\s+([^,]+?)\s+is\s+(?:called|defined|said\s+to\s+be)\s+',
+                ]
+
+                for pattern in patterns:
+                    match = re.search(pattern, text)
+                    if match:
+                        defined_term = match.group(1).strip()
+
+                        # Check if this term matches a DIFFERENT concept name
+                        for other_name, other_concept in name_to_concept.items():
+                            if other_concept.id == concept.id:
+                                continue
+                            if other_concept.chapter != concept.chapter:
+                                continue
+
+                            # The defined term should match the other concept
+                            if (other_name in defined_term or defined_term in other_name) and len(defined_term) > 3:
+                                defs_to_move.append((i, other_name))
+                                break
+
+            # Move the misattributed definitions
+            for idx, target_name in reversed(defs_to_move):
+                target_concept = name_to_concept.get(target_name)
+                if target_concept and idx < len(concept.definition_ids):
+                    def_id = concept.definition_ids.pop(idx)
+                    target_concept.definition_ids.append(def_id)
+                    fixes += 1
+                    logger.info(
+                        "Fixed misattributed definition: %s -> %s",
+                        concept.name, target_concept.name,
+                    )
+
+            # Also check example objects for misattributed content
+            examples_to_move: list[tuple[int, str]] = []
+            for i, example_id in enumerate(concept.example_ids):
+                obj = obj_map.get(example_id)
+                if not obj or not obj.text:
+                    continue
+
+                text = obj.text.lower().strip()
+                if len(text) < 50:  # Skip very short examples
+                    continue
+
+                # Pattern: content that is clearly a definition of another concept
+                # Check if the content mentions a DIFFERENT concept name
+                for other_name, other_concept in name_to_concept.items():
+                    if other_concept.id == concept.id:
+                        continue
+                    if other_concept.chapter != concept.chapter:
+                        continue
+
+                    # Check if the content mentions the other concept name
+                    if other_name in text and len(other_name) > 3:
+                        # Additional check: look for definition patterns
+                        definition_patterns = [
+                            r'(?:are|is)\s+called\s+',
+                            r'(?:are|is)\s+defined\s+as\s+',
+                            r'(?:are|is)\s+said\s+to\s+be\s+',
+                            r'is\s+called\s+',
+                            r'refers\s+to\s+',
+                        ]
+                        for pattern in definition_patterns:
+                            if re.search(pattern, text):
+                                examples_to_move.append((i, other_name))
+                                break
+                        break
+
+            # Move the misattributed examples
+            for idx, target_name in reversed(examples_to_move):
+                target_concept = name_to_concept.get(target_name)
+                if target_concept and idx < len(concept.example_ids):
+                    example_id = concept.example_ids.pop(idx)
+                    target_concept.example_ids.append(example_id)
+                    fixes += 1
+                    logger.info(
+                        "Fixed misattributed example: %s -> %s",
+                        concept.name, target_concept.name,
+                    )
+
+        if fixes:
+            logger.info("Fixed %d misattributed definitions/examples", fixes)
